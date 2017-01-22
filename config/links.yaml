@@ -1,0 +1,51 @@
+youtube: https://www.youtube.com/channel/UCWVDjAcecHHa8UrEWMRGI8w
+
+# Human readable titles
+titles:
+    pmc: Planet Minecraft page
+    mcforum: Minecraft Forum thread
+    curse: CurseForge page
+    github: Source code
+    adfly: AdFly support link
+
+blockbuster:
+    title: Blockbuster
+    
+    # Brand images
+    banner: http://i.imgur.com/nqDKg1R.png
+    cover: http://i.imgur.com/XgU8Tvx.png
+    
+    # Mod pages
+    pmc: http://www.planetminecraft.com/mod/blockbuster-machinima-mod/
+    mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2700216-blockbuster-machinima-studio-mod
+    curse: https://minecraft.curseforge.com/projects/blockbuster
+    github: https://github.com/mchorse/blockbuster
+    adfly: http://adf.ly/15268913/blockbuster-curseforge
+
+metamorph:
+    title: Metamorph
+    
+    # Brand images
+    banner: http://i.imgur.com/gbHB5iQ.png
+    cover: http://i.imgur.com/E7fdU9m.png
+    
+    # Mod pages
+    pmc: http://www.planetminecraft.com/mod/metamorph/
+    mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2753214-metamorph-morph-into-vanilla-mobs
+    curse: https://minecraft.curseforge.com/projects/metamorph
+    github: https://github.com/mchorse/blockbuster
+    adfly: http://adf.ly/15268913/metamorph-curseforge
+
+imaginary:
+    title: Imaginary
+    
+    # Brand images
+    banner: http://i.imgur.com/Ar8Q54P.png
+    cover: http://i.imgur.com/5GvdFTu.png
+    
+    # Mod pages
+    pmc: http://www.planetminecraft.com/mod/imaginary-3880799/
+    mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2781863-imaginary-add-pictures-to-your-world
+    curse: https://minecraft.curseforge.com/projects/imaginary
+    github: https://github.com/mchorse/imaginary
+    adfly: http://adf.ly/15268913/imaginary-curseforge

@@ -1,0 +1,18 @@
+{
+    "require": {
+        "mchorse/crystal-edge": "dev-master",
+        "erusev/parsedown": "^1.6",
+        "mustangostang/spyc": "^0.5.1",
+        "gajus/dindent": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mchorse\\": "src/"
+        },
+        "files": [
+            "src/plugins.php",
+            "src/template.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
