@@ -22,7 +22,6 @@ After that, Metamorph mod should be installed and will appear in Minecraft's mod
 
 ## How to play
 
-
 To morph into other creatures, you must to acquire a *morph* first. To acquire a *morph*, you have to kill a mob, then a ghost of a mob will appear (that's a *morph*), and when you'll pick it up, you'll acquire a *morph*. Only vanilla\* mobs have their own *morphs*.
 
 Once you have at least one *morph*, you're able to transform into that *morph*. Use `[` and `]` keys for advancing through the list of *morphs*. Use `enter` key for transforming into selected *morph*. To demorph, you scroll left until you select your character, and then press `enter` to demorph. Or you can press demorph key (which is `.` by default).
@@ -33,7 +32,6 @@ The outer look of *morphs* are quite limited, so you cannot kill a child pink sh
 
 \* – vanilla mobs that are listed below.
 
-
 ## About morphs
 
 Every *morph* you equip or apply grant you different look, size, and health capacity. Except those properties, every *morph* also has special *abilities*, *attack* and *action*. 
@@ -43,7 +41,6 @@ Every *morph* you equip or apply grant you different look, size, and health capa
 *Attack* is an effect which is applied onto attacked entity. For example, if you hit some entity while being in **CaveSpider** *morph*, your target will gain **poison** potion effect. If you'll hit an entity while being in **VillagerGolem** *morph*, you'll throw your target high in the air.
 
 *Action* is a special ability that is triggered by "action key" (which is `V` by default). Examples: in **Rabbit** *morph*, you'll jump high; in **Creeper** *morph*, you'll explode like a creeper, and so on.
-
 
 ## Available morphs
 
@@ -60,3 +57,5 @@ This project is licensed under MIT. See `LICENSE.md` file.
 <?php endif ?>
 
 <?php template('terms', $__data__) ?> 
+
+<?php template('media', $__data__) ?> 

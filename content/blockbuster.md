@@ -50,6 +50,8 @@ This playlist consists out of videos that I've created during Blockbuster mod te
 
 <?php template('terms', $__data__) ?> 
 
+<?php template('media', $__data__) ?> 
+
 <?php if ($domain === \mchorse\GH): ?> 
 ## License and Manual
 
