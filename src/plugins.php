@@ -72,7 +72,7 @@ function process($pages)
         {
             $output = preg_replace('/^\s+$/m', '', $value['output']);
             
-            $pages[$key]['output'] = preg_replace('/\n{2,10}/', "\n\n", trim($output));
+            $pages[$key]['output'] = preg_replace('/\n{2,}/', "\n\n", trim($output));
         }
         else
         {
@@ -98,12 +98,20 @@ function process($pages)
                 $replace[1] = '[/p]';
             }
             
+            /* Headers are replaced to bold captions */
             $output = preg_replace('/<h\w>/', "\n\n[b]", $output);
+            $output = preg_replace('/<\/h\w>/', "[/b]", $output);
+            
+            /* Images and links require more than just find and replace */
             $output = preg_replace('/<a href="([^\"]+)">([^\<]+)<\/a>/', '[url=$1]$2[/url]', $output);
             $output = preg_replace('/<img src="([^\"]+)" alt="[^\"]+" \/>/', '[img]$1[/img]', $output);
-            $output = preg_replace('/<\/h\w>/', "[/b]", $output);
+            
+            /* Clean up */
+            $output = preg_replace('/<\/p>\s+<p>/', "</p>\n\n<p>", $output);
+            $output = preg_replace('/\n{2,}/', "\n\n", trim($output));
+            
+            /* Replace HTML tags with BBcodes */
             $output = str_replace($find, $replace, $output);
-            $output = preg_replace('/\n{2,}/', "\n\n", $output);
             
             $pages[$key]['output'] = trim($output);
         }

@@ -21,14 +21,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas:
 * **Custom models** – recording only player-like entities isn't very fun. Blockbuster mod has support for custom models created in McME model editor (link above). Unleash your creativity with custom models!
 * **[Minema](https://github.com/daipenger/minema) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to high-quality video output.
 
-## Install
-
-Install [Minecraft Forge](http://files.minecraftforge.net/), download the 
-latest stable version of jar file. Put it in minecraft's `mods` folder, and launch the game. 
-
-After that, Blockbuster mod should be installed and will appear in Minecraft's 
-mods menu. If Blockbuster didn't appear in the mods menu, then something went 
-wrong.
+<?php template('install', $__data__) ?> 
 
 ## Videos
 

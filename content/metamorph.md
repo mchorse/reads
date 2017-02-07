@@ -4,21 +4,17 @@
 
 **Metamorph** (from *[Metamorphosis](https://en.wikipedia.org/wiki/Metamorphosis)*) – a Minecraft mod for 1.10.2 (there is also build for 1.9.4), which allow players to morph into different vanilla mobs. Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod. 
 
+<?php template('install', $__data__) ?> 
+
 ## Videos
 
-Mod review made by **McHorse** (me):
+Mod showcase by **McHorse** (me):
 
 <?php echo youtube('4ZD8vV5Zyuw', $domain) ?> 
 
 Mod showcase by **xJSQ**:
 
 <?php echo youtube('dPkNN2ES5NA', $domain) ?> 
-
-## Installation 
-
-Install [Minecraft Forge](http://files.minecraftforge.net/), then go to [releases](https://github.com/mchorse/metamorph/releases) and download the latest stable version (not a pre-release) of jar file. Put it in minecraft's `mods` folder, and launch the game. 
-
-After that, Metamorph mod should be installed and will appear in Minecraft's mods menu. If Metamorph didn't appear in the mods menu, then something went wrong.
 
 ## How to play
 
