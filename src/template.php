@@ -29,7 +29,8 @@ function template($__view__, array $__data__ = [])
  */
 function youtube($id, $domain)
 {
-    $raw_id = substr($id, 0, strpos($id, '?'));
+    $index = strpos($id, '?');
+    $raw_id = $index === false ? $id : substr($id, 0, $index);
     
     if ($domain === \mchorse\GH)
     {
