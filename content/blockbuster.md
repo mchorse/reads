@@ -11,6 +11,10 @@ Blockbuster mod depends upon [Metamorph](<?php echo $links['metamorph'][$domain]
 
 Recording is based and rewritten from scratch on recording code from Mocap mod by [EchebKeso](https://twitter.com/EchebKeso).
 
+<?php if ($domain === \mchorse\MCF): ?> 
+[mod]254152-blockbuster[/mod]
+<?php endif ?> 
+
 ## Features
 
 Blockbuster mod provides you with lots of features to make cool machinimas:
@@ -40,6 +44,8 @@ There's also a video that shows how to create a simple machinima with Blockbuste
 This playlist consists out of videos that I've created during Blockbuster mod testings. Those videos are my lab experiments. Don't judge the quality of these machinimas yet, I'm still learning.
 
 <?php echo youtube('ny0_8RkAG8w?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
+
+<?php template('bugs', $__data__) ?> 
 
 <?php template('terms', $__data__) ?> 
 

@@ -6,6 +6,10 @@
 
 Thanks goes to [Tom Soel](https://twitter.com/TomSoel/) for reminding me of the idea for this mod.
 
+<?php if ($domain === \mchorse\MCF): ?> 
+[mod]257038-imaginary[/mod]
+<?php endif ?> 
+
 <?php template('install', $__data__) ?> 
 
 ## How to use
@@ -22,6 +26,8 @@ After you acquired a picture item, you should be able to place a custom picture 
 You can learn about imaginary mod from this video.
 
 <?php echo youtube('3JMUUav_8QA', $domain); endif; ?> 
+
+<?php template('bugs', $__data__) ?> 
 
 <?php template('terms', $__data__) ?> 
 

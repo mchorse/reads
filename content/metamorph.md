@@ -2,31 +2,33 @@
 
 <?php template('links', $__data__) ?> 
 
-**Metamorph** (from *[Metamorphosis](https://en.wikipedia.org/wiki/Metamorphosis)*) – a Minecraft mod for 1.10.2 (there is also build for 1.9.4), which allow players to morph into different vanilla mobs. Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod. 
+**Metamorph** (from *[Metamorphosis](https://en.wikipedia.org/wiki/Metamorphosis)*) – a Minecraft mod for 1.10.2 (there is also build for 1.9.4 and 1.11.2), which allow players to morph into different vanilla mobs. Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod. 
+
+<?php if ($domain === \mchorse\MCF): ?> 
+[mod]256932-metamorph[/mod]
+<?php endif ?> 
 
 <?php template('install', $__data__) ?> 
 
 ## Videos
 
-Mod showcase by **McHorse** (me):
+Change log video for Metamorph 1.1 by me:
 
-<?php echo youtube('4ZD8vV5Zyuw', $domain) ?> 
+<?php echo youtube('4BrvdKbVAHo', $domain) ?> 
 
-Mod showcase by **xJSQ**:
+Mod showcases of Metamorph by other people (including in other languages):
 
-<?php echo youtube('dPkNN2ES5NA', $domain) ?> 
+<?php echo youtube('dPkNN2ES5NA?list=PL6UPd2Tj65nHV_xy6zypT58IgZ73IH-2K', $domain) ?> 
 
 ## How to play
 
-To morph into other creatures, you must to acquire a *morph* first. To acquire a *morph*, you have to kill a mob, then a ghost of a mob will appear (that's a *morph*), and when you'll pick it up, you'll acquire a *morph*. Only vanilla\* mobs have their own *morphs*.
+To morph into other creatures, you must to acquire a *morph* first. To acquire a *morph*, you have to kill a mob, then a ghost of a mob will appear (that's a *morph*), and when you'll pick it up, you'll acquire a *morph*.
 
-Once you have at least one *morph*, you're able to transform into that *morph*. Use `[` and `]` keys for advancing through the list of *morphs*. Use `enter` key for transforming into selected *morph*. To demorph, you scroll left until you select your character, and then press `enter` to demorph. Or you can press demorph key (which is `.` by default).
+Once you have at least one *morph*, you're able to transform into that *morph*. Use `[` and `]` keys for advancing through the list of *morphs*. There are also `'` and `\` keys for switching between morph variants (you'll see up and down arrows in the selection box if there are morph variants available). Use `enter` key for transforming into selected *morph*. To demorph, you scroll left until you focus character with your skin, and then press `enter` to demorph. Or you can press demorph key (which is `.` by default).
 
-You retain your *morphs* even after death (although . In creative, you can select any available *morph* via "Creative Morph Menu" which can be opened by pressing `B` key in the game.
+You retain your *morphs* even after death (although you can disable retaining of morphs after death in mod options). In creative mode, you can select any available *morph* via Creative Morph Menu which can be opened by pressing `B` key in the game. 
 
-The outer look of *morphs* are quite limited, so you cannot kill a child pink sheep and turn into a child pink sheep. Instead, you'll turn into a white adult sheep.
-
-\* – vanilla mobs that are listed below.
+Survival Morph Menu can also be focused, for managing purposes, by pressing `N` key (default). There you can favorite, remove and filter morphs by favorites. You use the same keys to navigate morphs (`[`, `]`, `'` and `\`).
 
 ## About morphs
 
@@ -38,13 +40,7 @@ Every *morph* you equip or apply grant you different look, size, and health capa
 
 *Action* is a special ability that is triggered by "action key" (which is `V` by default). Examples: in **Rabbit** *morph*, you'll jump high; in **Creeper** *morph*, you'll explode like a creeper, and so on.
 
-## Available morphs
-
-A full list of which vanilla morphs are available in the mod (as of 1.0), you can find [here](https://github.com/mchorse/metamorph/issues/1).
-
-If you wonder about the future of this project, and what new updates might bring in, then make sure to checkout [issues page on GitHub](https://github.com/mchorse/metamorph/issues).
-
-If you found a bug, or this mod crashed you game. I'll appreciate if you could report the bug or crash to me either in issues or on [Twitter](https://twitter.com). Please, make sure to attach a crash log ([pastebin](http://pastebin.com) please) and description of a bug or crash and the way to reproduce it. Thanks!
+<?php template('bugs', $__data__) ?> 
 
 <?php if ($domain === \mchorse\GH): ?>
 ## License
