@@ -22,7 +22,7 @@ directions
 * Adapted actor and director GUIs to Metamorph's integration
 * Removed `/morph` command and morphing capability from Blockbuster
 * Replaced `Custom Model` and `Skin` fields with morph picker
-* Works with Metamorph `1.1`
+* Works with [Metamorph](<?php echo $links['metamorph']['curse'] ?>) `1.1.1`
 
 #### Actors
 

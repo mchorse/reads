@@ -3,11 +3,9 @@
 <?php template('links', $__data__) ?>  
 [EchebKeso](https://twitter.com/EchebKeso) – [Mocap mod](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1445402-minecraft-motion-capture-mod-mocap-16-000) – [Mocap's source code](https://github.com/EchebKeso/Mocap)
 
-Blockbuster (**pun intended**) is a Minecraft mod which lets you create simple 
-Minecraft machinimas in single player, without having to recruit and organize a 
-crowd of body actors and cameras.
+Blockbuster (**pun intended**) is a Minecraft mod which lets you create Minecraft machinimas in single player, without having to recruit and/or organize a crowd of body actors and cameras.
 
-Blockbuster mod depends upon [Metamorph](<?php echo $links['metamorph'][$domain] ?>). Blockbuster mod is built on top of Forge 12.18.1.2073 for Minecraft 1.10.2. Blockbuster mod is also provides build for 1.9.4 and 1.11.
+Blockbuster mod depends upon [Metamorph](<?php echo $links['metamorph']['curse'] ?>). It's built on top of Forge 12.18.1.2185 for Minecraft 1.10.2, and provides builds for 1.9.4 and 1.11.2.
 
 Recording is based and rewritten from scratch on recording code from Mocap mod by [EchebKeso](https://twitter.com/EchebKeso).
 
@@ -19,13 +17,14 @@ Recording is based and rewritten from scratch on recording code from Mocap mod b
 
 Blockbuster mod provides you with lots of features to make cool machinimas:
 
-* **Actors and player recording** – the most important feature, as you won't be able to create a machinimas without it. With Blockbuster mod you can record yourself doing things and then playback it using an actor. *Recording code has some limitations on which actions it can record*. 
-* **Director blocks** – one actor is good, a crowd of them is better. Blockbuster mod provides you with a mechanism called *director block* which manages playback of registered actors. It has also outlets for redstone contraptions, making it easy attaching some custom commands or redstone logic on start or the end of the scene playback.
-* **Camera support** – camera is how you present your machinima. Blockbuster mod has a support for different camera features starting from simple idle camera to complex camera moves like paths (with FOV animation), following and looking at the actor.
+* **Actors and player recording** – the most important feature, as you won't be able to create a machinimas without it. With Blockbuster mod you can record yourself doing things and then playback it using an actor. *Recording code has some limitations on which actions it can record*. See [Blockbuster Wiki](<?php echo $links['blockbuster']['github'] ?>/wiki/Home) for more information about limitations.
+* **Director blocks** – one actor is good, a crowd of them is even better. Blockbuster mod provides you with a mechanism called *director block* which manages playback of registered actors. It has also outlets for redstone contraptions, making it easy attaching some custom commands or redstone logic on start or the end of the scene playback.
+* **Camera support** – camera is how you present your machinima. Blockbuster mod has a support for different camera features starting from simple idle camera to complex camera which moves through the path (with FOV animation), following and looking at the actor.
 * **Custom models** – recording only player-like entities isn't very fun. Blockbuster mod has support for custom models created in McME model editor (link above). Unleash your creativity with custom models!
-* **[Minema](https://github.com/daipenger/minema) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to high-quality video output.
+* **Mobs support** – thanks to [Metamorph](<?php echo $links['metamorph']['curse'] ?>)'s public API, Blockbuster is capable of using any morphs which Metamorph provides to be used with Blockbuster actors.
+* **[Minema](<?php echo $links['minema'] ?>) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to high-quality video output.
 
-<?php template('install', $__data__) ?> 
+<?php template('install', array_merge($__data__, ['dependencies' => ['metamorph']])) ?> 
 
 ## Videos
 
@@ -75,4 +74,6 @@ make build_lang
 ```
 
 This should compile YML files into language files. Also, you'll have to refresh Eclipse or your IDE to get the changed file get into the app. Simply open `en_US.lang` in IDE and build the project again.
+
+Also download one of the [Metamorph](<?php echo $links['metamorph']['curse'] ?>)'s `-dev` jars (and optionally `-source`, for documentation) published in releases. Every Blockbuster change log specifies the version of Metamorph supported.
 <?php endif ?> 
