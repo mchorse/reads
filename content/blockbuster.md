@@ -5,7 +5,7 @@
 
 Blockbuster (**pun intended**) is a Minecraft mod which lets you create Minecraft machinimas in single player, without having to recruit and/or organize a crowd of body actors and cameras.
 
-Blockbuster mod depends upon [Metamorph](<?php echo $links['metamorph']['curse'] ?>). It's built on top of Forge 12.18.1.2185 for Minecraft 1.10.2, and provides builds for 1.9.4 and 1.11.2.
+Blockbuster mod depends upon [Metamorph](<?php echo $links['metamorph']['curse'] ?>). Every new change log will specify the version of Metamorph supported. It's built on top of Forge 12.18.1.2185 for Minecraft 1.10.2, and provides builds for 1.9.4 and 1.11.2.
 
 Recording is based and rewritten from scratch on recording code from Mocap mod by [EchebKeso](https://twitter.com/EchebKeso).
 
@@ -32,7 +32,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas:
 
 Feature videos for 1.4. This playlist shows how to use the mod features. Every update comes with a change log video which show out new features.
 
-<?php echo youtube('EiNlOLCzc_s?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
+<?php echo youtube('EY8pvphu724?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
 There's also a video that shows how to create a simple machinima with Blockbuster mod. This video shows basics of director block, how to attach actors to director block, and how to setup cameras:
 
@@ -42,7 +42,7 @@ There's also a video that shows how to create a simple machinima with Blockbuste
 
 This playlist consists out of videos that I've created during Blockbuster mod testings. Those videos are my lab experiments. Don't judge the quality of these machinimas yet, I'm still learning.
 
-<?php echo youtube('ny0_8RkAG8w?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
+<?php echo youtube('11L4vLzhcVM?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
 
 <?php template('bugs', $__data__) ?> 
 
@@ -75,5 +75,5 @@ make build_lang
 
 This should compile YML files into language files. Also, you'll have to refresh Eclipse or your IDE to get the changed file get into the app. Simply open `en_US.lang` in IDE and build the project again.
 
-Also download one of the [Metamorph](<?php echo $links['metamorph']['curse'] ?>)'s `-dev` jars (and optionally `-source`, for documentation) published in releases. Every Blockbuster change log specifies the version of Metamorph supported.
+Also download one of the [Metamorph](<?php echo $links['metamorph']['curse'] ?>)'s `-dev` jars (and optionally `-source`, for documentation) published in releases. Put the `-dev` mod into `run/mods` (for more information check `depenencies` block in `build.gradle`).
 <?php endif ?> 

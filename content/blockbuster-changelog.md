@@ -10,6 +10,8 @@ Another patch update. This patch update is what I waited for a long time! This u
 
 Special thanks to **[The Minebox](https://www.youtube.com/user/TheMinebox)**, **Badr**, **[Tom Soel](https://twitter.com/TomSoel)** and **[Vasily12345](https://www.youtube.com/user/MinecraftLifeSeries)** for beta-testing and suggesting features for this update!
 
+<?php echo youtube('EY8pvphu724', $domain) ?> 
+
 #### General
 
 * Added config options:
@@ -133,10 +135,8 @@ This is a big update that improves the quality of recording. Now you can use [Mi
 
 The player recording code was almost rewritten from scratch and camera code was altered enough to support frame-based playback and synchronization with actor playback. In simple words, now you can capture smooth high-quality machinimas with Minema!
 
-**Showcase video** for 1.4: 
-<a href="https://youtu.be/EiNlOLCzc_s?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK"> 
-    <img src="https://img.youtube.com/vi/EiNlOLCzc_s/0.jpg">
-</a>
+**Showcase video** for 1.4:  
+<?php echo youtube('EiNlOLCzc_s?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
 * Added actor spawn egg to Blockbuster tab
 * Added button "Record" which simplifies recording of ghost actors
@@ -187,9 +187,7 @@ The player recording code was almost rewritten from scratch and camera code was 
 This is a big update that brings custom models and morphing into the game. This update adds support for custom models and player morphing. Your machinimas will be much interesting, because now you can record not only players, but also `mobs`, `blocks`, or even your own custom creatures. All thanks to custom models!
 
 **Showcase video** for 1.3:  
-<a href="https://youtu.be/WXrBEQZrQ7Q?list=PL6UPd2Tj65nGxteZIdEE_fIga7_HoZJ9w">
-    <img src="https://img.youtube.com/vi/WXrBEQZrQ7Q/0.jpg">
-</a>
+<?php echo youtube('WXrBEQZrQ7Q?list=PL6UPd2Tj65nGxteZIdEE_fIga7_HoZJ9w', $domain) ?> 
 
 * Added support for JSON custom models for actors
 * Added support for player morphing based on JSON custom models
@@ -217,9 +215,7 @@ editor.
 This is a small patch that enhances existing elements of the mod. Nothing new, just enhancements and fixes.
 
 **Showcase video** for 1.2.1:  
-<a href="https://youtu.be/mDCYX1oRKYk?list=PL6UPd2Tj65nHvEH-_F_brz6LQDdlsCIXJ">
-    <img src="https://img.youtube.com/vi/mDCYX1oRKYk/0.jpg">
-</a>
+<?php echo youtube('mDCYX1oRKYk?list=PL6UPd2Tj65nHvEH-_F_brz6LQDdlsCIXJ', $domain) ?> 
 
 * Added `/entitydata` skin client synchronization
 * Added `/action stop` sub-command
@@ -243,9 +239,7 @@ you can just press play button and sit down, because you setup once, play camera
 how many times you want.
 
 **Showcase video** for 1.2:  
-<a href="https://youtu.be/gq7sg-njyUk?list=PL6UPd2Tj65nHjnaQqL3gscufRcVDBezPm">
-    <img src="https://img.youtube.com/vi/gq7sg-njyUk/0.jpg">
-</a>
+<?php echo youtube('gq7sg-njyUk?list=PL6UPd2Tj65nHjnaQqL3gscufRcVDBezPm', $domain) ?> 
 
 * Added camera profile. Camera profile is a list of camera fixtures that can be 
   imported/exported and played
@@ -283,9 +277,7 @@ to the actor/director map block) and substituted this with *nice looking* GUIs.
 Basically, this release mostly focuses on enhancing GUI and the look of the mod.
 
 **Showcase video** for 1.1:  
-<a href="https://www.youtube.com/watch?v=mjvWD9rIO0U">
-    <img src="https://img.youtube.com/vi/mjvWD9rIO0U/0.jpg">
-</a>
+<?php echo youtube('mjvWD9rIO0U', $domain) ?> 
 
 * Update to Minecraft 1.9.4 and Forge 12.17.0.1976 (thanks to [Lightwave](http://www.minecraftforge.net/forum/index.php?action=profile;u=36902))
 * Added GUIs for director and director map blocks
@@ -316,9 +308,7 @@ that allows to capture simple Minecraft machinimas and cinematics for
 adventure maps.
 
 **Showcase video** for 1.0:  
-<a href="https://www.youtube.com/watch?v=LPJb49VUUqk">
-    <img src="https://img.youtube.com/vi/LPJb49VUUqk/0.jpg">
-</a>
+<?php echo youtube('LPJb49VUUqk', $domain) ?> 
 
 * Supports Minecraft 1.9.0 and Forge 12.6.1.1907
 * Added director and director map blocks
