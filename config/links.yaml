@@ -2,6 +2,7 @@ youtube: https://www.youtube.com/channel/UCWVDjAcecHHa8UrEWMRGI8w
 twitter: https://twitter.com/McHorsy
 github: https://github.com/mchorse
 reddit: https://www.reddit.com/r/mcpub/
+discord: https://discord.gg/qfxrqUF
 minema: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2790594-minema-unofficial-the-smooth-movie-recorder
 
 # Human readable titles
@@ -25,6 +26,7 @@ blockbuster:
     curse: https://minecraft.curseforge.com/projects/blockbuster
     github: https://github.com/mchorse/blockbuster
     adfly: http://adf.ly/15268913/blockbuster-curseforge
+    wiki: https://github.com/mchorse/blockbuster/wiki
 
 metamorph:
     title: Metamorph
@@ -39,6 +41,7 @@ metamorph:
     curse: https://minecraft.curseforge.com/projects/metamorph
     github: https://github.com/mchorse/blockbuster
     adfly: http://adf.ly/15268913/metamorph-curseforge
+    wiki: https://github.com/mchorse/metamorph/wiki
 
 imaginary:
     title: Imaginary

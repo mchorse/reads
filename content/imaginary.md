@@ -27,8 +27,8 @@ You can learn about imaginary mod from this video.
 
 <?php echo youtube('3JMUUav_8QA', $domain); endif; ?> 
 
-<?php template('bugs', $__data__) ?> 
-
 <?php template('terms', $__data__) ?> 
 
 <?php template('media', $__data__) ?> 
+
+<?php template('bugs', $__data__) ?> 

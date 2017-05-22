@@ -26,4 +26,9 @@ if ($domain !== \mchorse\PMC)
     $link = $links[$project]['adfly'];
     
     printf('%s[%s](%s)', $output, $title, $link);
+    
+    if (isset($links[$project]['wiki']))
+    {
+        printf(' – [Wiki](%s)', $links[$project]['wiki']);
+    }
 }

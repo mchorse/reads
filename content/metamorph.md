@@ -2,7 +2,11 @@
 
 <?php template('links', $__data__) ?> 
 
-**Metamorph** (from *[Metamorphosis](https://en.wikipedia.org/wiki/Metamorphosis)*) – a Minecraft mod for 1.10.2 (there is also build for 1.9.4 and 1.11.2), which allow players to morph into different vanilla mobs. Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod. 
+**Metamorph** (from *[Metamorphosis](https://en.wikipedia.org/wiki/Metamorphosis)*) – a Minecraft mod which allow you to morph into vanilla and modded mobs. 
+
+Most of vanilla mob morphs have their vanilla abilities, meanwhile most of modded morphs only grant you appearance and some attributes like health, unless configured to have wished abilities. Morphs can be disabled and configured. See mod's wiki for more information.
+
+Works with Forge for Minecraft 1.9.4, 1.10.2, 1.11.2. Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod. 
 
 <?php if ($domain === \mchorse\MCF): ?> 
 [mod]256932-metamorph[/mod]
@@ -26,7 +30,7 @@ To morph into other creatures, you must to acquire a *morph* first. To acquire a
 
 Once you have at least one *morph*, you're able to transform into that *morph*. Use `[` and `]` keys for advancing through the list of *morphs*. There are also `'` and `\` keys for switching between morph variants (you'll see up and down arrows in the selection box if there are morph variants available). Use `enter` key for transforming into selected *morph*. To demorph, you scroll left until you focus character with your skin, and then press `enter` to demorph. Or you can press demorph key (which is `.` by default).
 
-You retain your *morphs* even after death (although you can disable retaining of morphs after death in mod options). In creative mode, you can select any available *morph* via Creative Morph Menu which can be opened by pressing `B` key in the game. 
+You retain your *morphs* even after death (although you can disable retaining of morphs after death in mod options). In creative mode, you can select almost any available *morph* via Creative Morph Menu which can be opened by pressing `B` key in the game. 
 
 Survival Morph Menu can also be focused, for managing purposes, by pressing `N` key (default). There you can favorite, remove and filter morphs by favorites. You use the same keys to navigate morphs (`[`, `]`, `'` and `\`).
 
@@ -40,6 +44,10 @@ Every *morph* you equip or apply grant you different look, size, and health capa
 
 *Action* is a special ability that is triggered by "action key" (which is `V` by default). Examples: in **Rabbit** *morph*, you'll jump high; in **Creeper** *morph*, you'll explode like a creeper, and so on.
 
+<?php template('terms', $__data__) ?> 
+
+<?php template('media', $__data__) ?> 
+
 <?php template('bugs', $__data__) ?> 
 
 <?php if ($domain === \mchorse\GH): ?>
@@ -47,7 +55,3 @@ Every *morph* you equip or apply grant you different look, size, and health capa
 
 This project is licensed under MIT. See `LICENSE.md` file.
 <?php endif ?>
-
-<?php template('terms', $__data__) ?> 
-
-<?php template('media', $__data__) ?> 
