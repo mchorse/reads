@@ -6,7 +6,7 @@
 
 Most of vanilla mob morphs have their vanilla abilities, meanwhile most of modded morphs only grant you appearance and some attributes like health, unless configured to have wished abilities. Morphs can be disabled and configured. See mod's wiki for more information.
 
-Works with Forge for Minecraft 1.9.4, 1.10.2, 1.11.2. Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod. 
+Works with Forge for Minecraft 1.10.2, 1.11.2 and 1.12. Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod. 
 
 <?php if ($domain === \mchorse\MCF): ?> 
 [mod]256932-metamorph[/mod]

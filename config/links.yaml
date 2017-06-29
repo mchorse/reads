@@ -13,6 +13,12 @@ titles:
     github: Source code
     adfly: AdFly support link
 
+aperture:
+    title: Aperture
+    
+    curse: https://minecraft.curseforge.com/projects/aperture
+    github: https://github.com/mchorse/aperture
+
 blockbuster:
     title: Blockbuster
     
