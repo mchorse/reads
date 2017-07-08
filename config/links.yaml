@@ -16,6 +16,11 @@ titles:
 aperture:
     title: Aperture
     
+    banner: https://i.imgur.com/Wras78u.png
+    cover: https://i.imgur.com/rckGnn4.png
+    
+    pmc: https://www.planetminecraft.com/mod/aperture-3978432/
+    mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2837982-aperture-an-advanced-camera-mod
     curse: https://minecraft.curseforge.com/projects/aperture
     github: https://github.com/mchorse/aperture
 

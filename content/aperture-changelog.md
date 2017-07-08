@@ -8,6 +8,8 @@ First release of Aperture mod. This release has everything Blockbuster cameras h
 
 Its all features are frame based, meaning this camera mod would work perfectly with Minema mod and without it.
 
+<?php echo youtube('F2LdjUH-4Qs', $domain) ?> 
+
 #### General
 
 General features which were included in the first release. Following features are included:

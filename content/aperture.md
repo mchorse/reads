@@ -1,6 +1,6 @@
-<?php # template('banner', $__data__) ?>
+<?php template('banner', $__data__) ?>
 
-<?php # template('links', $__data__) ?> 
+<?php template('links', $__data__) ?> 
 
 **Aperture** is a Minecraft mod which allows you to create cinematics using GUI (or commands). It works with Forge for Minecraft 1.10.2, 1.11.2 and 1.12. 
 
@@ -20,8 +20,14 @@ Here are some features which makes Aperture different from other camera mods:
 * Provides a smooth camera which is basically an analogue of vanilla cinematic camera, but Minema friendly.
 
 <?php if ($domain === \mchorse\MCF): ?> 
-[mod]257038-imaginary[/mod]
+[mod]271561-aperture[/mod]
 <?php endif ?> 
+
+## Videos
+
+There is a playlist of videos which are about Aperture. At the moment of public release, there are two videos: mod's teaser and mod's tutorial.
+
+<?php echo youtube('36E5-HYoH5I?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
 
 <?php template('install', $__data__) ?> 
 
