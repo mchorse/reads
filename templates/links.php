@@ -22,12 +22,14 @@ if ($domain !== \mchorse\PMC)
         $output .= sprintf('[%s](%s) – ', $title, $link);
     }
     
+    $output = trim($output, '– ');
+    
     if (isset($links[$project]['adfly']))
     {
         $title = $links['titles']['adfly'];
         $link = $links[$project]['adfly'];
         
-        $output .= sprintf('[%s](%s)', $title, $link);
+        $output .= sprintf(' – [%s](%s)', $title, $link);
     }
     
     echo $output;
