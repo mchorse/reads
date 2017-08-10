@@ -6,9 +6,6 @@
  * @author mchorse
  */
 
-/** @const string TMP - templates folder */
-const TMP = __DIR__ . '/../templates/';
-
 /**
  * @param string $__view__
  * @param array $__data__
@@ -17,7 +14,7 @@ function template($__view__, array $__data__ = [])
 {
     extract($__data__);
     
-    require TMP . $__view__ . '.php';
+    require __DIR__ . '/../templates/' . $__view__ . '.php';
 }
 
 /**

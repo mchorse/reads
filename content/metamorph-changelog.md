@@ -60,7 +60,7 @@ A big update of Metamorph mod. This update introduces third-party morph support,
         * `AcquireMorphEvent` – when player is about to acquire a morph
         * `MorphActionEvent` – when player is about to use morph's action
     * `IMorphFactory` – for adding and registering morphs, abilities, attacks and actions.
-* Added support for third-party living base mobs (Entities which derive from `EntityLivingBase` and have `RenderLivingBase<?>` renderers)
+* Added support for third-party living base mobs (Entities which derive from `EntityLivingBase` and have `RenderLivingBase&lt;?&gt;` renderers)
 * Added morphs user configuration (`morphs.json` in config folder)
 * Added much more morphs to **Creative Morph Menu**
 * Added favoriting of acquired morphs (thanks to NlL5)
