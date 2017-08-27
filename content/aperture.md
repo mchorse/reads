@@ -27,7 +27,7 @@ Here are some features which makes Aperture different from other camera mods:
 
 There is a playlist of videos which are about Aperture. At the moment of public release, there are two videos: mod's teaser and mod's tutorial.
 
-<?php echo youtube('36E5-HYoH5I?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
+<?php echo youtube('y7-WsAq6Vlg?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
 
 <?php template('install', $__data__) ?> 
 

@@ -2,11 +2,11 @@
 
 <?php template('links', $__data__) ?> 
 
-**Metamorph** (from *[Metamorphosis](https://en.wikipedia.org/wiki/Metamorphosis)*) – a Minecraft mod which allow you to morph into vanilla and modded mobs. 
+**Metamorph** (from *[Metamorphosis](https://en.wikipedia.org/wiki/Metamorphosis)*) – a Minecraft mod which allow you to morph into mobs. 
 
-Most of vanilla mob morphs have their vanilla abilities, meanwhile most of modded morphs only grant you appearance and some attributes like health, unless configured to have wished abilities. Morphs can be disabled and configured. See mod's wiki for more information.
+Most of vanilla mob morphs have their abilities (preconfigured), meanwhile most of modded morphs only grant you appearance and some attributes like health, unless configured. Morphs can be disabled and configured. See mod's wiki for more information.
 
-Works with Forge for Minecraft 1.10.2, 1.11.2 and 1.12. Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod. 
+Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod, and works only with Forge for Minecraft 1.10.2, 1.11.2 and 1.12.
 
 <?php if ($domain === \mchorse\MCF): ?> 
 [mod]256932-metamorph[/mod]

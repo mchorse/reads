@@ -79,14 +79,14 @@ function process($pages)
             $output = $md->text($value['output']);
             
             $find = [
-                '<p>', '</p>', '<strong>', '</strong>', '<em>', '</em>', 
+                '<p>', '</p>', '<strong>', '</strong>', '<em>', '</em>', '</a>',
                 '<code>', '</code>', 
                 '<ul>', '</ul>', '<li>', '</li>',
                 '&quot;'
             ];
             
             $replace = [
-                '', '', '[b]', '[/b]', '[i]', '[/i]', 
+                '', '', '[b]', '[/b]', '[i]', '[/i]', '[/url]',
                 '', '', 
                 '[list]', '[/list]', '[*]', '',
                 ''
@@ -103,7 +103,7 @@ function process($pages)
             $output = preg_replace('/<\/h\w>/', "[/b]", $output);
             
             /* Images and links require more than just find and replace */
-            $output = preg_replace('/<a href="([^\"]+)">([^\<]+)<\/a>/', '[url=$1]$2[/url]', $output);
+            $output = preg_replace('/<a href="([^\"]+)">/', '[url=$1]', $output);
             $output = preg_replace('/<img src="([^\"]+)" alt="[^\"]+" \/>/', '[img]$1[/img]', $output);
             
             /* Clean up */
