@@ -16,13 +16,13 @@ Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod, and work
 
 ## Videos
 
-Change log video for Metamorph 1.1 by me:
+Change log video for Metamorph 1.1.4 by me:
 
-<?php echo youtube('4BrvdKbVAHo', $domain) ?> 
+<?php echo youtube('zAOq_VP-vuE', $domain) ?> 
 
 Mod showcases of Metamorph by other people (including in other languages):
 
-<?php echo youtube('dPkNN2ES5NA?list=PL6UPd2Tj65nHV_xy6zypT58IgZ73IH-2K', $domain) ?> 
+<?php echo youtube('D3oScOrqU1U?list=PL6UPd2Tj65nHV_xy6zypT58IgZ73IH-2K', $domain) ?> 
 
 ## How to play
 

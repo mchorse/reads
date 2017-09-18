@@ -2,7 +2,7 @@
 
 <?php template('links', $__data__) ?> 
 
-**Imaginary** – a Minecraft mod which gives an abilitiy to add images to Minecraft. This mod supports any formats that Minecraft supports for textures (**PNG**, **JPEG** and **GIF** without animations). This mod is built for Minecraft 1.10.2 and Forge 12.18.3.2185. No compatibility with multiplayer available yet (it's planned for next update, though).
+**Imaginary** – a Minecraft mod which gives an abilitiy to add images to Minecraft. This mod supports any formats that Minecraft supports for textures (**PNG**, **JPEG** and **GIF** without animations). This mod is built for Minecraft Forge 1.10.2, 1.11.2 and 1.12. No compatibility with multiplayer available yet (it's planned for next update, though).
 
 Thanks goes to [Tom Soel](https://twitter.com/TomSoel/) for reminding me of the idea for this mod.
 
