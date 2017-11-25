@@ -5,7 +5,7 @@
 
 Blockbuster is a Minecraft mod which lets you create Minecraft machinimas in singleplayer using NPC body actors. This mod works with Forge for Minecraft 1.10.2, 1.11.2 and 1.12.
 
-Blockbuster mod depends upon [Metamorph](<?php echo $links['metamorph']['curse'] ?>). Every new change log will specify the version of Metamorph supported. Blockbuster is also provides **optional** integration for [Aperture](<?php echo $links['aperture']['curse'] ?>) mode.
+Blockbuster mod depends upon [Metamorph](<?php echo $links['metamorph']['curse'] ?>). Every new change log will specify the version of Metamorph supported. Blockbuster is also provides **optional** integration for [Aperture](<?php echo $links['aperture']['curse'] ?>) mod.
 
 Recording is based and rewritten from scratch on recording code from Mocap mod by [EchebKeso](https://twitter.com/EchebKeso).
 
@@ -21,6 +21,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas:
 * **Director blocks** – one actor is good, a crowd of them is even better. Blockbuster mod provides you with a mechanism called *director block* which manages playback of registered actors. It allows you to record actors. It has also outlets for redstone contraptions, making it easy attaching some custom commands or redstone logic on start or the end of the scene playback.
 * **[Aperture](<?php echo $links['aperture']['curse'] ?>) support** – camera is how you present your machinima. Blockbuster mod has built-in Aperture integration. When Aperture is loaded, Blockbuster mod provides you with some features such as: ability to attach camera profiles to playback button, and previewing director block playback while editing cameras in the camera editor.
 * **Custom models** – recording only player-like entities limits the originality of your machinimas. Blockbuster mod let's you create custom models using [McME](https://mchorse.github.io/mcme/) model editor or in-game integrated model editor. Unleash your creativity with custom models!
+* **OBJ models** – beside custom models which can be created with in-game custom model editor, Blockbuster also supports OBJ models on top of custom JSON models!
 * **Mobs support** – thanks to [Metamorph](<?php echo $links['metamorph']['curse'] ?>)'s public API, Blockbuster is capable of using any morphs which Metamorph provides to be used by Blockbuster actors.
 * **[Minema](<?php echo $links['minema'] ?>) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to videos with a press of a button.
 
@@ -32,7 +33,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas:
 
 Feature videos for 1.4. This playlist shows how to use the mod features. Almost every update comes with a change log video which show out new features.
 
-<?php echo youtube('CoJ_6Byh6LA?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
+<?php echo youtube('R-g6fIUBtR4?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
 There's also a video that shows how to create a simple machinima using Blockbuster mod. This video shows basics of director block, how to attach actors to director block, and how to setup cameras:
 
@@ -42,7 +43,7 @@ There's also a video that shows how to create a simple machinima using Blockbust
 
 This playlist consists out of videos that I've created a bunch of machinimas during Blockbuster mod testings and just when I felt like. Earlier of those videos are my lab experiments.
 
-<?php echo youtube('FjED5qT80eM?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
+<?php echo youtube('LmG1vWHgp-A?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
 
 <?php template('terms', $__data__) ?> 
 

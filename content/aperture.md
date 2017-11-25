@@ -19,6 +19,8 @@ Here are some features which makes Aperture different from other camera mods:
 * Playback duration is measured in **ticks**, instead of frames or milliseconds, which makes editing more consistent. Tick is a unit which is in the middle between frames and milliseconds. They don't depend on the frame rate in the settings, meanwhile also can be easily converted to seconds. There are about 20 ticks per a second (depends on the lag).
 * Provides a smooth camera which is basically an analogue of vanilla cinematic camera, but Minema friendly.
 
+**Disclaimer**: this mod has nothing to do with Aperture Science from Portal.
+
 <?php if ($domain === \mchorse\MCF): ?> 
 [mod]271561-aperture[/mod]
 <?php endif ?> 
