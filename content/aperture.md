@@ -29,7 +29,7 @@
 
 This playlist contains a list of videos about Aperture's updates and tutorials.
 
-<?php echo youtube('y7-WsAq6Vlg?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
+<?php echo youtube('dKmurdnlj1A?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
 
 <?php template('install', $__data__) ?> 
 
