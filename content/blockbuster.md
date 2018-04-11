@@ -3,7 +3,7 @@
 <?php template('links', $__data__) ?>  
 [EchebKeso](https://twitter.com/EchebKeso) – [Mocap mod](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1445402-minecraft-motion-capture-mod-mocap-16-000) – [Mocap's source code](https://github.com/EchebKeso/Mocap)
 
-Blockbuster is a Minecraft mod which lets you create Minecraft machinimas in singleplayer using NPC body actors. This mod works with Forge for Minecraft 1.10.2, 1.11.2 and 1.12.
+Blockbuster is a Minecraft mod which lets you create Minecraft machinimas in singleplayer using NPC body actors. This mod works with Forge for Minecraft 1.10.2, 1.11.2 and 1.12.2.
 
 Blockbuster mod depends upon [Metamorph](<?php echo $links['metamorph']['curse'] ?>). Every new change log will specify the version of Metamorph supported. Blockbuster is also provides **optional** integration for [Aperture](<?php echo $links['aperture']['curse'] ?>) mod.
 
@@ -62,5 +62,5 @@ Language files are compiled from YML (which are located in `help/` folder) to IN
 
 If you're going to work with localization strings, modify the appropriate YML file, first. Then use the `./gradlew buildLangFiles` command to convert YML to INI format `.lang` files directly to `src/main/resources/assets/blockbuster/lang` folder. 
 
-Don't forget to refresh your IDE after building of YML files.
+Don't forget to refresh your IDE after building the langauge files.
 <?php endif ?>
