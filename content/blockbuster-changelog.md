@@ -12,6 +12,7 @@ This patch adds two nice features and also cleans up the code base a little bit 
 * Added a feature which allows loading OBJ models without a JSON feature (see wiki for more information)
 * Added `item_use_block` action which allows to record firework placing, usage of bone meal, flint & steel, and etc.
 * Added `/model reload` command which allows to reload models on the server side
+* Added `/director loops` command which allows making director block loopable
 * Added in-game model editor button to in-game pause menu (press ESC in the world)
 * Blockbuster GUIs won't pause the game anymore
 * Command `/model clear` now removes all textures from texture cache which are related to Blockbuster, instead of only the missing ones (purple checkered)
