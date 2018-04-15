@@ -33,7 +33,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas:
 
 Feature videos for 1.4. This playlist shows how to use the mod features. Almost every update comes with a change log video which show out new features.
 
-<?php echo youtube('R-g6fIUBtR4?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
+<?php echo youtube('r3BpwMBDxwk?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
 There's also a video that shows how to create a simple machinima using Blockbuster mod. This video shows basics of director block, how to attach actors to director block, and how to setup cameras:
 

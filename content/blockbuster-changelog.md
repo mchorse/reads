@@ -8,6 +8,8 @@ This patch adds two nice features and also cleans up the code base a little bit 
 
 **Compatible** with Metamorph `1.1.4` and Aperture `1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions probably are incompatible.
 
+<?php echo youtube('r3BpwMBDxwk', $domain) ?> 
+
 * Added **model block** which allows to place morphs as blocks with some transformation configuration (basically replacement for freeze actor feature)
 * Added a feature which allows loading OBJ models without a JSON feature (see wiki for more information)
 * Added `item_use_block` action which allows to record firework placing, usage of bone meal, flint & steel, and etc.
