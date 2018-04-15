@@ -6,7 +6,7 @@ Blockbuster's change log.
 
 This patch adds two nice features and also cleans up the code base a little bit (for next updates, basically, it's only the beginning).
 
-**Compatible** with Metamorph `1.1.4` and Aperture `1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions probably are incompatible.
+**Compatible** with Metamorph `1.1.5` and Aperture `1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions probably are incompatible.
 
 <?php echo youtube('r3BpwMBDxwk', $domain) ?> 
 
