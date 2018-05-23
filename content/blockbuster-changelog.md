@@ -2,6 +2,57 @@
 
 Blockbuster's change log.
 
+## Version 1.5
+
+**Compatible** with Metamorph `1.1.6` and Aperture `1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+#### General
+
+* Added support for tile entities and entities to damage control
+* Added custom morph preservation, if the model wasn't found, it will still create a morph but without a model
+* Fixed another dedicated server crashes (thanks to AzureZhen)
+* Fixed model editor purging the state when closing it
+
+#### Director block
+
+* Added better duplication mechanic (thanks to Olrik&Flynn)
+
+#### Custom models
+
+* Added back custom model code back from Metamorph to Blockbuster
+* Added support for quad faces in OBJ code
+* Added support for OBJ material files (must be manually enabled with `providesMtl` model property)
+    * Added support for non-standard `map_Kd_linear` instruction which indicates that this texture should be linearly interpolated
+* Added `shading` limb property which allow to disable default MC shading
+* Added `lighting` limb property which allow to disable lightmap shading (glow in the dark)
+* Added `is3D` limb property which allows to make the limb look extruded as seen in MPM/CNPCs mods (thanks to snifferish)
+* Added `scaleGui` model property which allows to set scale of the model within GUI
+* Added feature to blacklist models by simply renaming model folder with `__`
+* Optimized model reloading code which reloads models only if files has changed
+
+#### Commands 
+
+* Added `/on_head` command which allows placing currently held item in the head slot
+* Added several `/record` sub-commands for more extensive player recording editing:
+    * `/record origin` – allows to change the initial position and rotation around that point based on player's position or given coordinates (thanks to Olrik&Flynn)
+    * `/record dupe` – allows to duplicate a player recording (thanks to Agirres)
+    * `/record prolong` – allows to add delays before and after the actual playback of the player recording content starts
+    * `/record tp` – allows to tp to given player recording at given tick
+    * `/record clean` – allows to clean/set frame property within given range
+* Added `[path]` argument to `/model clear` command which allows to clear out only skins for specific model
+* Added `[force]` argument to `/model reload` command which allows to force reload models, and also `/model reload` now reloads models on the client too
+* Fixed and slightly improved `/model export` command
+
+#### Model block
+
+* Added model block culling workaround (which allows rendering model block always, no matter)
+* Added rotation order, uniform slider scale and item stacks configuration to model block
+* Removed destruction particles
+
+#### Recording
+
+* Switched from item ID to `ItemStack` equality for item tracking
+
 ## Version 1.4.10 (model block)
 
 This patch adds two nice features and also cleans up the code base a little bit (for next updates, basically, it's only the beginning).
