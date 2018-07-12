@@ -2,35 +2,54 @@
 
 Blockbuster's change log.
 
-## Version 1.5
+## Version 1.5 (GUIs and custom models)
 
-...
+Blockbuster `1.5` is a massive update which improves almost every aspect of the mod. Main features of `1.5` are: improved support for OBJ, revamped GUIs, improved damage control and green screen features.
 
 **Compatible** with Metamorph `1.1.6` and Aperture `1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
 #### General
 
-* Added support for tile entities and entities to damage control
+* Added green block which helps setting up a green screen
+* Added green sky option which allows making the sky fully green (works nicely with green screen block)
 * Added custom morph preservation, if the model wasn't found, it will still create a morph but without a model
-* Fixed another dedicated server crashes (thanks to AzureZhen)
+* Fixed another dedicated server crashes (reported by AzureZhen)
 * Fixed dedicated server not persisting morph information (due not loaded custom morphs)
-* Fixed model editor purging the state when closing it
+* Removed support for playing back and registering actors spawned from a spawn egg (obsolete feature)
+
+#### GUIs (user interfaces)
+
+* Added player recording editor GUI which allows editing player recording's actions
+* Added pose editor to morph picker
+* Reworked most of GUIs into a dashboard panel based GUIs
+* Reworked model block GUI
+* Reworked director block GUI
+* Reworked model editor GUI
+    * Added a button which allows creating a model from a mob
 
 #### Director block
 
-* Added better duplication mechanic (thanks to Olrik&Flynn)
+* Added better duplication mechanic (suggested by Olrik&Flynn)
+* Added director block configuration options: start and stop commands, looping, disabling redstone state change, hiding block on playback and display name
+* Added new replay properties: starting health, enabled playback and use a fake player instead of an actor.
 
 #### Custom models
 
 * Added back custom model code back from Metamorph to Blockbuster
 * Added support for quad faces in OBJ code
+* Added support for C4D exported OBJ files (suggested by Andruxioid)
 * Added support for OBJ material files (must be manually enabled with `providesMtl` model property)
     * Added support for non-standard `map_Kd_linear` instruction which indicates that this texture should be linearly interpolated
+    * Added mipmap support for material textures
+    * Added special NBT tag which allows specifying custom texture for given material
 * Added `shading` limb property which allow to disable default MC shading
 * Added `lighting` limb property which allow to disable lightmap shading (glow in the dark)
-* Added `is3D` limb property which allows to make the limb look extruded as seen in MPM/CNPCs mods (thanks to snifferish)
+* Added `slot` limb property which allows to assign an armor slot to be coated by the armor model
+* Added `is3D` limb property which allows to make the limb look extruded as seen in MPM/CNPCs mods (suggested by snifferish)
 * Added `scaleGui` model property which allows to set scale of the model within GUI
-* Added feature to blacklist models by simply renaming model folder with `__`
+* Added `skins` model property which allows the model to specify an additional model from which it can reference its skins, along its own skins (suggested by Andruxioid)
+* Added a feature to blacklist a model by simply adding `__` to model's folder name
+* Improved auto-load OBJ feature which allows generating limbs out of objects found within OBJ file
 * Optimized model reloading code which reloads models only if model files has changed
 
 #### Commands 
@@ -46,11 +65,17 @@ Blockbuster's change log.
 * Added `[force]` argument to `/model reload` command which allows to force reload models, and also `/model reload` now reloads models on the client too
 * Fixed and slightly improved `/model export` command
 
+#### Damage control
+
+* Restore tile entities which were removed during damage control session
+* Remove entities which were created during damage control session
+
 #### Model block
 
-* Added a feture to render model blocks in inventory/as held items (1.12.2 build feature only)
-* Added model block culling workaround (which allows rendering model block always, no matter whether the chunk is culled or not)
-* Added rotation order, uniform slider scale and item stacks configuration to model block
+* Added a feature to render model blocks in inventory/as held items (1.12.2 feature only)
+* Added global rendering of model blocks
+* Added rotation order, uniform slider scale, optional entity-like shadow (suggested by _TroloTroll_) and item stacks configuration to model block
+* Fixed model block connecting to nearby fences (reported by _TroloTroll_)
 * Removed destruction particles
 
 #### Recording
