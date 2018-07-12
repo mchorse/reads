@@ -4,6 +4,8 @@ Blockbuster's change log.
 
 ## Version 1.5
 
+...
+
 **Compatible** with Metamorph `1.1.6` and Aperture `1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
 #### General
@@ -11,6 +13,7 @@ Blockbuster's change log.
 * Added support for tile entities and entities to damage control
 * Added custom morph preservation, if the model wasn't found, it will still create a morph but without a model
 * Fixed another dedicated server crashes (thanks to AzureZhen)
+* Fixed dedicated server not persisting morph information (due not loaded custom morphs)
 * Fixed model editor purging the state when closing it
 
 #### Director block
@@ -28,7 +31,7 @@ Blockbuster's change log.
 * Added `is3D` limb property which allows to make the limb look extruded as seen in MPM/CNPCs mods (thanks to snifferish)
 * Added `scaleGui` model property which allows to set scale of the model within GUI
 * Added feature to blacklist models by simply renaming model folder with `__`
-* Optimized model reloading code which reloads models only if files has changed
+* Optimized model reloading code which reloads models only if model files has changed
 
 #### Commands 
 
@@ -37,20 +40,23 @@ Blockbuster's change log.
     * `/record origin` – allows to change the initial position and rotation around that point based on player's position or given coordinates (thanks to Olrik&Flynn)
     * `/record dupe` – allows to duplicate a player recording (thanks to Agirres)
     * `/record prolong` – allows to add delays before and after the actual playback of the player recording content starts
-    * `/record tp` – allows to tp to given player recording at given tick
-    * `/record clean` – allows to clean/set frame property within given range
+    * `/record tp` – allows to tp to given player recording at given tick (thanks to Olrik&Flynn)
+    * `/record clean` – allows to clean/set frame property within given range (thanks to Olrik&Flynn)
 * Added `[path]` argument to `/model clear` command which allows to clear out only skins for specific model
 * Added `[force]` argument to `/model reload` command which allows to force reload models, and also `/model reload` now reloads models on the client too
 * Fixed and slightly improved `/model export` command
 
 #### Model block
 
-* Added model block culling workaround (which allows rendering model block always, no matter)
+* Added a feture to render model blocks in inventory/as held items (1.12.2 build feature only)
+* Added model block culling workaround (which allows rendering model block always, no matter whether the chunk is culled or not)
 * Added rotation order, uniform slider scale and item stacks configuration to model block
 * Removed destruction particles
 
 #### Recording
 
+* Fixed item use actions not taking in account of actor's held items
+* Fixed items disappear from actor's hand when executing some item action
 * Switched from item ID to `ItemStack` equality for item tracking
 
 ## Version 1.4.10 (model block)
