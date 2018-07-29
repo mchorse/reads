@@ -8,6 +8,8 @@ Blockbuster `1.5` is a massive update which improves almost every aspect of the 
 
 **Compatible** with Metamorph `1.1.6` and Aperture `1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
+<?php echo youtube('g5zrqiI_Udk', $domain) ?> 
+
 #### General
 
 * Added green block which helps setting up a green screen

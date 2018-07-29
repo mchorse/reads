@@ -15,6 +15,11 @@ Recording and playback is based on, and rewritten from scratch, Mocap mod by [Ec
 [mod]254152-blockbuster[/mod]
 <?php endif ?> 
 
+## FAQ
+
+**Q: Model block is invisible when I hold it in the hand. How to fix it? (1.12.2)**  
+A: Looks like you're using Optifine D1 or below. Update Optifine to D2 or higher.
+
 ## Features
 
 Blockbuster mod provides you with lots of features to make cool machinimas/roleplay series:
@@ -37,7 +42,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas/rolep
 
 Feature videos for 1.4. This playlist shows how to use the mod features. Almost every update comes with a change log video which show out new features.
 
-<?php echo youtube('r3BpwMBDxwk?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
+<?php echo youtube('g5zrqiI_Udk?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
 There's also a video that shows how to create a simple machinima using Blockbuster mod. This video shows basics of director block, how to attach actors to director block, and how to setup cameras:
 
