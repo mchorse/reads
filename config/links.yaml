@@ -40,6 +40,14 @@ blockbuster:
     adfly: http://adf.ly/15268913/blockbuster-curseforge
     wiki: https://github.com/mchorse/blockbuster/wiki
 
+commander:
+    title: Commander
+
+    pmc: ""
+    mcforum: ""
+    curse: https://minecraft.curseforge.com/projects/commander
+    github: https://github.com/mchorse/commander
+
 metamorph:
     title: Metamorph
     
