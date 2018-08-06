@@ -43,8 +43,13 @@ blockbuster:
 commander:
     title: Commander
 
-    pmc: ""
-    mcforum: ""
+    # Brand images
+    banner: https://i.imgur.com/IFxwMOd.png
+    cover: https://i.imgur.com/rzHbVzC.png
+
+    # Mod pages
+    pmc: http://www.planetminecraft.com/mod/blockbuster-machinima-mod/
+    mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2700216-blockbuster-machinima-studio-mod
     curse: https://minecraft.curseforge.com/projects/commander
     github: https://github.com/mchorse/commander
 
