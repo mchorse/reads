@@ -17,7 +17,7 @@ Heavily inspired by iChun's Morph mod and zacuke's Shape Shifter Z mod, and work
 **Q: My screen goes up and down. How to fix?**  
 A: Most likely you installed MorePlayerModels mod alongside Metamorph. To fix that, either go to `Mod Options > Metamorph > General` and enable `Disable POV` option, or disable POV option in MPM's config and restart the game.
 
-<?php template('install', $__data__) ?> 
+<?php template('install', array_merge($__data__, ['dependencies' => ['mclib']])) ?> 
 
 ## Videos
 

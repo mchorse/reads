@@ -2,6 +2,83 @@
 
 Blockbuster's change log.
 
+## Version 1.5.3
+
+This patch update is quite massive in comparison to two previous patches. This update adds body part system, 
+
+**Compatible** with McLib `1.0`, Metamorph `1.1.7` and Aperture `1.1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+* Added `mclib` library mod as a dependency
+* Added body part system to Blockbuster custom model system, which allows adding sub models on a model
+* Added custom model and image morph editors
+* Added **Image morph** which simply shows an image
+* Added `Wheel` and `Wing` animation checkboxes to model editor
+* Added **chat action prefix** config option
+* Added `/model export_obj <model> [pose]` subcommand which allows to export Blockbuster custom models into OBJ
+* Added `/model convert <fred|steve> <skin>` which allows converting `64x64` skins into `64x32` and vice versa
+* Added `/spectate <target>` command
+* Added `map_Kd_path` instruction to MTL parser which allows to specify default texture for the material
+* Added support of elytra layer to the slot mechanism
+* Added a button to rename replay Recording ID prefixes in director block
+* Added a button to copy pose properties from another pose and a button to duplicate a limb in model editor
+* Added blending to default cubic limbs in custom model, which allows using semi-transparent skins
+* Added URL support to resource locations
+* Added a keybind which allows toggle playback of currently edited director block in dashboard GUI
+* Added support for recording editor within camera editor
+* Fixed crash and disabled ability to parent limb to itself in the model editor (reported by El_Redstoniano)
+* Fixed crash caused by malformed model morph with no model (reported by KazerLight)
+* Fixed crash caused by model manager releasing memory on the integrated server
+* Fixed crash with empty slot (reported by Qsycho)
+* Fixed crash with item playback and body actors (reported by Olrik&Flynn)
+* Fixed issue with bow animation not recognizing children limbs (reported by MineLol and ZeNoob)
+* Fixed morphs not appearing correctly when scrubbing through in camera editor (reported by GroupM)
+* Removed custom model morph builder
+* Removed the mob model export button from the main menu model editor (reported by NlL5)
+* Updated **Chinese** translation strings (thanks to ycwei982)
+
+## Version 1.5.2
+
+This patch update adds more colored blocks for chroma keying and fixes lots of things (including pose editor that I broke in `1.5.1`).
+
+* Added more colored blocks for green screen block
+* Added button in director block GUI to update player data (used by fake players option)
+* Added display titles instead of action IDs in player recording editor GUI
+* Added `active_hands`, `fall_distance`, `sprinting` and `sneaking` properties to `/record clean`
+* Added `/model texture <location> [linear] [mipmap]` command
+* Fixed pose editor which was broken in `1.5.1` (whoops, my bad)
+* Fixed some cascading transformation issues custom head blocks, held items and model blocks rendering
+* Fixed issue with no-material OBJ part not having selected texture of the model
+* Fixed crash related to clicking on an empty cell when dragging an action (reported by Chunk7)
+* Fixed some syncing issues when duplicating a replay in director block GUI (enabled, fake player and health fields)
+* Fixed constant swiping in bed as fake players
+* Fixed resetting of action list in player recording editor
+* Fixed crash with my commands having client side code, `I18n` specifically (reported by LatvianModder)
+* Optimized 3D layers to avoid creating empty display lists when there are no cells 
+* Renamed **Green block** to **Chroma block**
+* Rewritten action system to use a registry
+
+## Version 1.5.1
+
+This patch update fixes minor bugs introduced in `1.5`, as well as fixing some of the older bugs. Also, this patch contains a little surprise for `1.10.2` and `1.11.2`, allowing them enjoy `1.12.2` exclusive item model feature introduced in `1.5`.
+
+**Compatible** with Metamorph `1.1.6` and Aperture `1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+* Added item model rendering from `1.12.2` to `1.11.2` and `1.10.2` builds
+* Added a procedure to clean up GL resources after models are getting removed
+* Fixed NPE in `ClientHandlerActorPause` (reported by KazerLight)
+* Fixed `ResourceLocation` to `TextureLocation` in 1.11.2+ branches (reported by AzureZhen)
+* Fixed issues with mixed MTL and cubic limbs
+* Fixed last edited action not saved when switching between files
+* Fixed `blockbuster.gui.record_editor.actions.equip.leggings`
+* Fixed issue with riding an actor
+* Fixed shadow configuration option doesn't get saved
+* Fixed add limb with same name bug (reported by \_TroloTroll\_)
+* Made pose editor clone a morph into selected morph slot (instead of modifying current)
+* Made `invert` property use Z axis instead of Y for yaw when `looking` is enabled
+* Made playback button and confirm break director block GUIs not pause the game
+* Made `null` director block and model block if they aren't accessible in the world
+* Made the model rebuild on `holding` button click
+
 ## Version 1.5 (GUIs and custom models)
 
 Blockbuster `1.5` is a massive update which improves almost every aspect of the mod. Main features of `1.5` are: improved support for OBJ, revamped GUIs, improved damage control and green screen features.

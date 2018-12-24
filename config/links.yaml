@@ -53,6 +53,12 @@ commander:
     curse: https://minecraft.curseforge.com/projects/commander
     github: https://github.com/mchorse/commander
 
+mclib:
+    title: McLib
+
+    curse: https://minecraft.curseforge.com/projects/mchorses-mclib
+    github: https://github.com/mchorse/mclib
+
 metamorph:
     title: Metamorph
     

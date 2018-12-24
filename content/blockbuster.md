@@ -34,7 +34,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas/rolep
 * **[Minema](<?php echo $links['minema'] ?>) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to videos with a press of a button.
 * **Green screen features** – Blockbuster adds glowing green blocks without any shading and an option to turn the sky fully green which makes it easier creating green screens for post processing of your machinimas. 
 
-<?php template('install', array_merge($__data__, ['dependencies' => ['metamorph']])) ?> 
+<?php template('install', array_merge($__data__, ['dependencies' => ['mclib', 'metamorph']])) ?> 
 
 ## Videos
 

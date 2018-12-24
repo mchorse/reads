@@ -18,8 +18,10 @@
     * Look fixture – locks the camera at given position, and looks at given entity (using entity selector)
     * Follow fixture – locks the camera relatively to the given entity (kind of like GoPro but fixed)
     * Circular fixture – circulate around the center point and facing at it
+    * Keyframe fixture – allows you create a camera path based on keyframes
 * **More camera flexibility with camera modifiers**. Camera modifiers are modular blocks which post-process camera fixture's output. With these modifiers, you can add camera shake, apply math equation, make a GoPro-like behavior, look at some entity while traveling a path, and much more combined. See [wiki](<?php echo $links['aperture']['wiki'] ?>) for more information.
 * **Provides a smooth camera** as a Minema-friendly alternative of vanilla cinematic camera.
+* **Compatible with [Minema](<?php echo $links['minema'] ?>)**, if want to record smooth videos on your Potato PC, install [Minema](<?php echo $links['minema'] ?>) mod and record smooth videos!
 
 <?php if ($domain === \mchorse\MCF): ?> 
 [mod]271561-aperture[/mod]
@@ -29,7 +31,7 @@
 
 This playlist contains a list of videos about Aperture's updates and tutorials.
 
-<?php echo youtube('dKmurdnlj1A?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
+<?php echo youtube('fT7QeCqKMyU?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
 
 <?php template('install', $__data__) ?> 
 
