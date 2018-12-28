@@ -4,9 +4,11 @@ Blockbuster's change log.
 
 ## Version 1.5.3
 
-This patch update is quite massive in comparison to two previous patches. This update adds body part system, 
+This patch update is quite massive in comparison to two previous patches. This update adds body part system, image morphs, a new Aperture integration, URL textures, few miscellaneous tweaks and lots of bug/crash fixes.
 
-**Compatible** with McLib `1.0`, Metamorph `1.1.7` and Aperture `1.1.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+**Compatible** with McLib `1.0`, Metamorph `1.1.7` and Aperture `1.2`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+<?php echo youtube('sWlh0LUvvMc', $domain) ?> 
 
 * Added `mclib` library mod as a dependency
 * Added body part system to Blockbuster custom model system, which allows adding sub models on a model
@@ -17,24 +19,27 @@ This patch update is quite massive in comparison to two previous patches. This u
 * Added `/model export_obj <model> [pose]` subcommand which allows to export Blockbuster custom models into OBJ
 * Added `/model convert <fred|steve> <skin>` which allows converting `64x64` skins into `64x32` and vice versa
 * Added `/spectate <target>` command
-* Added `map_Kd_path` instruction to MTL parser which allows to specify default texture for the material
+* Added `map_Kd_path` instruction to MTL parser which allows to specify default texture for the material (suggested by AzureZhen)
+* Added `mounted` property to `/record clean`
 * Added support of elytra layer to the slot mechanism
 * Added a button to rename replay Recording ID prefixes in director block
 * Added a button to copy pose properties from another pose and a button to duplicate a limb in model editor
 * Added blending to default cubic limbs in custom model, which allows using semi-transparent skins
 * Added URL support to resource locations
-* Added a keybind which allows toggle playback of currently edited director block in dashboard GUI
+* Added a keybind which allows toggle playback of currently edited director block in dashboard GUI (suggested by Olrik&Flynn)
 * Added support for recording editor within camera editor
 * Fixed crash and disabled ability to parent limb to itself in the model editor (reported by El_Redstoniano)
 * Fixed crash caused by malformed model morph with no model (reported by KazerLight)
-* Fixed crash caused by model manager releasing memory on the integrated server
+* Fixed crash caused by model manager releasing memory on the integrated server (GL context on wrong thread)
 * Fixed crash with empty slot (reported by Qsycho)
 * Fixed crash with item playback and body actors (reported by Olrik&Flynn)
 * Fixed issue with bow animation not recognizing children limbs (reported by MineLol and ZeNoob)
 * Fixed morphs not appearing correctly when scrubbing through in camera editor (reported by GroupM)
+* Fixed an issue with 3D extruded limbs and normals (reported by ItzCactus)
 * Removed custom model morph builder
 * Removed the mob model export button from the main menu model editor (reported by NlL5)
 * Updated **Chinese** translation strings (thanks to ycwei982)
+* Updated **Russian** translation strings (thanks to Andruxioid)
 
 ## Version 1.5.2
 

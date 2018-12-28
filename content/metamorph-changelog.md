@@ -2,6 +2,8 @@
 
 ## Metamorph 1.1.7
 
+This is a small patch update which is mostly oriented toward Blockbuster's compatibility.
+
 * Added `mclib` library mod as a dependency
 * Added morph merging API
 * Added custom payload listener (now plugins are able to modify of the players via custom payload packets)
