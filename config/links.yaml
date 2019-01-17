@@ -53,6 +53,17 @@ commander:
     curse: https://minecraft.curseforge.com/projects/commander
     github: https://github.com/mchorse/commander
 
+emoticons: 
+    title: Emoticons
+    
+    # Brand images
+    banner: https://i.imgur.com/do30WtA.png
+    cover: https://i.imgur.com/vih4m0S.png
+    
+    # PMC
+    pmc: https://www.planetminecraft.com/mod/emoticons-4212245/
+    curse: https://minecraft.curseforge.com/projects/emoticons
+
 mclib:
     title: McLib
 

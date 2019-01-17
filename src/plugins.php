@@ -17,7 +17,7 @@ use Gajus\Dindent\Indenter;
  */
 function domains()
 {
-    return [PMC, MCF, CF, GH];
+    return [PMC, CF, GH];
 }
 
 /**
