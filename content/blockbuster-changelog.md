@@ -36,7 +36,7 @@ This update adds three new types of special Blockbuster exclusive morphs, in add
 
 #### Aperture integration
 
-* Changed the player recording list in camera editor to not fully 
+* Changed the player recording list in camera editor to not fully overlay the player recording editor
 * Fixed crash camera editor initiation (reported by ycwei982 and zoombie)
 * Fixed packets in Aperture's integration which kicks players (found by FairFox)
 * Fixed Play and Load camera mode doesn't work on dedicated server (reported by Olrik&Flynn)
