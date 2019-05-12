@@ -30,7 +30,7 @@
 
 This playlist contains a list of videos about Aperture's updates and tutorials.
 
-<?php echo youtube('fT7QeCqKMyU?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
+<?php echo youtube('_vfZYtiRfRs?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
 
 <?php template('install', array_merge($__data__, ['dependencies' => ['mclib']])) ?> 
 
