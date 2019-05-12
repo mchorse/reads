@@ -8,6 +8,8 @@ This big massive update probably isn't as big as `1.5`, however, it saturated wi
 
 This update adds three new types of special Blockbuster exclusive morphs, in addition to `image` morph: Sequencer, Record and Structure morphs. It also adds another several major features: multiskin, improved texture picker, custom model smooth shading, hide all director blocks (if hide on playback is enabled) upon playback, item slots support in body parts, several new image and custom model morph properties and dozens of bug fixes!
 
+**Compatible** with McLib `1.0.1`, Metamorph `1.1.8` and Aperture `1.3`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
 #### General
 
 * Added following config options:
@@ -89,7 +91,7 @@ This update adds three new types of special Blockbuster exclusive morphs, in add
 
 This patch update is quite massive in comparison to two previous patches. This update adds body part system, image morphs, a new Aperture integration, URL textures, few miscellaneous tweaks and lots of bug/crash fixes.
 
-**Compatible** with McLib `1.0`, Metamorph `1.1.7` and Aperture `1.2`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+**Compatible** with McLib `1.0`, Metamorph `1.1.7` and Aperture `1.2`. It doesn't mean that future versions of McLib, Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
 <?php echo youtube('sWlh0LUvvMc', $domain) ?> 
 

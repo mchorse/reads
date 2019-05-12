@@ -6,6 +6,8 @@ Aperture's change log.
 
 This is a massive update which adds a lot of advanced camera features which would make new camera moves possible. Beside that, many bugs were fixed, and several features of camera editor were greatly enhanced!
 
+**Compatible** with McLib `1.0.1`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
+
 <?php echo youtube('_vfZYtiRfRs', $domain) ?> 
 
 * Added zooming and scrolling to time line bar

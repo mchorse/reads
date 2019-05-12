@@ -4,6 +4,8 @@
 
 This is a small patch update which is mostly oriented toward Blockbuster's compatibility, but also has some internal changes and few bug fixes.
 
+**Compatible** with McLib `1.0.1`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
+
 * Added morph sounds (implemented thanks to asanetargoss)
 * Added item stack support to body part system
 * Added morph editor panel API based on McLib's panel base GUI
@@ -13,6 +15,8 @@ This is a small patch update which is mostly oriented toward Blockbuster's compa
 ## Metamorph 1.1.7
 
 This is a small patch update which is mostly oriented toward Blockbuster's compatibility.
+
+**Compatible** with McLib `1.0`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
 
 * Added `mclib` library mod as a dependency
 * Added morph merging API
