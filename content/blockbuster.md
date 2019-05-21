@@ -37,6 +37,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas/rolep
     * **Record morph** – a morph that allows to playback a player recording within the morph itself (useful with model block or body part system).
     * **Structure morph** – a morph that allows to morph into a structure saved with structure block.
 * **Green screen features** – Blockbuster adds glowing green blocks without any shading and an option to turn the sky fully green which makes it easier creating green screens for post processing of your machinimas. 
+* **Animated GIF support** – now you can put reaction and meme GIFs onto Blockbuster models and just as images. Credit goes to [MrCrayfish's furniture mod](https://github.com/MrCrayfish/MrCrayfishFurnitureMod) and [DhyanB](https://github.com/DhyanB/Open-Imaging/blob/master/src/main/java/at/dhyan/open_imaging/GifDecoder.java).
 * **[Minema](<?php echo $links['minema'] ?>) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to videos with a press of a button.
 * **Speaks multiple languages** – besides English, Blockbuster is also translated into Russian and Chinese thanks to [Andruxioid](https://www.youtube.com/channel/UCnHOceBjwMyqCR5oYOoNqhQ) and [ycwei982](https://www.youtube.com/channel/UCfUDMSGlXUblXimkvNl_7Ww), respectively.
 
@@ -48,7 +49,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas/rolep
 
 This is change logs playlist. Almost every update (for exception of patches with bug fixes and minor features) comes with a change log video which showcases new features, and briefly shows how to use them.
 
-<?php echo youtube('sWlh0LUvvMc?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
+<?php echo youtube('wpfiLTrzTLs?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
 Here is also a playlist of tutorials directly or indirectly related to Blockbuster/Minecraft machinima creation. Make sure to check it out, as it consists out of tutorials such as basics of Blockbuster mod, how to import OBJ models, etc.
 

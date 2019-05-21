@@ -8,7 +8,9 @@ This big massive update probably isn't as big as `1.5`, however, it saturated wi
 
 This update adds three new types of special Blockbuster exclusive morphs, in addition to `image` morph: Sequencer, Record and Structure morphs. It also adds another several major features: multiskin, improved texture picker, custom model smooth shading, hide all director blocks (if hide on playback is enabled) upon playback, item slots support in body parts, several new image and custom model morph properties and dozens of bug fixes!
 
-**Compatible** with McLib `1.0.1`, Metamorph `1.1.8` and Aperture `1.3`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+**Compatible** with McLib `1.0.1`, Metamorph `1.1.8` and Aperture `1.3.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+<?php echo youtube('wpfiLTrzTLs', $domain) ?> 
 
 #### General
 
@@ -17,8 +19,9 @@ This update adds three new types of special Blockbuster exclusive morphs, in add
     * Added `Actors > Always render` which makes body actor entities render always no matter hitbox size (suggested by Andruxioid)
 * Added multi-skin feature to texture picker which allows constructing a single texture out of multiple textures
 * Added texture manager panel where you can explore textures loaded by Minecraft
-* Added animated GIF support
+* Added animated GIF support (with reference work from [MrCrayfish's furniture mod](https://github.com/MrCrayfish/MrCrayfishFurnitureMod) and [DhyanB](https://github.com/DhyanB/Open-Imaging/blob/master/src/main/java/at/dhyan/open_imaging/GifDecoder.java))
 * Added **BB gun** item, which allows to setup a firearm-like weapon which can shoot projectiles with lots of different configuration options
+* Add hierarchical model loading and sorting in `config/blockbuster/models` (suggested by Jubb)
 * Changed the location of ticks in player recording editor grid
 * Changed the texture picker to capable of browsing folders
 * Fixed crash related to body actors using playback button (reported by ChrissyPixy)
