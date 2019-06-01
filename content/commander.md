@@ -10,7 +10,7 @@ I don't recommend using this mod on a server, since it's very easy to get the se
 [mod]299411-commander[/mod]
 <?php endif ?> 
 
-<?php template('install', $__data__) ?> 
+<?php template('install', array_merge($__data__, ['dependencies' => ['mclib']])) ?> 
 
 ## How to use
 
@@ -51,7 +51,11 @@ Besides supporting variables, you can also use mathematical expressions within `
 
     /forin 0 9 summon Creeper ~@{cos(i/i_c*PI*2)*10} ~ ~@{sin(i/i_c*PI*2)*10}
 
-See [this page](https://github.com/mchorse/aperture/wiki/Math-Expressions) for more information.
+See [this page](https://github.com/mchorse/aperture/wiki/Math-Expressions) for more information. 
+
+And finally, Commander mod supports multiple commands executed in one line by separating commands using `||` symbols:
+
+    /particle explode ~ ~ ~ 0.1 0.1 0.1 0.1 10 || setblock ~ ~ ~ minecraft:stone
 
 ## Video
 
