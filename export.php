@@ -21,8 +21,10 @@ $md = '\mchorse\process';
 $extension = crystal\edge\remap('\mchorse\remap');
 
 /* Logger and constants */
-const SRC = './content/';
-const DEST = './build/';
+const SRC = __DIR__ . DIRECTORY_SEPARATOR . 'content';
+const DEST = __DIR__ . DIRECTORY_SEPARATOR . 'build';
+
+echo SRC;
 
 $logger = new Logger();
 
