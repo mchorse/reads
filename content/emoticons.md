@@ -3,7 +3,7 @@
 **Emoticons** is a aesthetic Minecraft mod which adds custom player animations (which supports bends) and emote system. At the moment of release, there are **38** emotes which can be triggered by the player using key binds which comes with the mod. Beside that, that's all what the mod does.
 Check out this playlist for more showcase of the mod.
 
-<?php echo youtube('3UVXBNETquk?list=PL6UPd2Tj65nFUAUardpcX1sGXNEo21ZIQ', $domain) ?> 
+<?php echo youtube('OmruW-fz7ro?list=PL6UPd2Tj65nFUAUardpcX1sGXNEo21ZIQ', $domain) ?> 
 
 ## F.A.Q.
 
@@ -23,13 +23,16 @@ A: No, I won't add support with any other mods. This mod was made for fun, I don
 A: No, you can't.
 
 **Q: Will you upgrade mod to 1.7.10, 1.8 or 1.9?**  
-A: No, those versions are not supported by Forge, and generally dead.
+A: No, those versions are not supported by Forge, and generally dead (not player-wise, modder-wise).
 
 **Q: Will you upgrade mod to 1.10.2 or 1.11.2?**  
 A: Only if there will be a big demand.
 
 **Q: Will you upgrade mod to 1.13 or up?**  
-A: Most likely once Forge for 1.13 or above will come up.
+A: No, due to drastic changes to Minecraft and Forge code, I can't afford spending months updating my mods to up-to-date versions. However, there is [Badlion Client](http://bit.ly/2Z2zBbw) which supports emotes on 1.7.10, 1.8.9, 1.12.2 and multiple branches of 1.14.
+
+**Q: I've seen emotes exactly like yours in Badlion Client. Do you know about it?**  
+A: Yes, I know, in fact I'm currently a developer for Badlion Client, so yeah, I helped to integrated the client side aspect of the mod into the client.
 
 <?php template('install', $__data__) ?> 
 
