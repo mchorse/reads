@@ -5,6 +5,8 @@ Check out this playlist for more showcase of the mod.
 
 <?php echo youtube('OmruW-fz7ro?list=PL6UPd2Tj65nFUAUardpcX1sGXNEo21ZIQ', $domain) ?> 
 
+<?php template('install', array_merge($__data__, ['dependencies' => [['mclib', '1.0.3']]])) ?> 
+
 ## F.A.Q.
 
 **Q: Can you add custom music to emotes?**  
