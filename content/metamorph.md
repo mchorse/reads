@@ -1,3 +1,5 @@
+**ATTENTION**: This mod is in non-gameplay maintenance mode, meaning that I'm **not going** to work on gameplay features **nor** I'm accepting suggestions. Check out [Changeling](https://www.curseforge.com/minecraft/mc-mods/changeling) mod maintained by asanetargoss, which is a gameplay-wise successor.
+
 <?php template('banner', $__data__) ?> 
 
 <?php template('links', $__data__) ?> 

@@ -53,17 +53,17 @@ This is change logs playlist. Almost every update (for exception of patches with
 
 Here is also a playlist of tutorials directly or indirectly related to Blockbuster/Minecraft machinima creation. Make sure to check it out, as it consists out of tutorials such as basics of Blockbuster mod, how to import OBJ models, etc.
 
-<?php echo youtube('PFS2yjXnIGI?list=PL6UPd2Tj65nE0Pmf6GD2Fk3aRGWTGKlZk', $domain) ?> 
+<?php echo youtube('vo8fquY-TUM?list=PL6UPd2Tj65nE0Pmf6GD2Fk3aRGWTGKlZk', $domain) ?> 
 
 ### Blockbuster machinimas
 
 This playlist consists out of videos that I've created a bunch of machinimas during Blockbuster mod testings and just when I felt like. Feel free to check out my crazy videos.
 
-<?php echo youtube('gqMh_R0FCAc?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
+<?php echo youtube('NJFaEepphzw?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
 
-Here is also a playlist of 200+ community made videos with Blockbuster mod. There are certainly much more videos made with Blockbuster, but these are the ones that I'm aware of:
+Here is also a playlist of 300+ community made videos with Blockbuster mod:
 
-<?php echo youtube('ALodBKJ7mZY?list=PL6UPd2Tj65nEE8kLKBxYYZLAjruJkO0r_', $domain) ?> 
+<?php echo youtube('Ge_IsBloO1o?list=PL6UPd2Tj65nEE8kLKBxYYZLAjruJkO0r_', $domain) ?> 
 
 <?php template('terms', $__data__) ?> 
 
