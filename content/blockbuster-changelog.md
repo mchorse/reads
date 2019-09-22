@@ -6,13 +6,17 @@ Blockbuster's change log.
 
 This is a small update which introduces animated poses, a couple of neat config options here and thered, some quality of life tweaks, and plenty of crash/bug fixes.
 
+**Compatible** with McLib `1.0.3`, Metamorph `1.1.9` and Aperture `1.3.2`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
 * Added random order option for `sequencer` morph
 * Added loop option for `record` morph
 * Added "Launch up the player" option for BB gun
 * Added a config option to disable model block rendering
 * Added animated poses feature for custom model morphs
 * Added `empty` default model
-* Added a keybind to record selected
+* Added a keybind to record currently selected replay in director block menu
+* Added saving of 5 last versions of player recording
+* Added default keys for record and play/pause director block keybinds (right alt and right control respectively)
 * Changed limbs that have `0` opacity to not render at all
 * Changed damage/attack action not affecting character's health in camera editor preview mode (suggested by Ray from Slightly Insulted)
 * Changed director block GUI to prevent selecting first replay every time
@@ -27,8 +31,6 @@ This is a small update which introduces animated poses, a couple of neat config 
 * Fixed index out of bounds exception when duping in director block with no replays (reported by Afegor)
 * Fixed a crash related to actors using playback button, which was reported by Olrik&Flynn, but apparently I didn't fix it (reported by Serene Studios)
 * Fixed minor rendering issue with limb highlight with body part being the same model (reported by Andruxioid)
-
-**Compatible** with McLib `1.0.3`, Metamorph `1.1.9` and Aperture `1.3.2`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
 ## Version 1.6
 
