@@ -8,6 +8,8 @@ This is a small update which introduces animated poses, a couple of neat config 
 
 **Compatible** with McLib `1.0.3`, Metamorph `1.1.9` and Aperture `1.3.2`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
+<?php echo youtube('CI0WGNFLV4k', $domain) ?> 
+
 * Added random order option for `sequencer` morph
 * Added loop option for `record` morph
 * Added "Launch up the player" option for BB gun

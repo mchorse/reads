@@ -49,7 +49,7 @@ Blockbuster mod provides you with lots of features to make cool machinimas/rolep
 
 This is change logs playlist. Almost every update (for exception of patches with bug fixes and minor features) comes with a change log video which showcases new features, and briefly shows how to use them.
 
-<?php echo youtube('wpfiLTrzTLs?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
+<?php echo youtube('CI0WGNFLV4k?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
 Here is also a playlist of tutorials directly or indirectly related to Blockbuster/Minecraft machinima creation. Make sure to check it out, as it consists out of tutorials such as basics of Blockbuster mod, how to import OBJ models, etc.
 
