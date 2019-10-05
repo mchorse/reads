@@ -2,6 +2,18 @@
 
 Emoticons's change log.
 
+## Version 0.3.1
+
+This patch update fixes few issues with emote synchronization.
+
+**Compatible** with McLib **1.0.3** and optionally with Blockbuster **1.6** and Metamorph **1.1.8**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Added custom payload channel `Emoticons` (send `<player_username>` to establish connection, and `<player_username> <emote_id>` to send the emote playing)
+* Fixed proper name tag rendering (not just the name but also server side formatting, if there is any)
+* Fixed emote server synchronization not working after player dies or goes to another dimension
+* Fixed /emote commmand not working on the server.
+* Fixed Blockbuster emote action not working with Blockbuster's body actors
+
 ## Version 0.3
 
 This long update took long quite long to get finished, and I don't think I actually got done anything finished, but here we go.
