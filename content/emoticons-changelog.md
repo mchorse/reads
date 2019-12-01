@@ -2,6 +2,16 @@
 
 Emoticons's change log.
 
+## Version 0.3.2
+
+This small patch update provides new emote animations made by [Nazzy](https://www.youtube.com/channel/UCQ2L7O1KDK7ze75dSe1C-yg) and Moris, beside that it also fixes one mod compatibility issue with [PlayerRevive](https://www.curseforge.com/minecraft/mc-mods/playerrevive) mod.
+
+**Compatible** with McLib **1.0.3** and optionally with Blockbuster **1.6** and Metamorph **1.1.8**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Added new non-emote animations (which are made by **Nazzy** and **Moris**)
+* Decresed the file size by doing some internal rewriting and file management
+* Fixed player not lying on the ground when using PlayerRevive mod by **CreativeMD**
+
 ## Version 0.3.1
 
 This patch update fixes few issues with emote synchronization.
