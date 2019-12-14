@@ -2,6 +2,43 @@
 
 Blockbuster's change log.
 
+## Version 1.6.2
+
+This update introduces particle morph, a couple of QoL GUI features, minor visual tweaks and lots of bug fixes.
+
+<?php echo youtube('aToxS732NfE', $domain) ?> 
+
+**Compatible** with McLib `1.0.4`, Metamorph `1.1.10` and Aperture `1.3.3`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+* Added picking limbs by left clicking them while holding Ctrl/Command key in model editor, pose editor or body part menus
+* Added more `/record` sub-commands:
+    * `/record fade <filename> <fade_out>` to cross fade last `<fade_out>` frames with beginning
+    * `/record cut <filename> <before> <after>` cuts out all frames before `<before>` and after `<after>`
+    * `/record restore <filename> <iteration>` allows to restore (by swapping files) player recording with given `<iteration>` version
+* Added model block `Global` and `Enabled` model block options
+* Added an ability to use wings on Z axis (`swiping`)
+* Added `Hold` checkbox in model editor to disable holding item angle correction
+* Added an ability to leash the actor (right click with lead)
+* Added `particle` morph which emites vanilla and morph configured particles
+* Changed `/model convert` to be more flexible
+* Changed `/record prolong` to output the resulted prolongation of the player recording
+* Changed model block Y rotation to be assigned on placing when sneaking (and add a button to orient toward you instead)
+* Changed director and model block F3 rendering to quads instead of lines (suggested by Andruxioid)
+* Changed the recording ID field to disallow using spaces
+* Fix issue with glitching Aperture slider (reported by Andruxioid) which also fixes double clicking events
+* Fix issue with resetting morphs in camera editor (reported by KazerLight)
+* Fix and investigate `3D` feature's missing voxels... (issue was using wrong dimension value, i.e. width instead of depth, for left and right sides) 
+* Fix `3D`'s edge geometry construction to correctly texture map (implement bit flags)
+* Fix BB gun to allow 0 bounces
+* Fix a crash related to discarded director block when it doesn't exist anymore
+* Fix recording ID getting overlapped by morphs (reported by Kanguste)
+* Fix global scale not affecting vanilla entity shadows (reported by Joziah2)
+* Fix entity rotation when entering Aperture (reported by Reunion Studio)
+* Fix desynchronized actors who are not disappearing due to MrCrayfish's furniture (reported by Dracay and LadyMania)
+* Fix crisis of broken action in player recordings and fix NPE with URL skins (reported by Jubb)
+* Fix minor issue with sequencer morph where it skips the first sequence when initializing
+* Fix textures not appearing if they have upper case file extension (reported by Chunk7)
+
 ## Version 1.6.1
 
 This is a small update which introduces animated poses, a couple of neat config options here and thered, some quality of life tweaks, and plenty of crash/bug fixes.
