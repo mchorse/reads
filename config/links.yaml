@@ -5,6 +5,11 @@ reddit: https://www.reddit.com/r/mcpub/
 discord: https://discord.gg/qfxrqUF
 minema: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2790594-minema-unofficial-the-smooth-movie-recorder
 
+# MachinimaHub
+hub: 
+    banner: https://i.imgur.com/jrK0WA2.png
+    invite: https://discord.gg/4YFUmJp
+
 # Human readable titles
 titles:
     pmc: Planet Minecraft page

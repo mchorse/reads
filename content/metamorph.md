@@ -51,12 +51,6 @@ Every *morph* you equip or apply grant you different look, size, and health capa
 
 *Action* is a special ability that is triggered by "action key" (which is `V` by default). Examples: in **Rabbit** *morph*, you'll jump high; in **Creeper** *morph*, you'll explode like a creeper, and so on.
 
-<?php template('terms', $__data__) ?> 
-
-<?php template('media', $__data__) ?> 
-
-<?php template('bugs', $__data__) ?> 
-
 <?php if ($domain === \mchorse\GH): ?>
 ## License
 

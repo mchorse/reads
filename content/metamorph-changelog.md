@@ -2,7 +2,7 @@
 
 ## Metamorph 1.1.10
 
-This is a small patch update with a couple of bug fixes (mainly by asanetargoss).
+This is a tiny patch update with a couple of bug fixes (mainly by asanetargoss).
 
 **Compatible** with McLib `1.0.4`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
 

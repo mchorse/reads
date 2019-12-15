@@ -35,6 +35,13 @@ function youtube($id, $domain)
     }
     else if ($domain === \mchorse\CF)
     {
+        $list = strpos($id, '?list=');
+
+        if ($list !== false)
+        {
+            $id = str_replace($raw_id, 'videoseries', $id);
+        }
+
         return sprintf('<iframe width="560" height="315" src="https://www.youtube.com/embed/%s" frameborder="0" allowfullscreen></iframe>', $id);
     }
     
