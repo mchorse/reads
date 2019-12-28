@@ -54,7 +54,6 @@ commander:
 
     # Mod pages
     pmc: http://www.planetminecraft.com/mod/blockbuster-machinima-mod/
-    mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2700216-blockbuster-machinima-studio-mod
     curse: https://minecraft.curseforge.com/projects/commander
     github: https://github.com/mchorse/commander
 
@@ -86,6 +85,6 @@ metamorph:
     pmc: http://www.planetminecraft.com/mod/metamorph/
     mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2753214-metamorph-morph-into-vanilla-mobs
     curse: https://minecraft.curseforge.com/projects/metamorph
-    github: https://github.com/mchorse/blockbuster
+    github: https://github.com/mchorse/metamorph
     adfly: http://adf.ly/15268913/metamorph-curseforge
     wiki: https://github.com/mchorse/metamorph/wiki
