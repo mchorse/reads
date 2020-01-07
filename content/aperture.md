@@ -28,9 +28,13 @@
 
 ## Videos
 
-This playlist contains a list of videos about Aperture's updates and tutorials.
+This playlist is a **tutorial series**. It should teach you how to use Aperture mod from scratch. It bases of Aperture `1.3.4`. Once you watch these videos and learn how to use it, feel free to watch the change log videos for more information about new features.
 
-<?php echo youtube('5Tnp4z6GWME?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
+<?php echo youtube('_KLU8VnMiCQ?list=PLLnllO8nnzE8MGDb6QzE2kt4-KVC1dRRl', $domain) ?> 
+
+Meanwhile, this playlist contains a list of videos about **Aperture's updates**. These are so-called **change log** videos, which showcase new changes added to Aperture mod.
+
+<?php echo youtube('goooUv_OWIs?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
 
 <?php template('install', array_merge($__data__, ['dependencies' => ['mclib']])) ?> 
 
