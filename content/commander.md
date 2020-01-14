@@ -63,8 +63,6 @@ Here is also a short showcase video of some of the usages of this mod:
 
 <?php echo youtube('R_Nnu-iLj1c', $domain) ?> 
 
-<?php template('terms', $__data__) ?> 
-
 <?php template('media', $__data__) ?> 
 
 <?php template('bugs', $__data__) ?> 

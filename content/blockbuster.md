@@ -73,8 +73,6 @@ Here is also a playlist of 400+ community made videos with Blockbuster mod:
 
 <?php echo youtube('8qSCBRFw9jM?list=PL6UPd2Tj65nEE8kLKBxYYZLAjruJkO0r_', $domain) ?> 
 
-<?php template('terms', $__data__) ?> 
-
 <?php template('media', $__data__) ?> 
 
 <?php template('bugs', $__data__) ?> 

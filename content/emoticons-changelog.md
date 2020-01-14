@@ -2,6 +2,18 @@
 
 Emoticons's change log.
 
+## Version 0.4
+
+This small update that adds 9 different emote and fixes a couple of bugs.
+
+<?php echo youtube('M76ugB8vtaU', $domain) ?> 
+
+**Compatible** with McLib **1.0.4** and optionally with Blockbuster **1.6.2** and Metamorph **1.1.10**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Added 9 new emotes: **Bongo Cat**, **Breathtaking**, **Disgusted**, **Exhausted**, **Punch!**, **Slap**, **Sneeze**, **Threatening** and **Woah**
+* Fixed/improve player animation by fixing bezier function to work correctly
+* Fixed sitting oriented toward one direction with chairs from other mods
+
 ## Version 0.3.2
 
 This small patch update provides new emote animations made by [Nazzy](https://www.youtube.com/channel/UCQ2L7O1KDK7ze75dSe1C-yg) and Moris, beside that it also fixes one mod compatibility issue with [PlayerRevive](https://www.curseforge.com/minecraft/mc-mods/playerrevive) mod.
@@ -25,6 +37,8 @@ This patch update fixes few issues with emote synchronization.
 * Fixed Blockbuster emote action not working with Blockbuster's body actors
 
 ## Version 0.3
+
+<?php echo youtube('OmruW-fz7ro', $domain) ?> 
 
 This long update took long quite long to get finished, and I don't think I actually got done anything finished, but here we go.
 

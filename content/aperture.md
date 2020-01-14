@@ -38,8 +38,6 @@ Meanwhile, this playlist contains a list of videos about **Aperture's updates**.
 
 <?php template('install', array_merge($__data__, ['dependencies' => ['mclib']])) ?> 
 
-<?php template('terms', $__data__) ?> 
-
 <?php template('media', $__data__) ?> 
 
 <?php template('bugs', $__data__) ?> 
