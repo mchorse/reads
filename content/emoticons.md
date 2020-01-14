@@ -3,7 +3,7 @@
 **Emoticons** is a aesthetic Minecraft mod which adds custom player animations (which supports bends) and emote system. At the moment of release, there are **52** emotes which can be triggered by the player using key binds which comes with the mod. Beside that, that's all what the mod does.
 Check out this playlist for more showcase of the mod.
 
-<?php echo youtube('OmruW-fz7ro?list=PL6UPd2Tj65nFUAUardpcX1sGXNEo21ZIQ', $domain) ?> 
+<?php echo youtube('M76ugB8vtaU?list=PL6UPd2Tj65nFUAUardpcX1sGXNEo21ZIQ', $domain) ?> 
 
 <?php template('install', array_merge($__data__, ['dependencies' => [['mclib', '1.0.3']]])) ?> 
 
