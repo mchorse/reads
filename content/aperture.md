@@ -14,7 +14,7 @@
 * **Duration is measured in ticks**. A tick is basically an update in game's logic. Minecraft's logic loop running at 20 ticks per second. Why ticks? They're static, while frames depend on framerate, and can be easily converted into seconds (while not depending on real-time).
 * **Flexible camera setup with multiple camera fixtures within a camera profile**. Other camera mods usually gives you an ability to setup only one path at the time. Aperture allows you to have as much camera paths (and not only) as you need to within same camera profile. There are few types of camera fixtures in Aperture: 
     * Idle fixture – holds camera in given position and angle.
-    * Path fixture – animates the camera through a set of given points using one of the three interpolations: linear, cubic or hermite. Also supports keyframeable velocity control.
+    * Path fixture – animates the camera through a set of given points using one of the three interpolations: linear, cubic or hermite. Also supports keyframeable velocity control and per point durations.
     * Circular fixture – circulate around the center point and facing at it.
     * Keyframe fixture – allows you create a camera behavior based on specified keyframes (which can have different interpolations and easing).
     * Null fixture – a placeholder fixture, which mimics next fixture's first position or previous fixture's last position.
