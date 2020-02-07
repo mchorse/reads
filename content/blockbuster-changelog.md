@@ -6,6 +6,8 @@ Blockbuster's change log.
 
 This update introduces native support for MagicaVoxel (`*.vox`) models, Scenes (remote director blocks which are stored in files and managed in GUI), many new options, a couple of nice tweaks and workflow enhancements and, as always, bug and crash fixes.
 
+<?php echo youtube('4n5p83KAG4k', $domain) ?> 
+
 **Compatible** with McLib `1.0.4`, Metamorph `1.1.10` and Aperture `1.3.5`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
 * Added support to `.vox` models
@@ -29,9 +31,10 @@ This update introduces native support for MagicaVoxel (`*.vox`) models, Scenes (
 * Fixed digging, mining and other stuff actually destroy blocks in case it was too fast
 * Fixed actors disappearing (after their playback finished) in Aperture's preview when playing the camera profile
 * Fixed body parts not completely in sync with `Idle` checkbox (`setRotationAndAngles` issue)
-* Fixed custom and sequencer morphs no transition in between each other
+* Fixed custom model and sequencer morphs no transition in between each other
 * Fixed translucent pixels in textures appear opaque (reported by Chunk7)
 * Fixed `billboard` image morph option not working with body parts correctly
+* Fixed custom model animated poses being not correctly merged when used with looping sequencer (reported by SillySheep)
 
 ## Version 1.6.2
 
