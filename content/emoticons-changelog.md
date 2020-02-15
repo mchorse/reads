@@ -2,6 +2,14 @@
 
 Emoticons's change log.
 
+## Version 0.4.1
+
+This tiny patch update makes Emoticons work with Blockbuster 1.6.4.
+
+**Compatible** with McLib **1.0.4** and optionally with Blockbuster **1.6.4** and Metamorph **1.1.10**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Fixed a crash with Blockbuster 1.6.4
+
 ## Version 0.4
 
 This small update that adds 9 different emote and fixes a couple of bugs.
