@@ -4,7 +4,7 @@ Blockbuster's change log.
 
 ## Version 1.6.5
 
-This is a little update feature two neat features, and mostly bug fixes. A couple of things to note about this update:
+This is a little update features two neat features, and mostly bug fixes. A couple of things to note about this update:
 
 1. MagicaVoxel code was rewritten, and now the new code shows models differently, so if you MagicaVoxel models before in `1.6.3` or `1.6.4`, it will break poses and general position and orientation of these models. You'll have to reconfigure your morphs, **so don't update until you finish current project**.
 2. MorePlayerModels-like models (`alex_3d`, `fred_3d` and `steve_3d`) were added. Please **remove your 3D (`alex_3d`, `fred_3d` and `steve_3d`) models** if you have installed it before.
