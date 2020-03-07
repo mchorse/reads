@@ -2,6 +2,19 @@
 
 Emoticons's change log.
 
+## Version 0.4.2
+
+This update fixes a couple of issues with multiplayer servers ("wallhack" aka F3 skeleton rendering through walls and invisibility potions).
+
+**Compatible** with McLib **1.0.4** and optionally with Blockbuster **1.6.4** and Metamorph **1.1.10**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Added a check box "Fixate movement" for specific bone in pose editor
+* Added new Nazzy's animations (swimming, landing and dying)
+* Fixed model getting rendered when player under invisibility effect
+* Fixed armature being rendered and acting as a wall hack 
+* Fixed animated poses not working with poseless morph
+* Fixed vehicle causing rotation issues (helicopter spinning)
+
 ## Version 0.4.1
 
 This tiny patch update makes Emoticons work with Blockbuster 1.6.4.
