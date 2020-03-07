@@ -2,6 +2,14 @@
 
 Emoticons's change log.
 
+## Version 0.4.3
+
+This hot patch update fixes stupid transparency issue with model when used with Optifine, because Optifine changes blending function smh.
+
+**Compatible** with McLib **1.0.4** and optionally with Blockbuster **1.6.4** and Metamorph **1.1.10**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Fixed semi-transparent model due to Optifine not cleaning up its OpenGL state
+
 ## Version 0.4.2
 
 This update fixes a couple of issues with multiplayer servers ("wallhack" aka F3 skeleton rendering through walls and invisibility potions).
