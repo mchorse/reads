@@ -21,6 +21,8 @@ If you're interested in any aspect of Minecraft machinimas, roleplays or animati
 
 Beside that, MachinimaHub has lots of Blockbuster users, so if you need any help feel free to hop on the server!
 
+<?php template('install', array_merge($__data__, ['dependencies' => ['mclib', 'metamorph']])) ?> 
+
 ## FAQ
 
 **Q: Model block is invisible when I hold it in the hand. How to fix it? (1.12.2)**  
@@ -49,8 +51,6 @@ Blockbuster mod provides you with lots of features to create outstanding machini
 * **Animated GIF support** – now you can put reaction and meme GIFs onto Blockbuster models and just as images. Credit goes to [MrCrayfish's furniture mod](https://github.com/MrCrayfish/MrCrayfishFurnitureMod) and [DhyanB](https://github.com/DhyanB/Open-Imaging/blob/master/src/main/java/at/dhyan/open_imaging/GifDecoder.java).
 * **[Minema](<?php echo $links['minema'] ?>) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to videos with a press of a button.
 * **Speaks multiple languages** – besides English, Blockbuster is also translated into Russian and Chinese thanks to [Andruxioid](https://www.youtube.com/channel/UCnHOceBjwMyqCR5oYOoNqhQ) and [ycwei982](https://www.youtube.com/channel/UCfUDMSGlXUblXimkvNl_7Ww), respectively.
-
-<?php template('install', array_merge($__data__, ['dependencies' => ['mclib', 'metamorph']])) ?> 
 
 ## Videos
 
