@@ -2,6 +2,16 @@
 
 Emoticons's change log.
 
+## Version 0.5
+
+This update is compatibility update to work correctly with McLib **2.0**, and others.
+
+**Compatible** with McLib **2.0** and optionally with Blockbuster **2.0** and Metamorph **1.2**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Added bone picking by Ctrl + clicking on the blue boxes
+* Fixed to work with newer versions of McHorse's mods
+* Fixed particle morphs from Blockbuster not working correctly from body parts of `emoticons.*` morphs
+
 ## Version 0.4.3
 
 This hot patch update fixes stupid transparency issue with model when used with Optifine, because Optifine changes blending function smh.

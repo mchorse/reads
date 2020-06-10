@@ -1,5 +1,42 @@
 # Metamorph Change Log
 
+## Metamorph 1.2
+
+This big update adds many quality of life features related to management of morphs. Custom user categories, direct editing of acquired, recent morphs category, better editing. Basically after this update management of morphs is a bliss.
+
+**Compatible** with McLib `2.0`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
+
+* Added morph ID remapping mechanism
+* Added entity selectors mechanism 
+* Added config options:
+    * Added a config option to disable first person rendering (suggested by Frtc)
+    * Added a config option to pause morph menus in singleplayer
+* Added new morphs:
+    * Added `item` morph — allows to morph into an item stack
+    * Added `label` morph — allows to morph into text
+* Added more common morph properties:
+    * Added display name option to morphs
+    * Added editing of morph settings to the morph
+    * Added global morph keybinds
+    * Added sorting to body part list
+* Improved creative morph menu management:
+    * Added custom user categories
+    * Added "Recent morphs" morph category
+    * Added an ability to edit and remove acquire morphs
+    * Added block morph editor for easier editing of block morph
+    * Added quick editing in creative morph menu with presets and quick editor tabs
+    * Changed nested morph editing to not create new creative morph editors
+* Added body part system for entity morphs
+* Added copy /morph command button
+* Added keybinds in creative and survival morph menus
+* Added morph rendered instead of flat preview into base morph editors GUI
+* Fixed health getting stuck at the previous morph's health
+* Fixed crash with body part system on the server side
+* Fixed action keybind working in spectator mode (reported by Greyberet)
+* Fixed horse morphs not getting a saddle (reported by Datron)
+* Removed all configuration options from Mod Options (they were moved into McLib's configuration system)
+* Rewritten fully creative and survival morph menus
+
 ## Metamorph 1.1.10
 
 This is a tiny patch update with a couple of bug fixes (mainly by asanetargoss).
