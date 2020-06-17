@@ -12,6 +12,7 @@ This big update features lots of new quality of life features which should help 
 * Added `manual` fixture (suggested by Dyl_Art and Lucatim)
 * Added Minema recording panel
 * Added crosshair option to camera editor (suggested by terbin)
+* Added many tooltips explaining what different option do
 * Changed timeline cursor to stay within the view when camera plays or jump between fixtures
 * Changed start camera profile playback's behavior into toggle playback
 * Changed position of add, dupe, change and remove fixture icon buttons when there is too few space (suggested by Andruxioid)

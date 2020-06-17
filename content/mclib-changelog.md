@@ -12,16 +12,18 @@ This enormous update drastically improves the GUI system that is used in my mods
 * Added Icon API to ease texture coordinate hell
 * Added `GuiUtils.openWebLink(String)`
 * Added `MatrixUtils` class from Blockbuster mod
-* Added mouse rendering from Aperture mod
 * Added `Timer` class to keep mark and keep track of timed operations
 * Added config options:
     * Primary color — sets the default color for all sorts of GUI elements, including selection and active colors
     * Button borders — toggles black borders around button elements
-    * Mouse cursor rendering — toggles mouse cursor rendering
     * Checkbox instead of toggle element — toggles toggle element rendering as a checkbox
     * Model grid — toggles grid rendering instead of a grass block in model renderer
     * GUI scale — allows to change the GUI scale of McLib's GUIs without changing Minecraft's GUI scale
+    * Mouse cursor rendering — toggles mouse cursor rendering (moved from Aperture mod)
+    * Keystrokes rendering — toggles pressed keystrokes rendering
     * Background image and background color — allows to set a custom image background or background color
+    * Scrollbars options — allow you to customize appearance of scrollbar
+    * Max. packet size — vanilla tweak option which allows to increase the limit of Minecraft's network messages
 * Fixed `Interpolations.envelope` going below `0` when outside of envelope's range
 * Fixed texture picker messing up the resource location in the root
 * Improved math expression parser:
@@ -57,11 +59,11 @@ This enormous update drastically improves the GUI system that is used in my mods
     * Added support for horizontal scroll in scroll element
     * Added context menu API
     * Added keybind support for individual GUI elements
-        * Added `F9` keybind to any GUI screen to view all available keybinds 
+        * Added `F9` keybind to any GUI screen to view all available keybinds
     * Added color picker element
     * Changed track pad element:
         * Added increment buttons to incremeent by one
-        * Changed dragging from vertical distance to horizontal
+        * Changed dragging from vertical distance to horizontal distance
         * Changed from `float` to `double` for better precision
         * Removed label option
     * Changed modal elements to remove themselves from parent instead of unsetting the delegate
@@ -81,8 +83,6 @@ This enormous update drastically improves the GUI system that is used in my mods
         * Added picking code from Blockbuster
         * Changed the navigation within to orbit style
         * Fixed `update` method to be called correctly regardless of framerate
-
-<!-- Last time was May 29th -->
 
 ## Version 1.0.4
 
