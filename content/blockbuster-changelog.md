@@ -19,10 +19,12 @@ Blockbuster's change log.
 * Added dim chroma blocks which don't emit lighting
 * Added "Local rotaion" option to `particle` morph (suggested by Centryfuga)
 * Added `/record fill <filename> <count> [tick]` command which allows to insert placeholder `<count>` frames at given `[tick]`
+* Added keying option to `image` and custom model morphs
 * Changed shadow option to be enabled by default, and global option to be disabled by default in model block
 * Changed BB gun firing to allow to fire BB guns in both hands (suggested by SergiDPlay)
 * Changed **Configure BB gun keybind**'s default key to `End` key
 * Changed layout of items in Blockbuster's creative tab
+* Changed playback of GIF textures based on entity's tick counter (suggested by Jetpack Rescue)
 * Improved GUI screens:
 	* Added previews to `sequencer` morph editor GUI (suggested by Jetpack Rescue)
 	* Added previews of held gun item and projectile transformations in BB gun GUI
@@ -30,6 +32,7 @@ Blockbuster's change log.
 	* Added copy, paste and cut (suggested by Lucatim) buttons to player recording editor GUI
 	* Added Ctrl + M keybind to player recording editor GUI to add morph action
 	* Added replay sorting to scenes/director block GUI (suggested by Lucatim)
+	* Added alt + mouse wheel to horizontally zoom in/out and shift + mouse wheel to vertically scroll
 	* Changed layout of model block panel GUI
 	* Changed layout of BB gun GUI
 	* Changed layout of `particle` morph GUI
@@ -59,6 +62,9 @@ Blockbuster's change log.
 * Fixed not being able to pick a limb when specific body parts are present
 * Fixed wheels spinning in the model editor
 * Fixed `image` morph's transparency cutting off at values below `25` (out of 255)
+* Fixed big (128+ voxels in any dimension) voxel chunks not loading (reported by Afegor)
+* Fixed kicking out of server with big structures (requires tweaking of McLib's Max. packet size)
+* Fixed scene names couldn't have `.`s in it (reported by OrokinPlays)
 * Removed old YikeFilms easter egg and extra wubs config option
 * Removed config options from Mod Options (and moved to McLib's configuration)
 

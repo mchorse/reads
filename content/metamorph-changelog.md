@@ -19,17 +19,27 @@ This big update adds many quality of life features related to management of morp
     * Added editing of morph settings to the morph
     * Added global morph keybinds
     * Added sorting to body part list
+* Added body part system for entity morphs
+* Added copy /morph command button
+* Added keybinds in creative and survival morph menus
+* Added morph rendered instead of flat preview into base morph editors GUI
 * Improved creative morph menu management:
     * Added custom user categories
     * Added "Recent morphs" morph category
     * Added an ability to edit and remove acquire morphs
     * Added block morph editor for easier editing of block morph
     * Added quick editing in creative morph menu with presets and quick editor tabs
+    * Added keybinds:
+        * Morph into selected morph (`Return` key)
+        * Acquire selected morph (`A` key)
+        * Edit currently selected morph (`E` key)
+        * Toggle quick editor (`Q` key)
+        * Toggle entity selectors menu (`S` key)
+        * Focus search bar (`Ctrl + F` keys)
+        * Arrow keys to select morphs
+        * Open body part menu (`B` key)
+        * Cycle between morph panels (`Tab` key, suggested by Chunk7)
     * Changed nested morph editing to not create new creative morph editors
-* Added body part system for entity morphs
-* Added copy /morph command button
-* Added keybinds in creative and survival morph menus
-* Added morph rendered instead of flat preview into base morph editors GUI
 * Fixed health getting stuck at the previous morph's health
 * Fixed crash with body part system on the server side
 * Fixed action keybind working in spectator mode (reported by Greyberet)
