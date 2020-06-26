@@ -9,6 +9,9 @@ This update is compatibility update to work correctly with McLib **2.0**, and ot
 **Compatible** with McLib **2.0** and optionally with Blockbuster **2.0** and Metamorph **1.2**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
 
 * Added bone picking by Ctrl + clicking on the blue boxes
+* Added all mod options to McLib's mod configurations (Ctrl + 0)
+* Added player preview option category
+* Added empty sound files for easier replacement of sounds for emotes
 * Fixed to work with newer versions of McHorse's mods
 * Fixed particle morphs from Blockbuster not working correctly from body parts of `emoticons.*` morphs
 

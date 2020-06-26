@@ -12,10 +12,12 @@ if (isset($dependencies))
     {
         $dependency_key = $dependency;
 
-        if (is_array($dependency)) {
+        if (is_array($dependency)) 
+        {
             $dependency_key = $dependency[0];
 
-            if (isset($dependency[1])) {
+            if (isset($dependency[1])) 
+            {
                 $dependency_version = $dependency[1];
             }
         }
@@ -30,7 +32,8 @@ if (isset($dependencies))
         /* Compiling a markdown link */
         $depends .= '[' . $links[$dependency_key]['title'] . '](' . $links[$dependency_key]['curse'] . ')';
 
-        if (isset($dependency_version)) {
+        if (isset($dependency_version)) 
+        {
             $depends .= " (version **$dependency_version**)";
         }
 

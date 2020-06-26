@@ -4,9 +4,11 @@ Aperture's change log.
 
 ## Aperture 1.4
 
-This big update features lots of new quality of life features which should help increase productivity of camera creation. 
+This big update features lots of new quality of life features which should help increase productivity of camera creation, and two features that extend camera capabilities. 
 
 **Compatible** with McLib `2.0` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
+
+<?php echo youtube('2ToSwrFiVOo', $domain) ?> 
 
 * Added camera modifier envelopes which allow to smoothly enable camera modifier based on two points in time and their fades
 * Added `manual` fixture (suggested by Dyl_Art and Lucatim)

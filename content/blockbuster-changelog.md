@@ -4,7 +4,11 @@ Blockbuster's change log.
 
 ## Version 2.0
 
+This huge update adds a couple of awesome major feature, but mostly focuses on GUI improvements and quality of life features. This update also fixes dozens of bugs.
+
 **Compatible** with McLib `2.0`, Metamorph `1.2` and Aperture `1.4`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+<?php echo youtube('JghXifbHi-k', $domain) ?> 
 
 * Added `snowstorm` morph which allows to create custom particle effects based on Bedrock particle JSON specification (sponsored feature by Spark Squared)
 	* Added particle effect editor in dashboard GUI
@@ -17,7 +21,7 @@ Blockbuster's change log.
 * Added "Vanish delay" BB gun option
 * Added compatibility with actors opening Little Tiles' (requires version `1.5.0-pre199_34` or above) doors upon right click on block action
 * Added dim chroma blocks which don't emit lighting
-* Added "Local rotaion" option to `particle` morph (suggested by Centryfuga)
+* Added "Local rotation" option to `particle` morph (suggested by Centryfuga)
 * Added `/record fill <filename> <count> [tick]` command which allows to insert placeholder `<count>` frames at given `[tick]`
 * Added keying option to `image` and custom model morphs
 * Changed shadow option to be enabled by default, and global option to be disabled by default in model block
@@ -58,13 +62,14 @@ Blockbuster's change log.
 * Fixed BB gun's projectile leaning to the left side when firing (reported by Reunion Studio)
 * Fixed crash when trying deleting non loaded OBJ model (reported by ItsKylos)
 * Fixed item placement when Blockbuster models hold items (reported by HumbleDoctor)
-* Fixed crash when attaching a playback button when Aperture is not installed
+* Fixed crash when attaching a playback button and Aperture is not installed
 * Fixed not being able to pick a limb when specific body parts are present
 * Fixed wheels spinning in the model editor
 * Fixed `image` morph's transparency cutting off at values below `25` (out of 255)
 * Fixed big (128+ voxels in any dimension) voxel chunks not loading (reported by Afegor)
 * Fixed kicking out of server with big structures (requires tweaking of McLib's Max. packet size)
 * Fixed scene names couldn't have `.`s in it (reported by OrokinPlays)
+* Fixed instant crash when McLib isn't present
 * Removed old YikeFilms easter egg and extra wubs config option
 * Removed config options from Mod Options (and moved to McLib's configuration)
 

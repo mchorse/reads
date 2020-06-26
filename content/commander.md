@@ -6,10 +6,6 @@
 
 I don't recommend using this mod on a server, since it's very easy to get the server lag, freeze or crash with the loop command. **If you're going to use it on the public server, use it at your own risk**.
 
-<?php if ($domain === \mchorse\MCF): ?> 
-[mod]299411-commander[/mod]
-<?php endif ?> 
-
 <?php template('install', array_merge($__data__, ['dependencies' => ['mclib']])) ?> 
 
 ## How to use

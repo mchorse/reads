@@ -3,7 +3,6 @@
 namespace mchorse;
 
 const PMC = 'pmc';
-const MCF = 'mcforum';
 const CF = 'curse';
 const GH = 'github';
 
@@ -91,12 +90,6 @@ function process($pages)
                 '[list]', '[/list]', '[*]', '',
                 ''
             ];
-            
-            if ($value['domain'] === MCF)
-            {
-                $replace[0] = '[p]';
-                $replace[1] = '[/p]';
-            }
             
             /* Headers are replaced to bold captions */
             $output = preg_replace('/<h\w>/', "\n\n[b]", $output);

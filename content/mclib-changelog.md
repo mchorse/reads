@@ -6,6 +6,8 @@ McLib's change log.
 
 This enormous update drastically improves the GUI system that is used in my mods, as well as adding its own configuration system, and different APIs to make it easier to develop GUI stuff. It's also allows you to slightly personalize the GUI.
 
+<?php echo youtube('96_VnqywyRY', $domain) ?> 
+
 * Added configuration system
 * Added Dashboard GUI from Blockbuster mod
     * Added `Numpad*` keybinds to open a specific panel

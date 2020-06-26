@@ -1,4 +1,6 @@
-#### Minema 3.5
+## Minema 3.5
+
+<?php echo youtube('GZAstZs8G74', $domain) ?> 
 
 * Added `MinemaAPI` class for API
 * Added new config options:
@@ -8,4 +10,5 @@
 	* Screenshot alpha (Capturing) — when enabled, enables alpha channel capturing when you make a screenshot with F2 (see Use alpha option's description in this change log for more information on how it works)
 	* Encoder logging (Encoding) — allows to disable generation of ffmpeg logs (`*.log` files with same name as the output file) (suggested by Jetpack Rescue)
 	* Encoder arguments for alpha (Encoding) — same as Encoder arguments but it's used when Use alpha is enabled, because it requires different encoding (suggested by Jerpack Rescue)
+* Added French translations (by @Lycoon)
 * Fixed fast forwarding of ticks when starting recording

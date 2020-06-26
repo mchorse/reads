@@ -5,15 +5,9 @@
 
 **Blockbuster** is a Minecraft mod which helps you create Minecraft machinimas/roleplays series using NPC body actors. Besides providing basic recording and playback, it also features a ton of miscellaneous features which can help you to add some originality to your video, extending your possibilities beyond plain body acting (see **Features** section). 
 
-This mod works with Forge for Minecraft 1.10.2, 1.11.2 and 1.12.2 (requires Forge **14.23.4.2638** or higher).
-
-Blockbuster mod depends upon [Metamorph](<?php echo $links['metamorph']['curse'] ?>) and [McLib](<?php echo $links['mclib']['curse'] ?>). Every new change log will specify the version of Metamorph supported. Blockbuster also provides **optional** integration for [Aperture](<?php echo $links['aperture']['curse'] ?>) mod.
+This mod works with Forge **14.23.4.2638** (or above) for Minecraft 1.12.2 (past versions available for 1.10.2 and 1.11.2).
 
 Recording and playback is based on, and rewritten from scratch, Mocap mod by [EchebKeso](https://twitter.com/EchebKeso).
-
-<?php if ($domain === \mchorse\MCF): ?> 
-[mod]254152-blockbuster[/mod]
-<?php endif ?> 
 
 ![MachinimaHub](<?php echo $links['hub']['banner'] ?>)
 
@@ -39,16 +33,18 @@ Blockbuster mod provides you with lots of features to create outstanding machini
 * **BB gun item** – a special item which shoots projectiles on right click. This feature provides many different configuration options which can be used to create not only firearm combat scenes, but also special effects like avalanches, fake physics, crowd explosion and much more!
 * **[Aperture](<?php echo $links['aperture']['curse'] ?>) support** – Blockbuster mod has built-in Aperture integration. When Aperture is loaded, Blockbuster mod provides you with some features such as: ability to attach camera profiles to playback button, previewing director block playback while editing cameras and editing the player recording actions within the camera editor.
 * **Custom models** – recording only player-like entities limits the originality of your machinimas. Blockbuster mod let's you create custom models using in-game model editor. Unleash your creativity with custom models!
-* **OBJ models** – beside custom models which can be created with in-game custom model editor, Blockbuster also supports OBJ models on top of custom JSON models!
+* **OBJ and MagicaVoxel models** – beside custom models which can be created with in-game custom model editor, Blockbuster also supports OBJ models and MagicaVoxel models on top of custom JSON models!
 * **Morphs support** – thanks to [Metamorph](<?php echo $links['metamorph']['curse'] ?>)'s morph API, Blockbuster is capable of using any morphs which Metamorph provides to be used by Blockbuster actors. Including Blockbuster's provided morphs and [Emoticons](<?php echo $links['emoticons']['curse'] ?>)' morphs.
 * **Advanced morphs** – beside registering custom models into morph system, Blockbuster also provides special morphs for advanced machinima creation:
 	* **Image morph** – a morph which allows to display an image (on a plane).
     * **Sequencer morph** – a morph that switches between given morphs automatically, depending on delays set between multiple morphs.
     * **Record morph** – a morph that allows to playback a player recording within the morph itself (useful with model block or body part system).
     * **Structure morph** – a morph that allows to morph into a structure saved with structure block.
-    * **Particle morph** – a morph which allows to emote vanilla and morph particles.
-* **Green screen features** – Blockbuster adds glowing green blocks without any shading and an option to turn the sky fully green which makes it easier creating green screens for post processing of your machinimas. 
+    * **Particle morph** – a morph which allows to emit vanilla and morph particles.
+    * **Snowstorm morph** (sponsored by [Spark Squared](https://spark-squared.com/)) — a morph which allows to create custom particle effects.
+* **Green screen features** – Blockbuster adds glowing green blocks without any shading and an option to turn the sky fully green which makes it easier creating green screens for post processing of your machinimas. Beside that, Blockbuster has keying options which allow to create screenshots and videos with transparency, see [this tutorial](https://youtu.be/OY_USRJofT0).
 * **Animated GIF support** – now you can put reaction and meme GIFs onto Blockbuster models and just as images. Credit goes to [MrCrayfish's furniture mod](https://github.com/MrCrayfish/MrCrayfishFurnitureMod) and [DhyanB](https://github.com/DhyanB/Open-Imaging/blob/master/src/main/java/at/dhyan/open_imaging/GifDecoder.java).
+* **Animations** — with animated poses and image morph animations, you can add animation to your actors and sets.
 * **[Minema](<?php echo $links['minema'] ?>) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to videos with a press of a button.
 * **Speaks multiple languages** – besides English, Blockbuster is also translated into Russian and Chinese thanks to [Andruxioid](https://www.youtube.com/channel/UCnHOceBjwMyqCR5oYOoNqhQ) and [ycwei982](https://www.youtube.com/channel/UCfUDMSGlXUblXimkvNl_7Ww), respectively.
 
@@ -58,7 +54,7 @@ Blockbuster mod provides you with lots of features to create outstanding machini
 
 This is change logs playlist. Almost every update (for exception of patches with bug fixes and minor features) comes with a change log video which showcases new features, and briefly shows how to use them.
 
-<?php echo youtube('4n5p83KAG4k?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
+<?php echo youtube('JghXifbHi-k?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
 Here is also a playlist of tutorials directly or indirectly related to Blockbuster/Minecraft machinima creation. Make sure to check it out, as it consists out of tutorials such as basics of Blockbuster mod, how to import OBJ models, etc.
 
@@ -68,11 +64,11 @@ Here is also a playlist of tutorials directly or indirectly related to Blockbust
 
 This playlist consists out of videos that I've created a bunch of machinimas during Blockbuster mod testings and just when I felt like. Feel free to check out my crazy videos.
 
-<?php echo youtube('0h0KeuHaXM4?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
+<?php echo youtube('eig13klr-kw?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
 
 Here is also a playlist of 400+ community made videos with Blockbuster mod:
 
-<?php echo youtube('mSvKmB25kPQ?list=PL6UPd2Tj65nEE8kLKBxYYZLAjruJkO0r_', $domain) ?> 
+<?php echo youtube('9hCMFoNnfxw?list=PL6UPd2Tj65nEE8kLKBxYYZLAjruJkO0r_', $domain) ?> 
 
 <?php template('media', $__data__) ?> 
 

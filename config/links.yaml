@@ -3,7 +3,7 @@ twitter: https://twitter.com/McHorsy
 github: https://github.com/mchorse
 reddit: https://www.reddit.com/r/mcpub/
 discord: https://discord.gg/qfxrqUF
-minema: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2790594-minema-unofficial-the-smooth-movie-recorder
+minema: https://github.com/daipenger/minema/releases
 
 # MachinimaHub
 hub: 
@@ -13,10 +13,8 @@ hub:
 # Human readable titles
 titles:
     pmc: Planet Minecraft page
-    mcforum: Minecraft Forum thread
     curse: CurseForge page
-    github: Source code
-    adfly: AdFly support link
+    github: GitHub
 
 aperture:
     title: Aperture
@@ -25,8 +23,7 @@ aperture:
     cover: https://i.imgur.com/rckGnn4.png
     
     pmc: https://www.planetminecraft.com/mod/aperture-3978432/
-    mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2837982-aperture-an-advanced-camera-mod
-    curse: https://minecraft.curseforge.com/projects/aperture
+    curse: https://www.curseforge.com/minecraft/mc-mods/aperture
     github: https://github.com/mchorse/aperture
     wiki: https://github.com/mchorse/aperture/wiki
 
@@ -34,15 +31,13 @@ blockbuster:
     title: Blockbuster
     
     # Brand images
-    banner: http://i.imgur.com/nqDKg1R.png
+    banner: https://i.imgur.com/fkRVMIw.png
     cover: http://i.imgur.com/XgU8Tvx.png
     
     # Mod pages
     pmc: http://www.planetminecraft.com/mod/blockbuster-machinima-mod/
-    mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2700216-blockbuster-machinima-studio-mod
-    curse: https://minecraft.curseforge.com/projects/blockbuster
+    curse: https://www.curseforge.com/minecraft/mc-mods/blockbuster
     github: https://github.com/mchorse/blockbuster
-    adfly: http://adf.ly/15268913/blockbuster-curseforge
     wiki: https://github.com/mchorse/blockbuster/wiki
 
 commander:
@@ -54,7 +49,7 @@ commander:
 
     # Mod pages
     pmc: http://www.planetminecraft.com/mod/blockbuster-machinima-mod/
-    curse: https://minecraft.curseforge.com/projects/commander
+    curse: https://www.curseforge.com/minecraft/mc-mods/commander
     github: https://github.com/mchorse/commander
 
 emoticons: 
@@ -66,12 +61,12 @@ emoticons:
     
     # PMC
     pmc: https://www.planetminecraft.com/mod/emoticons-4212245/
-    curse: https://minecraft.curseforge.com/projects/emoticons
+    curse: https://www.curseforge.com/minecraft/mc-mods/emoticons
 
 mclib:
     title: McLib
 
-    curse: https://minecraft.curseforge.com/projects/mchorses-mclib
+    curse: https://www.curseforge.com/minecraft/mc-mods/mchorses-mclib
     github: https://github.com/mchorse/mclib
 
 metamorph:
@@ -83,8 +78,6 @@ metamorph:
     
     # Mod pages
     pmc: http://www.planetminecraft.com/mod/metamorph/
-    mcforum: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2753214-metamorph-morph-into-vanilla-mobs
-    curse: https://minecraft.curseforge.com/projects/metamorph
+    curse: https://www.curseforge.com/minecraft/mc-mods/metamorph
     github: https://github.com/mchorse/metamorph
-    adfly: http://adf.ly/15268913/metamorph-curseforge
     wiki: https://github.com/mchorse/metamorph/wiki

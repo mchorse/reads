@@ -6,6 +6,8 @@ This big update adds many quality of life features related to management of morp
 
 **Compatible** with McLib `2.0`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
 
+<?php echo youtube('b9WbQa0goUQ', $domain) ?> 
+
 * Added morph ID remapping mechanism
 * Added entity selectors mechanism 
 * Added config options:
@@ -44,6 +46,7 @@ This big update adds many quality of life features related to management of morp
 * Fixed crash with body part system on the server side
 * Fixed action keybind working in spectator mode (reported by Greyberet)
 * Fixed horse morphs not getting a saddle (reported by Datron)
+* Fixed morphed mobs being left handed all the time
 * Removed all configuration options from Mod Options (they were moved into McLib's configuration system)
 * Rewritten fully creative and survival morph menus
 
