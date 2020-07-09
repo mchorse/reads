@@ -1,3 +1,10 @@
+## Minema 3.5.1
+
+* Fixed GUI overlays not blending correctly with alpha feature (big thanks to Sekwah)
+* Fixed a crash when sync engine is disabled
+* Updated French strings for 3.5 (thanks to Lycoon)
+* Updated Chinese strings for 3.5 (thanks to Chunk7, KuenYo_ and H2SO4GepaoAX)
+
 ## Minema 3.5
 
 <?php echo youtube('GZAstZs8G74', $domain) ?> 
