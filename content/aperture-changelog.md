@@ -4,6 +4,20 @@ Aperture's change log.
 
 ## Aperture 1.4.1
 
+This is another small quick patch which fixes a couple of minor issues with camera editor GUI.
+
+**Compatible** with McLib `2.0.2` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
+
+* Added a feature to allow editing the value of non-All keyframes in dope sheet view
+* Fixed fixture looping feature never stopped recording with Minema panel
+* Fixed margin of keyframe channel and display position labels
+* Fixed minor typo "Switch to specator" (reported by Lycoon)
+* Fixed flight mode being "sticky" sometimes
+* Moved keyframe code to McLib
+* Removed per point duration option from path fixture
+
+## Aperture 1.4.1
+
 This is a small quick patch which fixes a couple of minor issues with camera editor GUI.
 
 **Compatible** with McLib `2.0` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.

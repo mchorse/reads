@@ -2,6 +2,16 @@
 
 ## Metamorph 1.2.1
 
+This is a small patch that features a couple of tweaks.
+
+**Compatible** with McLib `2.0.2`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
+
+* Added empty label to body part list when no limb selected
+* Added an option to specify the maximum of recent morphs that can be stored
+* Fixed max length of entity selector text fields (reported by Frtc)
+
+## Metamorph 1.2.1
+
 This is a small patch that fixes some mob morph behavior (all of these fixes and tweaks were made by @IndeanaJones).
 
 **Compatible** with McLib `2.0`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
