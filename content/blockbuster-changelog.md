@@ -26,7 +26,9 @@ This is a patch update that features .
 * Fixed Snowstorm emitter lifetime components not setting `variable.emitter_lifetime`
 * Fixed Snowstorm curves not working as intended (thanks to Jannis)
 * Fixed Snowstorm gradient tint component not loading correctly
-* Fixed player recording's with non-zero pre-delay not correctly syncing within player recording editor
+* Fixed player recording's with non-zero pre-delay not correctly syncing within player recording editor (reported by Lucatim)
+* Fixed start and stop command not working when launching scene's playback
+* Fixed size offset property of a limb not exporting correctly with `/model export_obj`
 
 ## Version 2.0.1
 

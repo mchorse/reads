@@ -2,7 +2,7 @@
 
 Aperture's change log.
 
-## Aperture 1.4.1
+## Aperture 1.4.2
 
 This is another small quick patch which fixes a couple of minor issues with camera editor GUI.
 
