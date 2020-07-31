@@ -1,6 +1,6 @@
 # Metamorph Change Log
 
-## Metamorph 1.2.1
+## Metamorph 1.2.2
 
 This is a small patch that features a couple of tweaks.
 
@@ -8,6 +8,8 @@ This is a small patch that features a couple of tweaks.
 
 * Added empty label to body part list when no limb selected
 * Added an option to specify the maximum of recent morphs that can be stored
+* Added `Lighting` option to `item` and `block` morphs
+* Changed the key names to be prettier (using McLib's utility)
 * Fixed max length of entity selector text fields (reported by Frtc)
 
 ## Metamorph 1.2.1

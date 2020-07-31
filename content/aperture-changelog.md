@@ -9,12 +9,13 @@ This is another small quick patch which fixes a couple of minor issues with came
 **Compatible** with McLib `2.0.2` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
 
 * Added a feature to allow editing the value of non-All keyframes in dope sheet view
+* Added keyframes tab to profile manager where you can keyframe brightness (gamma setting), it can be used with shaders to animate some properties
 * Fixed fixture looping feature never stopped recording with Minema panel
 * Fixed margin of keyframe channel and display position labels
 * Fixed minor typo "Switch to specator" (reported by Lycoon)
 * Fixed flight mode being "sticky" sometimes
 * Moved keyframe code to McLib
-* Removed per point duration option from path fixture
+* Removed per point duration option from path fixture (per-point duration paths will be converted to keyframe fixtures)
 
 ## Aperture 1.4.1
 
