@@ -1,5 +1,3 @@
-# Commander Change Log
-
 ## Version 1.0.1
 
 Second update of Commander mod. This update now makes Commander mod depend upon McLib (version 1.0.2) mod, and also adds multiple commands in line parsing.

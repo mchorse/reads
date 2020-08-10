@@ -1,7 +1,3 @@
-# Change Log
-
-McLib's change log.
-
 ## Version 2.0.2
 
 This is a small quick patch which features a couple of neat GUI tweaks.

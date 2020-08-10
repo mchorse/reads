@@ -1,7 +1,3 @@
-# Change Log
-
-Blockbuster's change log.
-
 ## Version 2.0.2
 
 This is a patch update that features a lot of fixes made to Snowstorm particle system, and to other parts of the mod. A couple of GUI keybinds were added, and a couple of useful /record sub-commands were added.

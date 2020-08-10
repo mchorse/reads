@@ -1,7 +1,3 @@
-# Change Log
-
-Emoticons's change log.
-
 ## Version 0.5
 
 This update is compatibility update to work correctly with McLib **2.0**, and others.

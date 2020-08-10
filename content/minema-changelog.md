@@ -1,3 +1,16 @@
+## Minema 3.5.3
+
+I apologize for some confusion with a gap between `3.5` and `3.5.3`. This is essentially because `3.5.1` and `3.5.2` were broken. For `3.5.1`, I messed up the target branch, plus the feature that was added there didn't work, and `3.5.2` was generally broken due to OptiFine OpenGL error spam (which caused Minema stop recording immediately due to OpenGL error).
+
+Anyways, here is the combined change log from `3.5.1` to `3.5.3`:
+
+* Fixed GUI overlays not blending correctly with alpha feature (big thanks to @sekwah41)
+    * Fixed OpenGL error spam in `3.5.2`
+* Fixed a crash when sync engine is disabled
+* Fixed a game crash when Forge tries to show the missing dependencies screen, however due to Minema's config not being initialized in `3.5.2`
+* Updated French strings for 3.5 (thanks to @Lycoon)
+* Updated Chinese strings for 3.5 (thanks to @Chunk7w, KuenYo_ and H2SO4GepaoAX)
+
 ## Minema 3.5.1
 
 * Fixed GUI overlays not blending correctly with alpha feature (big thanks to Sekwah)

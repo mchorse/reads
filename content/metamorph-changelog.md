@@ -1,5 +1,3 @@
-# Metamorph Change Log
-
 ## Metamorph 1.2.2
 
 This is a small patch that features a couple of tweaks.
