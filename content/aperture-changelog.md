@@ -1,17 +1,21 @@
 ## Aperture 1.4.2
 
-This is another small quick patch which fixes a couple of minor issues with camera editor GUI.
+This is a neat update which fixes a couple of bugs, adds Dolly fixture and brightness animation (which can be used for manual focus via shader packs), giving fixtures colors, drastically improved keyframe editing (see McLib's change log) and removed a couple of outdated features.
 
-**Compatible** with McLib `2.0.2` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
+**Compatible** with McLib `2.0.3` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
 
-* Added a feature to allow editing the value of non-All keyframes in dope sheet view
 * Added keyframes tab to profile manager where you can keyframe brightness (gamma setting), it can be used with shaders to animate some properties
+* Added an ability to specify color of the fixture, for organization purposes
+* Added Dolly fixture, it's a convenience fixture which allows setting up a simple forward/backward path for given distance and angle
+* Added manual fixture's path rendering
 * Fixed fixture looping feature never stopped recording with Minema panel
 * Fixed margin of keyframe channel and display position labels
 * Fixed minor typo "Switch to specator" (reported by Lycoon)
 * Fixed flight mode being "sticky" sometimes
+* Fixed not reset partial ticks shifting keyframe editing at 0th tick
 * Moved keyframe code to McLib
 * Removed per point duration option from path fixture (per-point duration paths will be converted to keyframe fixtures)
+* Removed all channel from dope sheet editor, due to ability to multi-select in McLib **2.0.3**
 
 ## Aperture 1.4.1
 

@@ -1,3 +1,19 @@
+## Version 2.0.3
+
+This minor patch features enormous improvements to keyframe editing GUIs.
+
+* Added value editing through the value field in the dope sheet editor
+* Added bezier handles editing in tick and value fields when selecting them (instead of showing tick and value of the keyframe)
+* Added multi-selection of keyframes in graph/dope sheet GUI elements:
+    * You can select them by Shift + Dragging an area in which all the keyframes will be selected
+    * You can select individual keyframes by Shift + clicking on them to select not selected keyframe or deselect selected keyframe
+    * You can also move multiple-selected keyframes or handles (depending on selection mode) in tick or value fields
+* Added dragging of multiple selected keyframes or its handles (depending on selection mode)
+* Added context menu to graph/dope sheet elements to:
+    * Remove selected keyframes
+    * Switch selection between keyframe or its handles
+* Fixed last keyframe's right bezier handle being editable
+
 ## Version 2.0.2
 
 This is a small quick patch which features a couple of neat GUI tweaks.
