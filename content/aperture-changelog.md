@@ -8,6 +8,7 @@ This is a neat update which fixes a couple of bugs, adds Dolly fixture and brigh
 * Added an ability to specify color of the fixture, for organization purposes
 * Added Dolly fixture, it's a convenience fixture which allows setting up a simple forward/backward path for given distance and angle
 * Added manual fixture's path rendering
+* Added McLib's new interpolations to work with path/dolly fixtures (back, elastic and bounce)
 * Fixed fixture looping feature never stopped recording with Minema panel
 * Fixed margin of keyframe channel and display position labels
 * Fixed minor typo "Switch to specator" (reported by Lycoon)

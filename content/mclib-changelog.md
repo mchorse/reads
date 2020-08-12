@@ -12,6 +12,7 @@ This minor patch features enormous improvements to keyframe editing GUIs.
 * Added context menu to graph/dope sheet elements to:
     * Remove selected keyframes
     * Switch selection between keyframe or its handles
+* Added new interpolations (with in, out, in/out easings): back, elastic and bounce
 * Fixed last keyframe's right bezier handle being editable
 
 ## Version 2.0.2
