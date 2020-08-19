@@ -9,6 +9,7 @@ This is a neat update which fixes a couple of bugs, adds Dolly fixture and brigh
 * Added Dolly fixture, it's a convenience fixture which allows setting up a simple forward/backward path for given distance and angle
 * Added manual fixture's path rendering
 * Added McLib's new interpolations to work with path/dolly fixtures (back, elastic and bounce)
+* Added converter feature to replace fixture feature, which converts one fixture to another, without losing all of its data. Currently available proper conversion are: `Dolly` to `Path`, `Dolly` to `Keyframe`, `Path` to `Dolly`, and `Path` to `Keyframe`
 * Fixed fixture looping feature never stopped recording with Minema panel
 * Fixed margin of keyframe channel and display position labels
 * Fixed minor typo "Switch to specator" (reported by Lycoon)
@@ -17,6 +18,7 @@ This is a neat update which fixes a couple of bugs, adds Dolly fixture and brigh
 * Moved keyframe code to McLib
 * Removed per point duration option from path fixture (per-point duration paths will be converted to keyframe fixtures)
 * Removed all channel from dope sheet editor, due to ability to multi-select in McLib **2.0.3**
+* Removed **Generate keyframe** button (in favor of replace converter feature)
 
 ## Aperture 1.4.1
 
