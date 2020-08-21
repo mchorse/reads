@@ -2,6 +2,8 @@
 
 This minor patch features enormous improvements to keyframe editing GUIs.
 
+<?php echo youtube('6eil_zvv1KI', $domain) ?> 
+
 * Added value editing through the value field in the dope sheet editor
 * Added bezier handles editing in tick and value fields when selecting them (instead of showing tick and value of the keyframe)
 * Added multi-selection of keyframes in graph/dope sheet GUI elements:
