@@ -7,9 +7,8 @@ This minor patch features enormous improvements to keyframe editing GUIs.
 * Added multi-selection of keyframes in graph/dope sheet GUI elements:
     * You can select them by Shift + Dragging an area in which all the keyframes will be selected
     * You can select individual keyframes by Shift + clicking on them to select not selected keyframe or deselect selected keyframe
-    * You can move multiple-selected keyframes or handles (depending on selection mode) in tick or value fields
+    * You can move multiple-selected keyframes or its handles (depending on selection mode) by editing tick or value fields or dragging
     * You can also duplicate multiple selected keyframes using the same old way of holding alt while clicking else where to duplicate
-* Added dragging of multiple selected keyframes or its handles (depending on selection mode)
 * Added context menu to graph/dope sheet elements to:
     * Remove selected keyframes
     * Switch selection between keyframe or its handles

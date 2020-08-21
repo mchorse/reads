@@ -4,6 +4,8 @@ This is a neat update which fixes a couple of bugs, adds Dolly fixture and brigh
 
 **Compatible** with McLib `2.0.3` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
 
+<?php echo youtube('6eil_zvv1KI', $domain) ?> 
+
 * Added keyframes tab to profile manager where you can keyframe brightness (gamma setting), it can be used with shaders to animate some properties
 * Added an ability to specify color of the fixture, for organization purposes
 * Added Dolly fixture, it's a convenience fixture which allows setting up a simple forward/backward path for given distance and angle
