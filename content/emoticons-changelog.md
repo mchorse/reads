@@ -1,3 +1,17 @@
+## Version 0.5.1
+
+This update adds a couple of neat features like loading of custom emotes, extruded morphs and a placeholder morph option. It fixes minor performance issue with Emoticons morphs and server emote bug.
+
+**Compatible** with McLib **2.0** and optionally with Blockbuster **2.0** and Metamorph **1.2**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Added a mechanism to load (and reload) custom animations and emotes
+* Added fake 3D Emoticons morphs (which display outer layer as extruded bits)
+* Added quick access pick skin keybind to Emoticons morph editor (Shift + P, suggested by zoombie)
+* Added placeholder morph option to Emoticons morphs (which allows to setup a morph that will be used when **Disable non-emote animations** option is enabled, and when morph doesn't emote, and for first person arm)
+* Fixed players not emoting after death (and possibly on SpongeForge dedicated servers)
+* Fixed performance with Emoticons' morphs (it was rendeded twice)
+* Fixed minor UV inconsistencies with `default` and `slim` models (reported by Chunk7)
+
 ## Version 0.5
 
 This update is compatibility update to work correctly with McLib **2.0**, and others.
