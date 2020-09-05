@@ -1,9 +1,12 @@
-## Version 0.5.1
+## Version 0.6
 
-This update adds a couple of neat features like loading of custom emotes, extruded morphs and a placeholder morph option. It fixes minor performance issue with Emoticons morphs and server emote bug.
+This update adds 6 emotes, a couple of neat features like loading of custom emotes, extruded morphs and a placeholder morph option. It fixes minor performance issue with Emoticons morphs and server emote bug.
 
 **Compatible** with McLib **2.0** and optionally with Blockbuster **2.0** and Metamorph **1.2**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
 
+<?php echo youtube('11lAGyM1Fyc', $domain) ?> 
+
+* Added **6** new emotes: Stick Bug, Am Stuff, Slow Clap, "Hell, yeah!", Paranoid and Scared
 * Added a mechanism to load (and reload) custom animations and emotes
 * Added fake 3D Emoticons morphs (which display outer layer as extruded bits)
 * Added quick access pick skin keybind to Emoticons morph editor (Shift + P, suggested by zoombie)
