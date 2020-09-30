@@ -1,3 +1,19 @@
+## Version 2.1
+
+* Added multi-skin editor, which includes new options:
+    * Scale - scales up and down a skin
+    * Shift - moves around a skin on the canvas
+    * Scale to largest - allows easily to scale to the largest multi-skin in the list
+    * Color - allows to multiply every pixel by this color, allowing hue shifting grayscale textures
+    * Pixelate - filter that allows to pixelate a texture
+    * Erase - option that allows to erase everything below using the current skin's opaque pixels as erase mask
+* Added list sorting to multi-skin
+* Added an option to asynchronously load multi-skin skins (enabled by default)
+* Added WAV parsing and waveform rendering
+* Added favorite and recent color palette GUI elements to color picker
+* Fixed relative value editing of keyframes having horrible results
+* Fixed crash when emptying the text field in texture picker (reported by Tossler)
+
 ## Version 2.0.3
 
 This minor patch features enormous improvements to keyframe editing GUIs.

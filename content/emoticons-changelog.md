@@ -1,3 +1,8 @@
+## Version 0.6.1
+
+* Added support for paused previews (Blockbuster integration)
+* Changed simple model option into Model type option (which allows choosing of extruded model type beside default and simple model types)
+
 ## Version 0.6
 
 This update adds 6 emotes, a couple of neat features like loading of custom emotes, extruded morphs and a placeholder morph option. It fixes minor performance issue with Emoticons morphs and server emote bug.

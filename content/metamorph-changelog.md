@@ -1,3 +1,9 @@
+## Metamorph 1.2.3
+
+* Added an option to allow morphing in recent and user categories morphs (and opening creative morph menu)
+* Added an option to allow disable population of entity morphs (suggested by Chunk7)
+* Fixed `/morph` command not working with MC functions (reported by Joziah2)
+
 ## Metamorph 1.2.2
 
 This is a small patch that features a couple of tweaks.

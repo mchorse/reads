@@ -1,3 +1,19 @@
+## Aperture 1.5
+
+* Added `remapper` modifier
+* Added reverse button to `dolly` fixture
+* Added orbital flight mode (switch to orbital mode by pressing `V`, and alt + mouse scroll to change the distance)
+* Added a keyframe option to modifier envelopes
+* Added a context menu (right click) to look modifier which allow to set the look at block coordinates by looking at block or entity
+* Changed dolly distance from `1.0` to `0.1`
+* Changed toggle `V` keybind to switch between flight modes
+* Fixed changing color of a fixture doesn't marking the camera profile
+* Fixed crash with converting one point path to keyframe
+* Fixed fixtures having `0` duration upon loading
+* Fixed `[]` couldn't be used in the filename (reported by Ethobot)
+* Fixed flight mode is interrupting when editing keyframes (reported by Chunk7)
+* Fixed custom fixture colors not being used in camera profile renderer
+
 ## Aperture 1.4.2
 
 This is a neat update which fixes a couple of bugs, adds Dolly fixture and brightness animation (which can be used for manual focus via shader packs), giving fixtures colors, drastically improved keyframe editing (see McLib's change log) and removed a couple of outdated features.

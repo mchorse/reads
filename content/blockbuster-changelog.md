@@ -1,3 +1,24 @@
+## Version 2.1
+
+* Added an option to specify custom model folder on the disk (implemented by Maxi)
+* Added `/item_nbt <generate_give_command:true|false>` command which allows to copying currently held item's NBT and optionally generate a `/give` command of this item (suggested by Tossler)
+* Added extrusion max and extrusion factors options to model editor, which allows having HD skins to have smaller HD bits (suggested by ZyphoxFilms)
+* Added **in-game audio syncing** feature to scenes, which allows attaching a `.wav` audio track which plays and syncs when you playback a scene, record an actor and edit camera profile
+* Added **better preview** mechanism to sync animated poses, image animations, etc. while previewing the scene in the camera editor (it's not 100% accurate yet still better than what we had)
+* Added a new `body_yaw` property to player recording's frames (which represents horizontal body rotation)
+* Added `/record calculate_body_yaw` subcommand that allows to calculate the `body_yaw` property for old player recordings
+* Added **Set duration** option to sequencer morph, which allows to overwrite the duration of the animated morph with sequence's duration (suggested by Chunk7)
+* Added **Playback body yaw** option to Actor category which allows to disable recorded playback of body's horizontal rotation
+* Added **Snowstorm** option category with one option to enabled particle depth sorting
+* Added **Audio** option category with new options:
+	* Audio bars visible — whether preview waveform audio bars should be visible
+	* Waveform density — how many pixels per second for waveform
+	* Audio bar width — how wide is a single audio bar (in `0..1` percentage)
+	* Audio bar height — how high is a single audio bar (in pixels)
+	* Show audio bar's filename — whether filename of a played audio should be shown
+* Fixed hovering actors bug (after 3 years, reported by Badr, KazerLight and El_Redstoniano)
+* Removed Director blocks
+
 ## Version 2.0.2
 
 This is a patch update that features a lot of fixes made to Snowstorm particle system, and to other parts of the mod. A couple of GUI keybinds were added, and a couple of useful /record sub-commands were added.
