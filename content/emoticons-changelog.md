@@ -1,6 +1,7 @@
 ## Version 0.6.1
 
 * Added support for paused previews (Blockbuster integration)
+* Added a special `ragdoll` armature that allows to import baked ragdoll simulated [actions as an emote action](https://www.youtube.com/watch?v=pn4d__NjMjE)
 * Changed simple model option into Model type option (which allows choosing of extruded model type beside default and simple model types)
 
 ## Version 0.6

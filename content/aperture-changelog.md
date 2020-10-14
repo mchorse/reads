@@ -13,11 +13,12 @@
 * Fixed `[]` couldn't be used in the filename (reported by Ethobot)
 * Fixed flight mode is interrupting when editing keyframes (reported by Chunk7)
 * Fixed custom fixture colors not being used in camera profile renderer
+* Fixed manual fixture not playing the scene when starting recording (reported by Herr Bergmann)
 
 ## Aperture 1.4.2
 
 This is a neat update which fixes a couple of bugs, adds Dolly fixture and brightness animation (which can be used for manual focus via shader packs), giving fixtures colors, drastically improved keyframe editing (see McLib's change log) and removed a couple of outdated features.
-
+  
 **Compatible** with McLib `2.0.3` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
 
 <?php echo youtube('6eil_zvv1KI', $domain) ?> 

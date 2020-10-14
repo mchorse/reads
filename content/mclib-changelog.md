@@ -11,8 +11,13 @@
 * Added an option to asynchronously load multi-skin skins (enabled by default)
 * Added WAV parsing and waveform rendering
 * Added favorite and recent color palette GUI elements to color picker
+* Added arrow up and down keystrokes to increment and decrement, respectively, a value in trackpad fields (shift, ctrl and alt affect the value that is getting added or subtracted, suggested by Joziah2)
+* Added an option to disable increment button on trackpad fields
 * Fixed relative value editing of keyframes having horrible results
 * Fixed crash when emptying the text field in texture picker (reported by Tossler)
+* Fixed trackpad fields not indicating that value wasn't accepted after manually inputting out of range (reported by Tossler)
+* Fixed alpha colors not showing transparency when borders are enabled
+* Fixed dashboard not closing properly panels after switching to another GUI (instead of closing through Escape key) causing some panels to bug (reported by Chunk7)
 
 ## Version 2.0.3
 
