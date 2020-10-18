@@ -1,7 +1,13 @@
 ## Version 0.6.1
 
+A small update that doesn't do much. 
+
+**Compatible** with McLib **2.1** and optionally with Blockbuster **2.1** and Metamorph **1.2.3**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Added two ragdoll emotes
 * Added support for paused previews (Blockbuster integration)
 * Added a special `ragdoll` armature that allows to import baked ragdoll simulated [actions as an emote action](https://www.youtube.com/watch?v=pn4d__NjMjE)
+* Added Chinese localization (thanks to Chunk7)
 * Changed simple model option into Model type option (which allows choosing of extruded model type beside default and simple model types)
 
 ## Version 0.6

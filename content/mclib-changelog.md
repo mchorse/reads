@@ -1,5 +1,7 @@
 ## Version 2.1
 
+This big update adds a lot of useful code (including WAV file parsing, loading and rendering), a handful of GUI element tweaks and new multi-skin features!
+
 * Added multi-skin editor, which includes new options:
     * Scale - scales up and down a skin
     * Shift - moves around a skin on the canvas

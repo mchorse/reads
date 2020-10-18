@@ -1,5 +1,11 @@
 ## Version 2.1
 
+This update is focused on simplifying some aspects of recording actors, and editing the player recordings. This update features a game changer feature called in-game audio synchronization. Director blocks' functionality was removed.
+
+**Compatible** with McLib `2.1`, Metamorph `1.2.3` and Aperture `1.5`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+<?php echo youtube('NmGz3SVs6Gs', $domain) ?> 
+
 * Added an option to specify custom model folder on the disk (implemented by Maxi)
 * Added `/item_nbt <generate_give_command:true|false>` command which allows to copying currently held item's NBT and optionally generate a `/give` command of this item (suggested by Tossler)
 * Added extrusion max and extrusion factors options to model editor, which allows having HD skins to have smaller HD bits (suggested by ZyphoxFilms)

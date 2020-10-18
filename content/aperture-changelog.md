@@ -1,5 +1,11 @@
 ## Aperture 1.5
 
+This update adds a couple of QoL tweaks and two new awesome features involving keyframes and modifiers.
+
+**Compatible** with McLib `2.1` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
+
+<?php echo youtube('nitZlB_kG2w', $domain) ?> 
+
 * Added `remapper` modifier
 * Added reverse button to `dolly` fixture
 * Added orbital flight mode (switch to orbital mode by pressing `V`, and alt + mouse scroll to change the distance)

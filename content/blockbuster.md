@@ -17,21 +17,15 @@ Beside that, MachinimaHub has lots of Blockbuster users, so if you need any help
 
 <?php template('install', array_merge($__data__, ['dependencies' => ['mclib', 'metamorph']])) ?> 
 
-## FAQ
-
-**Q: Model block is invisible when I hold it in the hand. How to fix it? (1.12.2)**  
-A: Looks like you're using Optifine D1 or below. Update Optifine to D2 or higher.
-
 ## Features
 
 Blockbuster mod provides you with lots of features to create outstanding machinimas/roleplay series:
 
 * **Actors and player recording** – the most important feature, as you won't be able to create a machinimas without it. With Blockbuster mod you can record yourself doing things and then playback it using an actor. *Recording code has some limitations on which actions it can record*. See [Blockbuster Wiki](<?php echo $links['blockbuster']['wiki'] ?>) for more information about limitations.
-* **Director blocks** – special blocks which manage playback of multiple actors. With a director block, you can record an actor at a time, meanwhile reacting to previously recorded actors, making it possible to create complex scenes solo.
-* **Scenes** – scenes are just like director blocks, but cooler. They are stored in separate files (in world's `blockbuster/scenes/` folder), as opposed in the world. With scenes, you can create templates, transfer to another worlds, and most importantly you will never lose them in the world.
+* **Scenes** – scenes allow to record and manage multiple actors in the world. They are stored in separate files (in world's `blockbuster/scenes/` folder). With scenes, you can create templates, transfer to another worlds.
 * **Model block** – besides actors, Blockbuster also adds a *model block*, allowing you placing down custom models or mobs as static props, which allows creating magnificient and immersive scenes. Besides placing them down, you can also hold those models or mobs in your hand.
 * **BB gun item** – a special item which shoots projectiles on right click. This feature provides many different configuration options which can be used to create not only firearm combat scenes, but also special effects like avalanches, fake physics, crowd explosion and much more!
-* **[Aperture](<?php echo $links['aperture']['curse'] ?>) support** – Blockbuster mod has built-in Aperture integration. When Aperture is loaded, Blockbuster mod provides you with some features such as: ability to attach camera profiles to playback button, previewing director block playback while editing cameras and editing the player recording actions within the camera editor.
+* **[Aperture](<?php echo $links['aperture']['curse'] ?>) support** – Blockbuster mod has built-in Aperture integration. When Aperture is loaded, Blockbuster mod provides you with some features such as: ability to attach camera profiles to playback button, previewing playback while editing cameras and editing the player recording actions within the camera editor.
 * **Custom models** – recording only player-like entities limits the originality of your machinimas. Blockbuster mod let's you create custom models using in-game model editor. Unleash your creativity with custom models!
 * **OBJ and MagicaVoxel models** – beside custom models which can be created with in-game custom model editor, Blockbuster also supports OBJ models and MagicaVoxel models on top of custom JSON models!
 * **Morphs support** – thanks to [Metamorph](<?php echo $links['metamorph']['curse'] ?>)'s morph API, Blockbuster is capable of using any morphs which Metamorph provides to be used by Blockbuster actors. Including Blockbuster's provided morphs and [Emoticons](<?php echo $links['emoticons']['curse'] ?>)' morphs.
@@ -46,6 +40,7 @@ Blockbuster mod provides you with lots of features to create outstanding machini
 * **Animated GIF support** – now you can put reaction and meme GIFs onto Blockbuster models and just as images. Credit goes to [MrCrayfish's furniture mod](https://github.com/MrCrayfish/MrCrayfishFurnitureMod) and [DhyanB](https://github.com/DhyanB/Open-Imaging/blob/master/src/main/java/at/dhyan/open_imaging/GifDecoder.java).
 * **Animations** — with animated poses and image morph animations, you can add animation to your actors and sets.
 * **[Minema](<?php echo $links['minema'] ?>) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to videos with a press of a button.
+* **In-game audio synchronization** – if you have an .wav audio track, you can load it into Blockbuster, which will make actor and camera synchronization so much easier! Everytime you'll record an actor, play the scene or edit the camera, an audio waveform preview will be visible, which will make any kind of timing synchronizations a breeze!
 * **Speaks multiple languages** – besides English, Blockbuster is also translated into Russian and Chinese thanks to [Andruxioid](https://www.youtube.com/channel/UCnHOceBjwMyqCR5oYOoNqhQ) and [ycwei982](https://www.youtube.com/channel/UCfUDMSGlXUblXimkvNl_7Ww), respectively.
 
 ## Videos
@@ -54,11 +49,11 @@ Blockbuster mod provides you with lots of features to create outstanding machini
 
 This is change logs playlist. Almost every update (for exception of patches with bug fixes and minor features) comes with a change log video which showcases new features, and briefly shows how to use them.
 
-<?php echo youtube('JghXifbHi-k?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
+<?php echo youtube('NmGz3SVs6Gs?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
 Here is also a playlist of tutorials directly or indirectly related to Blockbuster/Minecraft machinima creation. Make sure to check it out, as it consists out of tutorials such as basics of Blockbuster mod, how to import OBJ models, etc.
 
-<?php echo youtube('vo8fquY-TUM?list=PLLnllO8nnzE-LIHZiaq0-ZAZiDO82K1I9', $domain) ?> 
+<?php echo youtube('Vv5ZwtZdwz0?list=PLLnllO8nnzE-xmqdymsLpxnXTaAbyIVjM', $domain) ?> 
 
 ### Blockbuster machinimas
 
@@ -66,9 +61,9 @@ This playlist consists out of videos that I've created a bunch of machinimas dur
 
 <?php echo youtube('eig13klr-kw?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
 
-Here is also a playlist of 400+ community made videos with Blockbuster mod:
+Here is also a playlist of 700+ community made videos with Blockbuster mod:
 
-<?php echo youtube('9hCMFoNnfxw?list=PL6UPd2Tj65nEE8kLKBxYYZLAjruJkO0r_', $domain) ?> 
+<?php echo youtube('kJHMj245qSY?list=PL6UPd2Tj65nEE8kLKBxYYZLAjruJkO0r_', $domain) ?> 
 
 <?php template('media', $__data__) ?> 
 
