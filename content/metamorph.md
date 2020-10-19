@@ -21,7 +21,7 @@ A: Most likely you installed MorePlayerModels mod alongside Metamorph. To fix th
 
 Change log video for Metamorph 1.2 by [Ethobot](https://www.youtube.com/channel/UCzrlI6MuQz0IzprmuUZb8-Q):
 
-<?php echo youtube('b9WbQa0goUQ?list=', $domain) ?> 
+<?php echo youtube('b9WbQa0goUQ', $domain) ?> 
 
 Mod showcases of Metamorph by other people (including in other languages):
 
