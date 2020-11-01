@@ -1,3 +1,10 @@
+## Minema 3.5.4
+
+* Changed the default value for **Encoder Arguments (alpha)** to a much compact and better version (if you want to use it, **reset the option to default value**)
+* Changed **Show Overlay** option appearing in the video
+* Changed the description of **Held Frames** option to include a hint about TAA shaders (suggested by JoubaMety)
+* Fixed "Format error" appearing in descriptions of some options (reported by Chunk7)
+
 ## Minema 3.5.3
 
 I apologize for some confusion with a gap between `3.5` and `3.5.3`. This is essentially because `3.5.1` and `3.5.2` were broken. For `3.5.1`, I messed up the target branch, plus the feature that was added there didn't work, and `3.5.2` was generally broken due to OptiFine OpenGL error spam (which caused Minema stop recording immediately due to OpenGL error).

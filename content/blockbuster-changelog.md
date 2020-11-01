@@ -1,3 +1,13 @@
+## Version 2.1.1
+
+This small patch update features texture coordinates preview in the model editor, a bug fix for extruded models and updated the tutorial link to the new version of tutorial series.
+
+**Compatible** with McLib `2.1.1`, Metamorph `1.2.3` and Aperture `1.5`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+* Added texture coordinates preview to the model editor panel
+* Changed the tutorial link to new Blockbuster academy (2020) playlist
+* Fixed extruded layers not working from time to time with asynchronous multi-skin
+
 ## Version 2.1
 
 This update is focused on simplifying some aspects of recording actors, and editing the player recordings. This update features a game changer feature called in-game audio synchronization. Director blocks' functionality was removed.
