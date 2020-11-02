@@ -1,3 +1,11 @@
+## Version 1.0.2
+
+This is a tiny update that adds `/forinc` command, which is like `/forin` command, but for client side commands.
+
+**Compatible** with McLib `1.0.2`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
+
+* Added `/forinc` command, which is like `/forin` command, but the difference is that it executes client side commands
+
 ## Version 1.0.1
 
 Second update of Commander mod. This update now makes Commander mod depend upon McLib (version 1.0.2) mod, and also adds multiple commands in line parsing.
