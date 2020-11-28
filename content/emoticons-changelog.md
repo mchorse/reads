@@ -1,3 +1,12 @@
+## Version 0.6.2
+
+This update is a small fix for Blockbuster.
+
+**Compatible** with McLib **2.1** and optionally with Blockbuster **2.1** and Metamorph **1.2.3**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Fixed Chinese localization not working (I forgot to add them, thanks to Chunk7)
+* Fixed `emoticons` (Emote action) not working in Blockbuster's record morphs (reported by Herr Bergmann)
+
 ## Version 0.6.1
 
 A small update that doesn't do much. 
