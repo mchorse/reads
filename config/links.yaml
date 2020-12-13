@@ -4,6 +4,10 @@ github: https://github.com/mchorse
 reddit: https://www.reddit.com/r/mcpub/
 discord: https://discord.gg/qfxrqUF
 minema: https://github.com/daipenger/minema/releases
+blockbench: https://blockbench.net/
+geckolib: 
+    title: GeckoLib    
+    curse: https://curseforge.com/minecraft/mc-mods/geckolib
 
 # MachinimaHub
 hub: 
@@ -39,6 +43,16 @@ blockbuster:
     curse: https://www.curseforge.com/minecraft/mc-mods/blockbuster
     github: https://github.com/mchorse/blockbuster
     wiki: https://github.com/mchorse/blockbuster/wiki
+
+chameleon:
+    title: Chameleon
+
+    banner: https://i.imgur.com/Iobi4O0.png
+    cover: https://i.imgur.com/BqozBzt.png
+
+    curse: https://curseforge.com/minecraft/mc-mods/chameleon-morph
+    github: https://github.com/mchorse/chameleon
+    wiki: https://github.com/mchorse/chameleon/wiki
 
 commander:
     title: Commander

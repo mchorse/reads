@@ -16,10 +16,13 @@ if ($domain !== \mchorse\PMC)
     
     foreach (\mchorse\domains() as $key)
     {
-        $title = $links['titles'][$key];
-        $link = $links[$project][$key];
-        
-        $output .= sprintf('[%s](%s) – ', $title, $link);
+        if (isset($links[$project][$key]))
+        {
+            $title = $links['titles'][$key];
+            $link = $links[$project][$key];
+            
+            $output .= sprintf('[%s](%s) – ', $title, $link);
+        }
     }
     
     $output = trim($output, '– ');
