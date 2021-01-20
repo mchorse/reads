@@ -1,3 +1,13 @@
+## Metamorph 1.2.5
+
+* Added **Copy /morph command** context menu to creative morphs menu (suggested by Centryfuga)
+* Added confirmation to remove all morphs context menu item
+* Added keybind field to morph panel in morph editor
+* Added custom hitbox options to all morphs
+* Added an option (enabled by default) to animate body part's transformations based on parent morph's animation progress
+* Fixed some (like copy to recent) context menus not appearing in creative morphs menu
+* Fixed morphs not updating after server updated the blacklist
+
 ## Metamorph 1.2.4
 
 This patch fix features some bug fixes that are required for the release of my new Chameleon mod.

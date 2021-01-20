@@ -1,3 +1,21 @@
+## Version 1.0.2
+
+This is a small patch that is required for new versions of McLib.
+
+**Compatible** with McLib `2.2`, Metamorph `1.2.5` and GeckoLib `3.0.0`. It doesn't mean that future versions of Metamorph, Aperture and GeckoLib would be incompatible, but older versions are most likely incompatible.
+
+* Fixed configuration ID (due to mod ID change in previous patch) being broken
+* Fixed multi-part not updating when closing morph editor with texture picker opened
+* Fixed animations were not updating on present morphs (reported by Silverx)
+
+## Version 1.0.1
+
+Quick hotfix to fix Chameleon mod to work with another more popular Chameleon mod.
+
+**Compatible** with McLib `2.1.2`, Metamorph `1.2.4` and GeckoLib `3.0.0`. It doesn't mean that future versions of Metamorph, Aperture and GeckoLib would be incompatible, but older versions are most likely incompatible.
+
+* Changed the mod ID from `chameleon` to `chameleon_morph`
+
 ## Version 1.0
 
 First version of Chameleon mod. This version provides essential tools to work with Chameleon animated morphs.
