@@ -15,9 +15,9 @@ This huge update features lots of new cool features like first person player pla
 * Added animation preview into sequencer's morph editor (suggested by MaiZhi)
 * Added a feature to set colorful name tags for actors (suggested by Mopolo)
 * Added `/record rename <filename> <new_filename>` command
-* Added **Copy pose** and **Paste pose** contet menu to pose editor's limb list and pose list in model editor's pose panel (suggested by Joziah2)
+* Added **Copy pose** and **Paste pose** context menu to pose editor's limb list and pose list in model editor's pose panel (suggested by Joziah2)
 * Added **Target** option to scene's replay, which allows playing back replays with a real actor
-* Added a feture that automatically reloads a scene if a scene gets edited when it's already playing
+* Added a feature that automatically reloads a scene if a scene gets edited when it's already playing
 * Added configuration of playback button upon sneak + right click (suggested by Mopolo)
 * Added `/model combine <paths...>` command which allows creating permutations of skins in given folders relative to `config/blockbuster/models/` (suggested by Tossler)
 * Added `/model report` command which allows creating a report about models and skins
