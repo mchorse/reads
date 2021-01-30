@@ -1,8 +1,10 @@
 ## Version 2.2
 
-This huge update features lots of new cool features like first person player playback, .
+This huge update features lots of new cool features like first person player playback, easier animation of body parts and sequencers and lots of quality of life features and tweaks, and bug fixes.
 
 **Compatible** with McLib `2.2`, Metamorph `1.2.5` and Aperture `1.5.1`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+<?php echo youtube('ioHMMEhxgkE', $domain) ?> 
 
 * Added shape key feature to OBJ model loading (it allows creating animations based on different states of OBJ models in model's `shapes` folder)
 * Added support for local variables in particle system
