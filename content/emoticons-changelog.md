@@ -2,7 +2,7 @@
 
 This update features new Simple+ model type, and a couple of fixes.
 
-**Compatible** with McLib **2.2** and optionally with Blockbuster **2.1.2** and Metamorph **1.2.5**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+**Compatible** with McLib **2.2** and optionally with Blockbuster **2.2** and Metamorph **1.2.5**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
 
 * Added Simple+ model type that is similar to Simple model type, but has these nice sharp corners
 * Changed layout of morph to work similarly to Chameleon mod's morph editor
