@@ -41,6 +41,7 @@ Blockbuster mod provides you with lots of features to create outstanding machini
 * **Animations** — with animated poses and image morph animations, you can add animation to your actors and sets.
 * **[Minema](<?php echo $links['minema'] ?>) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to videos with a press of a button.
 * **In-game audio synchronization** – if you have an .wav audio track, you can load it into Blockbuster, which will make actor and camera synchronization so much easier! Everytime you'll record an actor, play the scene or edit the camera, an audio waveform preview will be visible, which will make any kind of timing synchronizations a breeze!
+* **First-person playback** — with new **Target** option of scene's replays, it's possible to make any player to be an actor. This could be useful for creation of reproducible first-person roleplays, or locking the player in a cinematic within adventure map.
 * **Speaks multiple languages** – besides English, Blockbuster is also translated into Russian and Chinese thanks to [Andruxioid](https://www.youtube.com/channel/UCnHOceBjwMyqCR5oYOoNqhQ) and [ycwei982](https://www.youtube.com/channel/UCfUDMSGlXUblXimkvNl_7Ww), respectively.
 
 ## Videos

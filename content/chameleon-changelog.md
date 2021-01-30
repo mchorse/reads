@@ -7,6 +7,7 @@ This is a small patch that is required for new versions of McLib.
 * Fixed configuration ID (due to mod ID change in previous patch) being broken
 * Fixed multi-part not updating when closing morph editor with texture picker opened
 * Fixed animations were not updating on present morphs (reported by Silverx)
+* Fixed dedicated server crashing (reported by Nazzy)
 
 ## Version 1.0.1
 
