@@ -16,7 +16,7 @@ This decent patch update adds a couple of neat quality of life camera tweaks.
 * Fixed playback scrub event not getting fired upon selecting the fixture during sync mode
 * Fixed `follow` modifier's XYZ offset options not being synced
 * Fixed stuttering of `manual` fixture's recording code (reported by fad)
-* Fixed double moidifiers when converting `path` fixture to `keyframe` fixture
+* Fixed double modifiers when converting `path` fixture to `keyframe` fixture
 
 ## Aperture 1.5
 
