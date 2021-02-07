@@ -1,3 +1,17 @@
+## Version 2.2.1
+
+This patch update adds a couple of neat features and fixes.
+
+**Compatible** with McLib `2.2.1`, Metamorph `1.2.5` and Aperture `1.5.2`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+* Added `body_yaw` and `roll` properties to `/record clean` and `/record process` commands
+* Added support for nested animated morphs for morph action's animation duration marker
+* Added **Update scene after saving** option (suggested by gewenzsko)
+* Added **Item scale** and **Cape** options for model limbs
+* Added new default `cape` model
+* Fix crash with playback button GUI (reported by 1Deni)
+* Fix record button not working in the standalone player recording editor (reported by gewenzsko)
+
 ## Version 2.2
 
 This huge update features lots of new cool features like first person player playback, easier animation of body parts and sequencers and lots of quality of life features and tweaks, and bug fixes.
