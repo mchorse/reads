@@ -60,6 +60,8 @@ This update doesn't have any aim, but rather has a lot of random features, nothi
 * Added more default models:
     * `eyes/3.0` which is eyes rig 3.0 (suggested by Jvonlins)
     * `eyes/3.0_1px` which is eyes rig 3.0 but 1 pixel high
+    * `eyes/3.1` which is eyes rig 3.1 (3.0 but with with bends)
+    * `eyes/3.1_simple` which is eyes rig 3.1 (3.1 but with less bends)
     * `eyes/alex` which is `alex` but with 3D head for covering eyes holes
     * `eyes/fred` which is `fred` but with 3D head for covering eyes holes
     * `eyes/steve` which is `steve` but with 3D head for covering eyes holes
