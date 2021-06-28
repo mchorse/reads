@@ -1,3 +1,14 @@
+## Minema 3.6
+
+This update was fully developed by @NyaNLI featuring some amazing features! 👏 🥳 
+
+* Added After Effects keyframe export option (Capturing > Export Keyframes of After Effects Camera)
+* Added ffmpeg-based motion blur feature (Capturing > Motion Blur)
+* Added rendering of 360 degree equirectangular panoramic video (Equirectangular Panoramic Video config category)
+* Added shader pack temporary switcher option (Engine Overrides > Shaderpack for Recording), alternatively it can be changed in Shift + F4 menu
+* Rewrote the sync module
+* Rewrote forced chunk loading based on Optifine code
+
 ## Minema 3.5.4
 
 * Changed the default value for **Encoder Arguments (alpha)** to a much compact and better version (if you want to use it, **reset the option to default value**)

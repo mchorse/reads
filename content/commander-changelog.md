@@ -1,3 +1,10 @@
+## Version 1.1
+
+**Compatible** with McLib `2.3`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
+
+* Changed to handle multiple commands in a single command to be handled by ` || ` instead of `||` (meaning you'll need to provide spaces between two commands)
+* Fixed and updated to work with McLib `2.3`
+
 ## Version 1.0.2
 
 This is a tiny update that adds `/forinc` command, which is like `/forin` command, but for client side commands.

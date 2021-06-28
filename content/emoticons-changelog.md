@@ -1,3 +1,22 @@
+## Version 1.0
+
+This update adds more emotes, morph emote system for props (requires Metamorph), a couple of tweaks, and handful of bug fixes.
+
+* Added copy/paste context menu to pose editor (suggested by Tribble)
+* Added support for float (not only integer) x value keyframes
+* Added Tada!, Smug Dance, Nope and Ragdoll #3 emotes
+* Added morph emote system
+* Added 6 misc bones for emotes
+* Changed Disable non-emote animations option server side and syncable (suggested by SwilaPlasmark)
+* Fixed emotes not working through Blockbuster's `sequencer` morph
+* Fixed crash with emote action NPE (reported by Kamesuta)
+* Fixed wrong matrix transformation order, aka scaling skewing rotation (reported by zoombie)
+* Fixed user animation files not being updated instantly (requires log out and log in)
+* Fixed armor meshes being overridden in case user provided a custom mesh config (reported by Centryfuga)
+* Fixed 3D emoticons morphs having lines on the outer layer (reported by Chryfi)
+* Fixed outer layer offsets among all models (for exception of 3D model type) to be accurate to player models (reported by Yancie)
+* Fixed UV distortions for Simple+ models (reported by NyaNLI)
+
 ## Version 0.7
 
 This update features new Simple+ model type, and a couple of fixes.

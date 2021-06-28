@@ -4,7 +4,7 @@
 
 **Disclaimer**: this mod has nothing to do with Aperture Science from Portal games. See the article on what is [Aperture](https://en.wikipedia.org/wiki/Aperture) actually is.
 
-**Aperture** is a Minecraft mod which allows you to create advanced camera movement (for cinematics or machinimas) using camera editor GUI. It works with Forge for Minecraft 1.12.2 (past versions available for 1.10.2 and 1.11.2).
+**Aperture** is a Minecraft mod which allows you to create advanced camera movement (for cinematics or machinimas) using camera editor GUI. It works with Forge for Minecraft 1.12.2 (past versions are available for 1.10.2 and 1.11.2).
 
 ## Features
 

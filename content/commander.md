@@ -49,9 +49,15 @@ Besides supporting variables, you can also use mathematical expressions within `
 
 See [this page](https://github.com/mchorse/aperture/wiki/Math-Expressions) for more information. 
 
-And finally, Commander mod supports multiple commands executed in one line by separating commands using `||` symbols:
+And finally, Commander mod supports multiple commands executed in one line by separating commands using ` || ` (mind the spaces) symbols:
 
     /particle explode ~ ~ ~ 0.1 0.1 0.1 0.1 10 || setblock ~ ~ ~ minecraft:stone
+
+The spaces between `||` are **required**. Command like this:
+
+    /particle explode ~ ~ ~ 0.1 0.1 0.1 0.1 10||setblock ~ ~ ~ minecraft:stone
+
+Won't be treated as multiple!
 
 ## Video
 
