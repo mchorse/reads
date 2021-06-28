@@ -14,8 +14,6 @@ If you don't know how to import Blockbench models into Chameleon, check out this
 
 <?php echo youtube('97romIu2DGo?list=PLLnllO8nnzE94k_xh3tqX58_tJzx92NcG', $domain) ?> 
 
-<?php template('media', $__data__) ?> 
-
 <?php template('bugs', $__data__) ?> 
 
 <?php if ($domain === \mchorse\GH): ?> 

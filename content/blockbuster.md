@@ -3,46 +3,29 @@
 <?php template('links', $__data__) ?>  
 [EchebKeso](https://twitter.com/EchebKeso) – [Mocap mod](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1445402-minecraft-motion-capture-mod-mocap-16-000) – [Mocap's source code](https://github.com/EchebKeso/Mocap)
 
-**Blockbuster** is a Minecraft mod which helps you create Minecraft machinimas/roleplays series using NPC body actors. Besides providing basic recording and playback, it also features a ton of miscellaneous features which can help you to add some originality to your video, extending your possibilities beyond plain body acting (see **Features** section). 
+**Blockbuster** is a Minecraft mod which a machinim studio mod, offering countless features for video, and possibly for adventure map, creation. **It's not advised to use Blockbuster mod a public Minecraft server**, as some features of Blockbuster aren't multiplayer-friendly (like a lack of models and skins synchronization)! **Use it at your own risk**!
 
-This mod works with Forge **14.23.4.2638** (or above) for Minecraft 1.12.2 (past versions available for 1.10.2 and 1.11.2).
+Blockbuster is also available in Chinese language thanks to [ycwei982](https://www.youtube.com/channel/UCfUDMSGlXUblXimkvNl_7Ww), Chunk7, H2SO4GepaoAX and KuenYo, and Russian language thanks to [Andruxioid](https://www.youtube.com/channel/UCnHOceBjwMyqCR5oYOoNqhQ)!
 
-Recording and playback is based on, and rewritten from scratch, Mocap mod by [EchebKeso](https://twitter.com/EchebKeso).
-
-![MachinimaHub](<?php echo $links['hub']['banner'] ?>)
-
-If you're interested in any aspect of Minecraft machinimas, roleplays or animations (creation, watching, voice acting and etc.), [feel free to join](<?php echo $links['hub']['invite'] ?>) the MachinimaHub. **MachinimaHub** is a community run Discord server about machinimas (and other forms of story-telling videos such as first-person roleplays and animations). 
-
-Beside that, MachinimaHub has lots of Blockbuster users, so if you need any help feel free to hop on the server!
+This mod works with Forge **14.23.4.2638** (or above) for Minecraft 1.12.2 (past versions are available for 1.10.2 and 1.11.2). Recording and playback is based on, and rewritten from scratch, Mocap mod by [EchebKeso](https://twitter.com/EchebKeso).
 
 <?php template('install', array_merge($__data__, ['dependencies' => ['mclib', 'metamorph']])) ?> 
 
-## Features
+## For whom is this mod for?
 
-Blockbuster mod provides you with lots of features to create outstanding machinimas/roleplay series:
+If you're a YouTuber who is looking for a mod to improve overall quality of your (cinematic or improvised) videos, or you're an adventure map creator who wants to add more visuals to your maps, this is a mod for you!
 
-* **Actors and player recording** – the most important feature, as you won't be able to create a machinimas without it. With Blockbuster mod you can record yourself doing things and then playback it using an actor. *Recording code has some limitations on which actions it can record*. See [Blockbuster Wiki](<?php echo $links['blockbuster']['wiki'] ?>) for more information about limitations.
-* **Scenes** – scenes allow to record and manage multiple actors in the world. They are stored in separate files (in world's `blockbuster/scenes/` folder). With scenes, you can create templates, transfer to another worlds.
-* **Model block** – besides actors, Blockbuster also adds a *model block*, allowing you placing down custom models or mobs as static props, which allows creating magnificient and immersive scenes. Besides placing them down, you can also hold those models or mobs in your hand.
-* **BB gun item** – a special item which shoots projectiles on right click. This feature provides many different configuration options which can be used to create not only firearm combat scenes, but also special effects like avalanches, fake physics, crowd explosion and much more!
-* **[Aperture](<?php echo $links['aperture']['curse'] ?>) support** – Blockbuster mod has built-in Aperture integration. When Aperture is loaded, Blockbuster mod provides you with some features such as: ability to attach camera profiles to playback button, previewing playback while editing cameras and editing the player recording actions within the camera editor.
-* **Custom models** – recording only player-like entities limits the originality of your machinimas. Blockbuster mod let's you create custom models using in-game model editor. Unleash your creativity with custom models!
-* **OBJ and MagicaVoxel models** – beside custom models which can be created with in-game custom model editor, Blockbuster also supports OBJ models and MagicaVoxel models on top of custom JSON models!
-* **Morphs support** – thanks to [Metamorph](<?php echo $links['metamorph']['curse'] ?>)'s morph API, Blockbuster is capable of using any morphs which Metamorph provides to be used by Blockbuster actors. Including Blockbuster's provided morphs and [Emoticons](<?php echo $links['emoticons']['curse'] ?>)' morphs.
-* **Advanced morphs** – beside registering custom models into morph system, Blockbuster also provides special morphs for advanced machinima creation:
-	* **Image morph** – a morph which allows to display an image (on a plane).
-    * **Sequencer morph** – a morph that switches between given morphs automatically, depending on delays set between multiple morphs.
-    * **Record morph** – a morph that allows to playback a player recording within the morph itself (useful with model block or body part system).
-    * **Structure morph** – a morph that allows to morph into a structure saved with structure block.
-    * **Particle morph** – a morph which allows to emit vanilla and morph particles.
-    * **Snowstorm morph** (sponsored by [Spark Squared](https://spark-squared.com/)) — a morph which allows to create custom particle effects.
-* **Green screen features** – Blockbuster adds glowing green blocks without any shading and an option to turn the sky fully green which makes it easier creating green screens for post processing of your machinimas. Beside that, Blockbuster has keying options which allow to create screenshots and videos with transparency, see [this tutorial](https://youtu.be/OY_USRJofT0).
-* **Animated GIF support** – now you can put reaction and meme GIFs onto Blockbuster models and just as images. Credit goes to [MrCrayfish's furniture mod](https://github.com/MrCrayfish/MrCrayfishFurnitureMod) and [DhyanB](https://github.com/DhyanB/Open-Imaging/blob/master/src/main/java/at/dhyan/open_imaging/GifDecoder.java).
-* **Animations** — with animated poses and image morph animations, you can add animation to your actors and sets.
-* **[Minema](<?php echo $links['minema'] ?>) compatability** – thanks to frame-based player recording and cameras, you can convert your in-game machinimas to videos with a press of a button.
-* **In-game audio synchronization** – if you have an .wav audio track, you can load it into Blockbuster, which will make actor and camera synchronization so much easier! Everytime you'll record an actor, play the scene or edit the camera, an audio waveform preview will be visible, which will make any kind of timing synchronizations a breeze!
-* **First-person playback** — with new **Target** option of scene's replays, it's possible to make any player to be an actor. This could be useful for creation of reproducible first-person roleplays, or locking the player in a cinematic within adventure map.
-* **Speaks multiple languages** – besides English, Blockbuster is also translated into Russian and Chinese thanks to [Andruxioid](https://www.youtube.com/channel/UCnHOceBjwMyqCR5oYOoNqhQ) and [ycwei982](https://www.youtube.com/channel/UCfUDMSGlXUblXimkvNl_7Ww), respectively.
+Blockbuster mod provides a ton of features to improve your videos: 
+
+* Recording and playback of multiple actors.
+* Post editing of recorded player's actions.
+* Importing, editing, and using models (OBJ and MagicaVoxel) with actors.
+* Using models as static decorations with model blocks.
+* Using models as guns and projectiles with BB gun item.
+* [Camera](<?php echo $links['aperture']['curse'] ?>) and audio synchronization with actors.
+* Keying tools (chroma blocks, keying solutions with [Minema](<?php echo $links['minema'] ?>) mod).
+* Simple animation model mechanims.
+* And much more...
 
 ## Videos
 
@@ -52,7 +35,7 @@ This is change logs playlist. Almost every update (for exception of patches with
 
 <?php echo youtube('ioHMMEhxgkE?list=PL6UPd2Tj65nEwg2bfY-NduLihPy6fgnvK', $domain) ?> 
 
-Here is also a playlist of tutorials directly or indirectly related to Blockbuster/Minecraft machinima creation. Make sure to check it out, as it consists out of tutorials such as basics of Blockbuster mod, how to import OBJ models, etc.
+Here is also an up-to-date tutorial series which should teach you the basics of the mod (check more videos [on the same channel](https://www.youtube.com/c/McHorsesmods/videos) for more tutorials about Blockbuster mod).
 
 <?php echo youtube('Vv5ZwtZdwz0?list=PLLnllO8nnzE-xmqdymsLpxnXTaAbyIVjM', $domain) ?> 
 
@@ -62,11 +45,9 @@ This playlist consists out of videos that I've created a bunch of machinimas dur
 
 <?php echo youtube('eig13klr-kw?list=PL6UPd2Tj65nFdhjzY-z6yCJuPaEanB2BF', $domain) ?> 
 
-Here is also a playlist of 700+ community made videos with Blockbuster mod:
+Here is also a playlist of 1,000+ community made videos with Blockbuster mod:
 
 <?php echo youtube('kJHMj245qSY?list=PL6UPd2Tj65nEE8kLKBxYYZLAjruJkO0r_', $domain) ?> 
-
-<?php template('media', $__data__) ?> 
 
 <?php template('bugs', $__data__) ?> 
 
@@ -74,12 +55,4 @@ Here is also a playlist of 700+ community made videos with Blockbuster mod:
 ## License
 
 Blockbuster mod's code is licensed under MIT license. See [LICENSE.md](./LICENSE.md) file for more information about the license.
-
-## For Devs
-
-Language files are compiled from YML (which are located in `help/` folder) to INI format. 
-
-If you're going to work with localization strings, modify the appropriate YML file, first. Then use the `./gradlew buildLangFiles` command to convert YML to INI format `.lang` files directly to `src/main/resources/assets/blockbuster/lang` folder. Don't forget to refresh your IDE after building the langauge files.
-
-Also, you need [Aperture](<?php echo $links['aperture']['github'] ?>)'s, [McLib](<?php echo $links['mclib']['github'] ?>) and [Metamorph](<?php echo $links['metamorph']['github'] ?>)'s dev builds. Build them and then grab `-sources.jar` and `-dev.jar` to `run/libs/` folder, and refresh the IDE.
 <?php endif ?>

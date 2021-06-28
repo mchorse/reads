@@ -2,6 +2,8 @@
 
 This update adds more emotes, morph emote system for props (requires Metamorph), a couple of tweaks, and handful of bug fixes.
 
+**Compatible** with McLib **2.3** and optionally with Blockbuster **2.3** and Metamorph **1.2.7**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
 * Added copy/paste context menu to pose editor (suggested by Tribble)
 * Added support for float (not only integer) x value keyframes
 * Added Tada!, Smug Dance, Nope and Ragdoll #3 emotes

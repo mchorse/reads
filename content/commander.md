@@ -2,7 +2,7 @@
 
 <?php template('links', $__data__) ?> 
 
-**Commander** is a Minecraft mod which allows enhances command usage experience. Currently, this mods adds only one command to execute commands in a loop. 
+**Commander** is a Minecraft mod which allows enhances command usage experience. 
 
 I don't recommend using this mod on a server, since it's very easy to get the server lag, freeze or crash with the loop command. **If you're going to use it on the public server, use it at your own risk**.
 
@@ -18,8 +18,6 @@ Where `<start>` is first index, and `<end>` is the value that you want `/forin` 
 
 `<command>` argument can be any valid commands, however, besides that, `<command>` accepts variables through `@{...}` construction. For example, if you want to spawn 5 creepers in a row across X axis, you can use this `/forin` like this:
 
-    /forin 0 4 summon Creeper ~@{i} ~ ~
-    # Or for 1.11.2+
     /forin 0 4 summon minecraft:creeper ~@{i} ~ ~
 
 This command will evaluate into this:
@@ -64,7 +62,5 @@ Won't be treated as multiple!
 Here is also a short showcase video of some of the usages of this mod:
 
 <?php echo youtube('R_Nnu-iLj1c', $domain) ?> 
-
-<?php template('media', $__data__) ?> 
 
 <?php template('bugs', $__data__) ?> 
