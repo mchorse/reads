@@ -1,9 +1,9 @@
-<?php template('banner', $__data__) ?> 
+<?php template('banner', array_merge($__data__, ['abandoned' => 'open'])) ?> 
 
 <?php template('links', $__data__) ?>  
 [EchebKeso](https://twitter.com/EchebKeso) – [Mocap mod](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1445402-minecraft-motion-capture-mod-mocap-16-000) – [Mocap's source code](https://github.com/EchebKeso/Mocap)
 
-**Blockbuster** is a Minecraft mod which a machinim studio mod, offering countless features for video, and possibly for adventure map, creation. **It's not advised to use Blockbuster mod a public Minecraft server**, as some features of Blockbuster aren't multiplayer-friendly (like a lack of models and skins synchronization)! **Use it at your own risk**!
+**Blockbuster** is a Minecraft mod which a machinima studio mod, which offers countless features for video, and possibly for adventure map, production. **It's not advised to use Blockbuster mod a public Minecraft server**, as some features of Blockbuster aren't multiplayer-friendly (like a lack of models and skins synchronization)! **Use it at your own risk**!
 
 Blockbuster is also available in Chinese language thanks to [ycwei982](https://www.youtube.com/channel/UCfUDMSGlXUblXimkvNl_7Ww), Chunk7, H2SO4GepaoAX and KuenYo, and Russian language thanks to [Andruxioid](https://www.youtube.com/channel/UCnHOceBjwMyqCR5oYOoNqhQ)!
 

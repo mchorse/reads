@@ -1,4 +1,4 @@
-<?php template('banner', $__data__) ?>
+<?php template('banner', array_merge($__data__, ['abandoned' => 'open'])) ?> 
 
 <?php template('links', $__data__) ?> 
 
@@ -12,7 +12,7 @@ Aperture is also available in Chinese language thanks to [ycwei982](https://www.
 
 ## For whom is this mod for?
 
-If you want to setup cameras for a Minecraft machinima/roleplay, and you're already using [Blockbuster mod](<?php echo $links['blockbuster']['curse'] ?>) in **singleplayer**, then this is a mod for you!
+If you want to setup cameras for a Minecraft machinima/roleplay, and you already use [Blockbuster mod](<?php echo $links['blockbuster']['curse'] ?>) in **singleplayer**, then this is a mod for you!
 
 Aperture mod provides a ton of features to improve your camera (in comparison to other camera): 
 

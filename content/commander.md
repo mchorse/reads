@@ -1,4 +1,4 @@
-<?php template('banner', $__data__) ?> 
+<?php template('banner', array_merge($__data__, ['abandoned' => 'open'])) ?> 
 
 <?php template('links', $__data__) ?> 
 
