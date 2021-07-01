@@ -4,9 +4,11 @@ This update is focused on adding Undo/Redo and limitations for non-OP users.
 
 **Compatible** with McLib `2.3` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
 
+<?php echo youtube('F6b_ScRB3gc', $domain) ?> 
+
 * Added limiting of editing Aperture data (and opening camera editor) on the server to OP only
 * Added circular interpolation to path fixture
-* Added an option tod display everything in seconds (suggested by zoombie)
+* Added an option to display everything in seconds (suggested by zoombie)
 * Added playback of the scene possible with an empty camera profile
 * Added proper handling of fixtures during cutting (suggested by Andruxioid)
 * Added alphabetical sorting to camera profile list

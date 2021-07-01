@@ -4,6 +4,8 @@ This update doesn't have any aim, but rather has a lot of random features, nothi
 
 **Compatible** with McLib `2.3`, Metamorph `1.2.7` and Aperture `1.6`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
+<?php echo youtube('vO1tAgNsCUo', $domain) ?> 
+
 ### General
 
 * Added limiting of editing Blockbuster data on the server to OP only
@@ -14,9 +16,7 @@ This update doesn't have any aim, but rather has a lot of random features, nothi
 * Added a replay option to render actor last (suggested by gewenzsko)
 * Added depth sorting of always rendered actors
 * Added canceling of player recording by pressing pause scene keybind (suggested by Chunk7)
-* Added animation and transformations options to `structure` morph (suggested by Chunk7)
 * Added truly random option to `sequencer` morph
-* Added `structure` morph's name display (suggested by Guider)
 * Added outline and background to selected replay in the scene menu (suggested by Chunk7)
 * Changed model block to be uneditable in adventure mode (suggested by The Darvin Studio)
 * Fixed `sequencer` morph entry doesn't get copied when it should be
@@ -74,6 +74,7 @@ This update doesn't have any aim, but rather has a lot of random features, nothi
     * `blockbuster/textures/entity/eye_masks/` are eyes masks that allow erasing 2 and 1 pixel high eye holes with multi-skin
     * `blockbuster/textures/entity/skin_masks/` are skin masks (by Silverx) that allow erasing body parts on Minecraft player skins
     * `blockbuster/textures/entity/mchorse/` are McHorse's eyes, head and skin textures
+    * `blockbuster/textures/entity/pixel.png` is a white pixel that can be used with image morph for glow effects (use the color filter to change the color of the pixel)
 * Changed shape keys' relative option to be enabled by default
 * Fixed shape keys incorrectly calculating after morph merging
 * Fixed OBJ files not being copied when duplicating a model (reported by SergiDPlay)
@@ -89,11 +90,22 @@ This update doesn't have any aim, but rather has a lot of random features, nothi
 * Added realistic collision drag (developed by Chryfi)
 * Added tangential velocity (developed by Chryfi)
 * Added local velocity (developed by Chryfi)
+* Added local scale (developed by Chryfi)
+* Added scale texture (developed by Chryfi)
 * Changed duplication of particle effects also saves it immediately (suggested by El_Redstoniano)
 * Fixed Snowstorm particle effects not loading upon entering the world (reported by Jvonlins)
 * Fixed NPE crash when particle doesn't exist anymore on the disk but was still present in the list (reported by zoombie)
 * Fixed NPE crash in Snowstorm's morph editor when particle doesn't exist anymore (reported by Chryfi)
 * Fixed once lifetime emitter component working incorrectly
+
+### Structure morph
+
+* Added animation and transformations options to `structure` morph (suggested by Chunk7)
+* Added `structure` morph's name display (suggested by Guider)
+* Added biome picker for `structure` morph (developed by NyaNLI)
+* Added lighting option for `structure` morph (developed by NyaNLI)
+* Fixed `structure` morph not rendering without disabling cached rendering (fixed by NyaNLI)
+* Removed Cached structure rendering
 
 ## Version 2.2.2
 
