@@ -77,6 +77,14 @@ emoticons:
     pmc: https://www.planetminecraft.com/mod/emoticons-4212245/
     curse: https://www.curseforge.com/minecraft/mc-mods/emoticons
 
+mappet:
+    title: Mappet
+
+    curse: https://www.curseforge.com/minecraft/mc-mods/mappet
+    github: https://github.com/mchorse/mappet
+    wiki: https://github.com/mchorse/mappet/wiki
+    discord: https://discord.gg/QhvbgSWpYn
+
 mclib:
     title: McLib
 
