@@ -1,3 +1,16 @@
+## Version 2.3.1
+
+This patch update fixes a couple of bugs.
+
+**Compatible** with McLib `2.3.1`, Metamorph `1.2.7` and Aperture `1.6`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+* Added a feature when duplicating a scene, all player recordings will be renamed using rename prefix algorithm to avoid overwriting player recordings from previous scene
+* Added a feature to pack manually models into Blockbuster's jar (see `assets/blockbuster/models/user/` folder)
+* Added anchor point option to `structure` morph
+* Added support for loading n-gons in OBJs models
+* Added shadow option to `image` morph
+* Removed eye height animation to being laggy
+
 ## Version 2.3
 
 This update doesn't have any aim, but rather has a lot of random features, nothing groundbreaking though.

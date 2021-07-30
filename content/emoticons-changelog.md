@@ -1,3 +1,12 @@
+## Version 1.0.1
+
+This patch fixes a couple of bugs.
+
+**Compatible** with McLib **2.3** and optionally with Blockbuster **2.3** and Metamorph **1.2.7**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Fixed existing poses crash the game when they don't have specific transformation (i.e. new miscellaneous bones)
+* Fixed most of the models lacking miscellaneous bones
+
 ## Version 1.0
 
 This update adds more emotes, morph emote system for props (requires Metamorph), a couple of tweaks, and handful of bug fixes.
