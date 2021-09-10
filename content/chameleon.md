@@ -4,9 +4,12 @@
 
 **Chameleon** is a Minecraft mod, and a Metamorph add-on, which allows to import static and animated [Blockbench](<?php echo $links['blockbench'] ?>) models into Metamorph's morph system, which allows using loaded Blockbench models as morphs (i.e. you can morph into animated models), actors, decorations or custom projectiles (through Blockbuster mod). 
 
-This mod works only with Forge for Minecraft **1.12.2**. Chameleon mod is powered by [GeckoLib](<?php echo $links['geckolib']['curse'] ?>) (**3.0.0 or above**), an amazing animation library for Minecraft mod!
+This mod works only with Forge for Minecraft **1.12.2**. 
 
-<?php template('install', array_merge($__data__, ['dependencies' => ['mclib', 'metamorph', 'geckolib']])) ?> 
+Chameleon **1.1** and up doesn't require [GeckoLib](<?php echo $links['geckolib']['curse'] ?>) anymore.  
+Chameleon mod below version **1.1** is powered by [GeckoLib](<?php echo $links['geckolib']['curse'] ?>) (**3.0.0 or above** but below versiob **3.0.0-beta8**), an amazing animation library for Minecraft mod!
+
+<?php template('install', array_merge($__data__, ['dependencies' => ['mclib', 'metamorph']])) ?> 
 
 ## Tutorial videos
 
