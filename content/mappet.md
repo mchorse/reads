@@ -1,3 +1,5 @@
+<?php template('banner', $__data__) ?> 
+
 <?php template('links', $__data__) ?> 
 
 **Mappet** is a Minecraft mod (for **1.12.2** exclusively) that is designed as a tool set for far superior adventure maps than possible with vanilla. It's also possible to use Mappet for scripted roleplays, and, to some extent, in Minecraft machinimas.
