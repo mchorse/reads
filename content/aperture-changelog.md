@@ -1,3 +1,17 @@
+## Aperture 1.7
+
+This update was made by Chryfi, and it features a groundbreaking feature which would allow combining CGI and Minecraft footage much much easier using Minema mod and Blender, by exporting tracking data in an importable format.
+
+**Compatible** with McLib `2.3.6` and Minema `3.5` (optionally). It doesn't mean that future versions of McLib (or Minema) would be incompatible, but older versions are most likely incompatible.
+
+* Added tracking exporter, it exports:
+    * Metadata like FPS, video resolution, and more...
+    * Camera tracking data (position, rotation, FOV)
+    * Entity tracking data (position, body yaw)
+    * Morph tracking data (position, rotation, scale)
+    * Compatible with motion blur and held frames Minema options
+    * Needs [Blender import script](https://github.com/Chryfi/io_import_aperture_tracking) (it has multiple import options for further control)
+
 ## Aperture 1.6.1
 
 This patch update fixes a couple of bugs.
