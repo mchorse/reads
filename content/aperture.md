@@ -32,6 +32,6 @@ This playlist is a **tutorial series**. It should teach you how to use Aperture 
 
 Meanwhile, this playlist contains a list of videos about **Aperture's updates**. These are so-called **change log** videos, which showcase new changes added to Aperture mod.
 
-<?php echo youtube('F6b_ScRB3gc?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
+<?php echo youtube('v_OpT704Sp8?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
 
 <?php template('bugs', $__data__) ?> 

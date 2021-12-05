@@ -4,6 +4,8 @@ This update was made by Chryfi, which features dozen or so QoL tweaks. Exception
 
 **Compatible** with McLib `2.3.6`, Metamorph `1.2.11` and Aperture `1.7`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
+<?php echo youtube('faeKqT5FYyA', $domain) ?> 
+
 * Added ApertureTracker (to TrackerMorph as type)
 * Added TrackerMorph (by NyaNLI)
 * Added gradient GUI to snowstorm (by McHorse)
