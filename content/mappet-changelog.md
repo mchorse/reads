@@ -12,7 +12,7 @@ More bug fixes and tiny tweaks.
 * Fixed division by 0 error with regeneration frequency
 * Fixed targeting for non post NPCs
 * Fixed textures are not being displayed in graphics UI component due to RL lowercasing the path
-* Removeed `Binary` toggle for `switch` node
+* Removed `Binary` toggle for `switch` node
 
 ## Version 0.1.3
 
