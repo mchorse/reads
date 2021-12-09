@@ -6,7 +6,7 @@
 
 Special thanks to [Andruxioid](https://www.youtube.com/channel/UCnHOceBjwMyqCR5oYOoNqhQ) for the mod's name, Jvonlins, Centryfuga and [CustomNPCs Forever Vkontakte](https://vk.com/customnpcforever) group for testing, suggestions and directing!
 
-<?php template('install', array_merge($__data__, ['dependencies' => [['mclib', '2.3'], ['metamorph', '1.2.8'], ['blockbuster', '2.3']]])) ?> 
+<?php template('install', array_merge($__data__, ['dependencies' => [['mclib'], ['metamorph'], ['blockbuster']]])) ?> 
 
 ## Resources
 
