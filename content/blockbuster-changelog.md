@@ -1,3 +1,12 @@
+## Version 2.3.4
+
+This quick hotfix patch was made by Chryfi, which fixes an issue with Snowstorm particle emitter morphs.
+
+**Compatible** with McLib `2.3.6`, Metamorph `1.2.11` and Aperture `1.7`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+* Added `Ctrl + E` keybind in Blockbuster custom model morph editor to pick currently selected material (by McHorse)
+* Fixed `snowstorm` morph's particle emitters not emitting correctly
+
 ## Version 2.3.3
 
 This update was made by Chryfi, which features dozen or so QoL tweaks. Exceptions are mentioned at the respective items.
