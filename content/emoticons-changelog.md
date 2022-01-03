@@ -1,3 +1,12 @@
+## Version 1.0.2
+
+This patch fixes stretching shadow and weird right hand extrusion thanks to MiaoNLI's discovery (also special thanks to Chryfi for testing the fix) and placeholder morph merging.
+
+**Compatible** with McLib **2.3** and optionally with Blockbuster **2.3** and Metamorph **1.2.7**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Fixed stretching shadow and weird right hand extrusion (thanks to MiaoNLI's discovery)
+* Fixed placeholder morph option not being merged correctly when transitioning from one Emoticons morph to another
+
 ## Version 1.0.1
 
 This patch fixes a couple of bugs.
