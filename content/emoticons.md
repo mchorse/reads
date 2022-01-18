@@ -1,6 +1,6 @@
 <?php template('banner', array_merge($__data__, ['abandoned' => ''])) ?> 
 
-**Emoticons** is a **cosmetic** Minecraft mod which adds custom player animations (which can be disabled, see **FAQ**) and emote system. There are **62** emotes (you can also animate your own, see **FAQ**) which can be triggered by the player using keybinds which come with the mod. 
+**Emoticons** is a **cosmetic** Minecraft mod which adds custom player animations and emote system. There are **62** emotes which can be triggered by the player using keybinds which come with the mod. 
 
 Check out this playlist for showcase of the mod.
 
@@ -28,8 +28,17 @@ A: No, I won't add support with any other mods.
 **Q: Can I add custom emotes myself?**  
 A: Yes, watch [this tutorial](https://youtu.be/dhSYT2HEweM) video! Those are not synchronized across clients though. You'll have to manually send these emote files to other people.
 
-**Q: I've seen emotes exactly like yours in an X client. Do you know about it?**  
-A: Most likely I know about this, as I gave permission to use the mod's source in their client. The known clients to me are Badlion and Lunar.
-
 **Q: Can you add custom music to emotes?**  
 A: No, because I have no time/skill to make cool tunes for every emote, and if I use the original audio that would be illegal. However, you can replace the sounds in Emoticons' jar. Keep in mind that these sounds are going to loop.
+
+**Q: I saw emotes were used in a Minecraft client. Are they allowed?**  
+A: Before January 18th, 2022, only [Badlion Client](https://client.badlion.net/), [Lunar Client](https://www.lunarclient.com/), [Crystal Client](https://crystalclient.net/), and a couple of other purchased a license to use my work in their software for profit. Other clients were doing that illegaly (like kraft rise and kristalix clients).
+
+**Q: Can I use this code in my Minecraft client?**  
+A: Read the license, and make a conclusion on your own.
+
+<?php if ($domain === \mchorse\GH): ?> 
+## License
+
+Emoticons mod's code is licensed under GNU GPL v3.0 license. See [LICENSE.txt](./LICENSE.txt) file for more information about the license.
+<?php endif ?>
