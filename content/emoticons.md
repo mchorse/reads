@@ -1,4 +1,4 @@
-<?php template('banner', array_merge($__data__, ['abandoned' => ''])) ?> 
+<?php template('banner', array_merge($__data__, ['abandoned' => 'open'])) ?> 
 
 **Emoticons** is a **cosmetic** Minecraft mod which adds custom player animations and emote system. There are **62** emotes which can be triggered by the player using keybinds which come with the mod. 
 
