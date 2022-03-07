@@ -34,4 +34,8 @@ Meanwhile, this playlist contains a list of videos about **Aperture's updates**.
 
 <?php echo youtube('v_OpT704Sp8?list=PL6UPd2Tj65nFLGMBqKaeKOPNp2HOO86Uw', $domain) ?> 
 
+There is also a **stream archive** that showcases most of features (even those that weren't covered in the tutorial serires above). It's the **most up-to-date** tutorial (using `1.7` as a base):
+
+<?php echo youtube('yaBi3Ky6c60', $domain) ?> 
+
 <?php template('bugs', $__data__) ?> 
