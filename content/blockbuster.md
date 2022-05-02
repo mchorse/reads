@@ -54,5 +54,5 @@ Here is also a playlist of 1,000+ community made videos with Blockbuster mod:
 <?php if ($domain === \mchorse\GH): ?> 
 ## License
 
-Blockbuster mod's code is licensed under MIT license. See [LICENSE.md](./LICENSE.md) file for more information about the license.
+Blockbuster mod's code is licensed under GNU GPL v3.0 license. See [LICENSE](./LICENSE) file for more information about the license.
 <?php endif ?>
