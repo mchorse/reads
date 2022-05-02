@@ -1,3 +1,21 @@
+## Version 1.1
+
+This update was made by MiaoNLI.
+
+**Compatible** with McLib **2.4** and optionally with Blockbuster **2.5** and Metamorph **1.3**. It doesn't mean that future versions of McLib, Blockbuster and Metamorph would be incompatible, but older versions are most likely incompatible.
+
+* Morph
+    * Refresh textures immediately
+    * Support generating morph of Metamorph
+    * Optimized animation
+* GUI
+    * Adjusted the width of GuiTransformations
+    * Adapted Immersive Editor of Blockbuster
+* Rendering
+    * Compatible with OptiFine shaders
+* File Encoding
+    * UTF-8 file encoding is used by default
+
 ## Version 1.0.2
 
 This patch fixes stretching shadow and weird right hand extrusion thanks to MiaoNLI's discovery (also special thanks to Chryfi for testing the fix) and placeholder morph merging.
