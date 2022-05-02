@@ -1,3 +1,24 @@
+## Metamorph 1.3
+
+This update was made by MiaoNLI.
+
+**Compatible** with McLib `2.4`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
+
+* GUI
+    * Added Onion Skin (Toggled by Q)
+    * Adjusted the width of GuiTransformations
+* BodyPart
+    * Hold down the Alt/Option key to lock the space transformed while switching limbs
+    * Show onion skin while editing a morph
+* Morph
+    * Added option to enable/disable/only rendering shadow of Optifine shaderpack
+    * Label Morph
+        * Fixed crash when text has non-English character
+    * Entity Morph
+        * Compatible with CEM of Optifine (suggested by MichaelCreeper_)
+* File Encoding
+    * UTF-8 file encoding is used by default
+
 ## Metamorph 1.2.13
 
 This update fixed rotation yaw wasn't synchronized with body parts with use target.
