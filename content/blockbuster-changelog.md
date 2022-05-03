@@ -12,7 +12,7 @@ This huge update was made by MiaoNLI, exceptions are mentioned at the respective
     * Adjusted the width of GuiTransformations
     * Added damage control tips
 * GIF
-    * Compatible with OptiFine shaders (*_n.gif & *_s.gif)
+    * Compatible with OptiFine shaders (\*_n.gif & \*_s.gif)
     * Added the function to select a frame of gif
 * Model Editor
     * OBJ/VOX limb highlighting
