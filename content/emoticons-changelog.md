@@ -1,3 +1,11 @@
+## Version 1.1.1
+
+This update was made by Chryfi and MiaoNLI.
+
+* Added global / local translation mode (by Chryfi)
+* Fixed NPE in getCurrentPose method due to missing model (by MiaoNLI)
+* Fixed sequencer morph animation resetting action (by MiaoNLI)
+
 ## Version 1.1
 
 This update was made by MiaoNLI.
