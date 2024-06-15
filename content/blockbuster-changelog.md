@@ -1,3 +1,44 @@
+## Version 2.7
+
+This update was made by Chryfi, exceptions are mentioned at the respective items.
+
+**Compatible** with McLib `2.4.3`, Metamorph `1.4` and Aperture `1.8.2`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
+
+* Added BetterLights morph (thanks to our sponsors 
+* Added extrusion option to image morph
+* Added dragging of the morph action animation handles - support multiple selection of many animation length handles
+	* With SHIFT key you can select a range of multiple animation handles
+	* With CTRL key you can add or remove single animation handles from the selection
+	* When pressing right click while dragging the animation handles, the dragging will be cancelled and the animation handles reset to their original positions
+	* The difference of the new animation duration will be applied to all morphs of the selected morph actions, even bodyparts.
+	* When pressing ALT when dragging the animation handles, the change of the animation duration will only be applied to the morph with the longest animation duration, which is the morph that renders the animation handle in the timeline.
+* Added an option to the model editor when parenting, to fix the pose position of the limb in such a way that the limb stays in its place when changing its parent
+* Added permission system prototype (currently only has blockbuster.model_block.edit and blockbuster.scenes.open permissions for plugin servers)
+* Added Chameleon and S&B texture domains to /model clear command
+* Added new Bedrock materials to snowstorm (thanks to @l89669)
+* Added support for materials to snowstorm (thanks to @l89669)
+* Added pause button to snowstorm GUI (thanks to @l89669)
+* Added look at direction facing modes to snowstorm
+* Added particle position variables to snowstorm (variable.particle_pos.x, variable.particle_pos.y, variable.particle_pos.z, variable.particle_pos.distance)
+* Added snowstorm collision rotation drag
+* Merged Minema and Aperture Tracker (the Blender / After Effects tracker modes)
+* Adapt morphs to Metamorph 1.4 changes
+* Changed the directory of the BB icon to the morph's skin directory (thanks to @OtakuGamerAds)
+* Fixed snowstorm high drag values accelerating particles again
+* Fixed a crash with model blocks
+* Fixed model blocks not updating after a fixed range
+* Fixed items staying in cache and causing a memory leak
+* Fixed crash when requesting records from the server
+* Fixed crash with audios
+* Fixed crash when server connection to local or remotehost closes unexpectedly before closing GUI screen
+* Fixed crash on server when model could not be parsed (thanks to @OtakuGamerAds)
+* Fixed BB gun item name appearing on screen when shooting (thanks to @OtakuGamerAds)
+* Fixed more issues from the BB gun update (thanks to @OtakuGamerAds)
+* Update French translations (thanks to @CoolTnt2)
+* Update Ukranian translations (thanks to @Andruxioid)
+* Update Chinese translations (thanks to @l89669 and @Chunk7w)
+* Update Portuguese translations (thanks to @Cristi4n-7)
+
 ## Version 2.6.1
 
 This update was made by Chryfi, exceptions are mentioned at the respective items
