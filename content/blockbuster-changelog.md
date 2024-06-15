@@ -4,7 +4,7 @@ This update was made by Chryfi, exceptions are mentioned at the respective items
 
 **Compatible** with McLib `2.4.3`, Metamorph `1.4` and Aperture `1.8.2`. It doesn't mean that future versions of Metamorph and Aperture would be incompatible, but older versions are most likely incompatible.
 
-* Added BetterLights morph (thanks to our sponsors 
+* Added BetterLights morph (thanks to our sponsors Areon Pictures, Herr Bergmann, Marlon, Junder, PhoenixMedia, Louis Angerer, Gewenzsko, Katzen48)
 * Added extrusion option to image morph
 * Added dragging of the morph action animation handles - support multiple selection of many animation length handles
 	* With SHIFT key you can select a range of multiple animation handles
