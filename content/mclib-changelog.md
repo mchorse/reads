@@ -1,3 +1,21 @@
+## Version 2.4.3
+
+This update was made by Chryfi, exceptions are mentioned at the respective items.
+
+* Added BetterLights helper classes
+* Added ValueColor
+* Added interpolation methods to Value classes
+* Added interpolation method to ValueSerializer
+* Added capturing of camera matrix in GuiModelRenderer
+* Added new utility method to extract Transformation and directly return Transformation object
+* Added rendering utility methods for circles and other cool stuff
+* Refactored ValueSerializer (some methods are now marked as deprecated!)
+* Fixed resizing of nested collapsed GUI sections
+* Fixed number conversion not working in Value classes
+* Fixed NPE crash when HotKey is not found (by @MiloTheFox)
+* Fixed alwaysWrite feature in ValueSerializer (by @TorayLife)
+* Update to Portuguese translations (by @Cristi4n-7)
+
 ## Version 2.4.2
 
 This update was made by Chryfi, exceptions are mentioned at the respective items.
