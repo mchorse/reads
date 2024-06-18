@@ -1,3 +1,20 @@
+## Metamorph 1.4
+
+This update was made by asanetargoss, exceptions are mentioned at the respective items.
+
+**Compatible** with McLib `2.4.2`. It doesn't mean that future versions of McLib would be incompatible, but older versions are most likely incompatible.
+
+* Added an option to morphs to disable BetterLights shadow rendering for morphs (by @Chryfi)
+* Added sparse morph settings
+* Added equipment slot feature for item morph (by @McHorse)
+* Added dropped item animation option to item morph (by @McHorse)
+* Added extruded item texture morph option (by @McHorse)
+* Added item transform options to item morph (by @McHorse)
+* Health and speed settings are automatically calculated for non configured entity based morphs
+* Fixed block morphs rendering hands
+* Fixed squid morphs moving too fast and player morphs moving too slow
+* Update to Portuguese translations (by @Cristi4n-7)
+
 ## Metamorph 1.3.1
 
 This update was made by Chryfi.
