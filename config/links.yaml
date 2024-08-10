@@ -16,9 +16,19 @@ hub:
 
 # Human readable titles
 titles:
-    pmc: Planet Minecraft page
-    curse: CurseForge page
+    pmc: Planet Minecraft
+    curse: CurseForge
     github: GitHub
+    modrinth: Modrinth
+
+bbs:
+    title: BBS mod
+
+    banner: https://i.imgur.com/zffMvDJ.png
+
+    curse: https://www.curseforge.com/minecraft/mc-mods/bbs-mod
+    modrinth: https://modrinth.com/project/bbs-mod
+    wiki: https://github.com/mchorse/aperture/wiki
 
 aperture:
     title: Aperture

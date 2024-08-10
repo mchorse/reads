@@ -5,6 +5,7 @@ namespace mchorse;
 const PMC = 'pmc';
 const CF = 'curse';
 const GH = 'github';
+const MR = 'modrinth';
 
 use Parsedown;
 use Gajus\Dindent\Indenter;
@@ -16,7 +17,7 @@ use Gajus\Dindent\Indenter;
  */
 function domains()
 {
-    return [PMC, CF, GH];
+    return [PMC, CF, GH, MR];
 }
 
 /**
